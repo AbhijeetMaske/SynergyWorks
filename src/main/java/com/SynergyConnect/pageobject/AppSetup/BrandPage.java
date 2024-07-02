@@ -8,8 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.aventstack.extentreports.Status;
-import com.seleniumFramework.common.BaseClass;
+import com.SynergyConnect.common.BaseClass;
 
 public class BrandPage {
 	

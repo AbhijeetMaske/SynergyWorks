@@ -25,7 +25,7 @@ public class ReadConfig {
         // Get the current working directory
         String userDir = System.getProperty("user.dir");
         // Construct the path to the config.properties file
-        String path = userDir + "\\Configuration\\config.properties";
+        String path = userDir + "\\Configuration\\application.properties";
 
         try {
             FileInputStream fis = new FileInputStream(path);
@@ -60,4 +60,12 @@ public class ReadConfig {
     public String getBrowser() {
         return properties.getProperty("browser");
     }
+    
+    public String getUserId() {
+        return properties.getProperty("Test_userid");
+    }
+    
+	public String getPassword() {
+		return properties.getProperty("Test_password");
+	}
 }
