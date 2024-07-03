@@ -53,12 +53,13 @@ public class BaseClass {
             default:
                 throw new IllegalArgumentException("Unsupported browser: " + browser);
         }
+        setup(browser);
         System.out.println(browser+" version: " + browserVersion);
     }
 	
-    @BeforeMethod
-    public void setup(Method method) {
-        System.out.println("@Before Method: " + method.getName());
+
+    public void setup(String browser) {
+      //  System.out.println("@Before Method: " + method.getName());
         switch (browser.toLowerCase()) {
             case "chrome":
                 WebDriverManager.chromedriver().setup();
@@ -93,9 +94,18 @@ public class BaseClass {
         logger = LogManager.getLogger("SynergyConnect");
     }
 
-    @AfterMethod
-    public void tearDown(Method method) {
-        System.out.println("@After Method: " + method.getName());
+    @BeforeMethod
+    public void beforeMethod(Method method) {
+    	 System.out.println("@Before Method: " + method.getName());
+    }
+    
+    @BeforeMethod
+    public void afterMethod(Method method) {
+    	 System.out.println("@After Method: " + method.getName());
+    }
+    
+    @AfterSuite
+    public void tearDown() {
         if (getDriver() != null) {
             try {
                 getDriver().close();
