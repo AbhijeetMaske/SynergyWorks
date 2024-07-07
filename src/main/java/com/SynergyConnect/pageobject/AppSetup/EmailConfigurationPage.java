@@ -124,26 +124,17 @@ public class EmailConfigurationPage {
 			do {
 				int tSize = approvalTable.size();
 				String celtxt = null;
-				//System.out.println("current max table entries are =" + Count);
 				logger.info("current max table entries are ="+tSize);
 				// iterate rows of table and check matching condition
 				for (int i = 1; i <= tSize; i++) {
 					System.out.println(i);
 					String n = driver.findElement(By.xpath(a_xpath + i + b_xpath)).getText();
-					System.out.println("n----->"+n);
-					WebElement jsTitle = driver
-							.findElement(By.xpath("//table[@id='"+tableId+"']/tbody/tr[" + i + "]/td["+tableColumnIndex+"]"));
-					//scrollToElement(jsTitle);
-					//highlighterText(jsTitle);
+					//System.out.println("n----->"+n);
 					if (n.contains(searchText)) {
 						// get text of matching cell
 						celtxt = driver.findElement(By.xpath("//*[@id='emailConfigTable']/tbody/tr[" + i + "]/td["+tableColumnIndex+"]")).getText();
-						System.out.println("The cell data at particular row is:"+celtxt);
-//						WebElement jsEditButton = driver.findElement(By.xpath("html/body/div/div/div[3]/section/div[2]/div[2]/div/div/div/div[2]/div/div/div/div/div[2]/div/table/tbody/tr["
-//										+ i + "]/td[15]/div/button"));
-						//WebElement jobsheetTitle = driver.findElement(By.xpath("//table[@id='emailConfigTable']/tbody/tr[" + i + "]/td[4]"));
-						//highlighter(jobsheetTitle, "D://Automation//" + SSF + "//" + SSSF2 + "//2.Jobsheet_Edit.png");
-						//jsEditButton.click();
+						logger.info("The cell data at particular row is:"+celtxt);
+						//System.out.println("The cell data at particular row is:"+celtxt);
 						jsTitleFound = true;
 						break;
 					}
@@ -159,12 +150,11 @@ public class EmailConfigurationPage {
 					break;
 				}
 			} while (Count < tabledatarowdumy);
+			logger.info("completed");
 			//Log.info("TC2_Swades_Edit_Jobsheet |completed");
 			//writeXLSXExcel_ColumnNumber(SSF, sheetName, xlsxLastRowNum, 1, "Pass");
 		} catch (Exception e) {
-			System.out.println("TC2_Exception :- " + e);
-			//Log.error("TC2_Swades_Edit_Jobsheet | Error ");
-			//writeXLSXExcel_ColumnNumber(SSF, sheetName, xlsxLastRowNum, 1, "Fail");
+			logger.error("Exception :- " + e);
 		}
 	}
 
