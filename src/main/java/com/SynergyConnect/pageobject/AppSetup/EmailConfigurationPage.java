@@ -65,6 +65,9 @@ public class EmailConfigurationPage {
 
 	@FindBy(id = "emailConfigTable")
 	private WebElement emailConfigurationTable;
+	
+	@FindBy (id ="")
+	private WebElement emailConfigurationTableNext;
 
 	//
 	@Test
@@ -96,66 +99,8 @@ public class EmailConfigurationPage {
 
 	@Test
 	public void verifyAddedEmailConfigurtion() {
-		  // tableId , tableColumnIndex, 
-		try {
-			String tableId = "emailConfigTable";
-			int tableColumnIndex = 3;
-			String searchText = "info@synergyconnect.in";
-			// identify table
-			//WebElement table = driver.findElement(By.xpath("//*[@id=\"emailConfigTable\"]/tbody"));
-			WebElement table = driver.findElement(By.id(tableId));
-			//System.out.println("jsApprovalTable---->"+table);
-			// identify rows of table.
-			List<WebElement> approvalTable = table.findElements(By.tagName("tr"));
-			System.out.println("approvalTable: -->"+approvalTable);
-			WebElement tableData = driver.findElement(By.id(tableId));
-			String tableSize = tableData.getText();
-			System.out.println("tableSize--->"+tableSize);
-			String[] aSplit = tableSize.split(" ");
-			System.out.println("aSplit--->"+aSplit);
-			String tabledatarow = aSplit[3];
-			int tabledatarowdumy =0;
-			System.out.println("tabledatarow--->"+tabledatarow);
-			String a_xpath = "//table[@id='"+tableId+"']/tbody/tr[";
-			String b_xpath = "]/td["+tableColumnIndex+"]";
-			// calculate rows number with size()
-			int Count = 0;
-			boolean jsTitleFound = false;
-			do {
-				int tSize = approvalTable.size();
-				String celtxt = null;
-				logger.info("current max table entries are ="+tSize);
-				// iterate rows of table and check matching condition
-				for (int i = 1; i <= tSize; i++) {
-					System.out.println(i);
-					String n = driver.findElement(By.xpath(a_xpath + i + b_xpath)).getText();
-					//System.out.println("n----->"+n);
-					if (n.contains(searchText)) {
-						// get text of matching cell
-						celtxt = driver.findElement(By.xpath("//*[@id='emailConfigTable']/tbody/tr[" + i + "]/td["+tableColumnIndex+"]")).getText();
-						logger.info("The cell data at particular row is:"+celtxt);
-						//System.out.println("The cell data at particular row is:"+celtxt);
-						jsTitleFound = true;
-						break;
-					}
-				}
-				if (jsTitleFound == false) {
-					System.out.println(jsTitleFound);
-					driver.findElement(By.xpath("//*[@id=\"DyanmicTable01_next\"]/a")).click();
-					System.out.println("Table - checking Next 10 entries");
-					Count = Count + 10;
-					System.out.println(Count);
-				}
-				if (jsTitleFound == true) {
-					break;
-				}
-			} while (Count < tabledatarowdumy);
-			logger.info("completed");
-			//Log.info("TC2_Swades_Edit_Jobsheet |completed");
-			//writeXLSXExcel_ColumnNumber(SSF, sheetName, xlsxLastRowNum, 1, "Pass");
-		} catch (Exception e) {
-			logger.error("Exception :- " + e);
-		}
+		ElementInteractionUtils.verifyTextInTable("emailConfigTable", 3, "info@synergyconnect.in", emailConfigurationTableNext);
 	}
+		
 
 }

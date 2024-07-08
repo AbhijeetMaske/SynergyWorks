@@ -1342,4 +1342,60 @@ public class ElementInteractionUtils {
 		}
 		return status;
 	}
+	
+	/********************************************************************************************
+	 * Verifies if a specified text is present in a table column.
+	 * 
+	 * @param tableId          The ID of the table.
+     * @param tableColumnIndex The column index to search in.
+     * @param searchText       The text to search for.
+     * @param nextButton       The WebElement representing the next button.
+     * @return True if the text is found, false otherwise.
+	 * @return true if the page refresh was successful, false otherwise.
+	 * 
+	 * @author Abhijeet Maske Created July 08,2024
+	 * @version 1.0 July 08,2024
+	 ********************************************************************************************/
+	 public static boolean verifyTextInTable(String tableId, int tableColumnIndex, String searchText, WebElement nextButton) {
+	        try {
+	            WebElement table = driver.findElement(By.id(tableId));
+	            List<WebElement> tableEntries = table.findElements(By.tagName("tr"));
+
+	            String rowXpathPrefix = "//table[@id='" + tableId + "']/tbody/tr[";
+	            String colXpathSuffix = "]/td[" + tableColumnIndex + "]";
+
+	            int rowCount = 0;
+	            boolean isTextFound = false;
+
+	            while (true) {
+	                int tableSize = tableEntries.size();
+	                logger.info("Current number of table entries: {}", tableSize);
+
+	                for (int i = 1; i <= tableSize; i++) {
+	                    String cellValue = driver.findElement(By.xpath(rowXpathPrefix + i + colXpathSuffix)).getText();
+	                    if (cellValue.contains(searchText)) {
+	                        logger.info("Text '{}' found in cell value: {}", searchText, cellValue);
+	                        return true;
+	                    }
+	                }
+
+	                if (nextButton != null && nextButton.isEnabled()) {
+	                    nextButton.click();
+	                    logger.info("Next button clicked, checking the next set of entries");
+	                    rowCount += tableSize;
+	                    // Re-fetch the table entries after clicking next
+	                    tableEntries = driver.findElement(By.id(tableId)).findElements(By.tagName("tr"));
+	                } else {
+	                    logger.info("Reached the end of the table, text '{}' not found", searchText);
+	                    break;
+	                }
+	            }
+
+	            logger.info("Search completed. Text '{}' not found in the table", searchText);
+	            return false;
+	        } catch (Exception e) {
+	            logger.error("Exception occurred while verifying text in table: ", e);
+	            return false;
+	        }
+	    }
 }
