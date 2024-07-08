@@ -5,15 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.aventstack.extentreports.Status;
-import com.github.dockerjava.api.model.Driver;
-
-import groovyjarjarantlr4.v4.parse.ANTLRParser.element_return;
-
 import com.SynergyConnect.common.BaseClass;
 import com.SynergyConnect.utilities.ElementInteractionUtils;
 import com.SynergyConnect.utilities.ExtentReportListener;
 import com.SynergyConnect.utilities.ReadConfig;
+import com.aventstack.extentreports.Status;
 
 public class LoginPage {
 	ElementInteractionUtils EI;
@@ -76,4 +72,11 @@ public class LoginPage {
 		ElementInteractionUtils.click(synergyWorks);
 		ExtentReportListener.getExtent().log(Status.PASS, "Successfully redirected to Product: SynergyWorks");
 	}
+	/*
+	 * String loginStatus = new WebDriverWait(webDriver,
+	 * 10).until(ExpectedConditions.elementToBeClickable(By.id("toast-message"))).
+	 * getText(); if (loginStatus.contains("enter valid")) {
+	 * System.out.println("Login Failed: " + loginStatus); } else {
+	 * System.out.println("Login Success:" + loginStatus); }
+	 */
 }

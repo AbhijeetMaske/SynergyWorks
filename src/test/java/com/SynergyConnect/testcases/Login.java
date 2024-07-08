@@ -1,7 +1,7 @@
 package com.SynergyConnect.testcases;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import com.SynergyConnect.common.BaseClass;
 import com.SynergyConnect.pageobject.LoginPage;
 

@@ -33,3 +33,606 @@
 2024-07-03 23:45:45.648 INFO  11664 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
 2024-07-03 23:45:45.651 INFO  11664 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
 2024-07-03 23:45:46.802 INFO  11664 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_03_23_45_18_extentReport.html
+2024-07-04 14:13:48.609 INFO  11092 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-04 14:13:49.026 INFO  11092 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-04 14:13:49.091 INFO  11092 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-04 14:13:49.141 INFO  11092 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (1516e0690c7682e597155d00de467586)
+2024-07-04 14:13:50.276 INFO  11092 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-04 14:13:51.383 INFO  11092 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (1516e0690c7682e597155d00de467586)] -> id: username]
+2024-07-04 14:13:51.604 INFO  11092 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (1516e0690c7682e597155d00de467586)] -> id: password]
+2024-07-04 14:14:07.783 INFO  11092 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-04 14:14:07.912 INFO  11092 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (1516e0690c7682e597155d00de467586)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-04 14:14:09.960 INFO  11092 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (1516e0690c7682e597155d00de467586)] -> xpath: //*[@id="productworks"]]
+2024-07-04 14:14:09.962 INFO  11092 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-04 14:14:09.971 INFO  11092 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-04 14:14:09.973 INFO  11092 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (1516e0690c7682e597155d00de467586)
+2024-07-04 14:14:10.087 INFO  11092 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (1516e0690c7682e597155d00de467586)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-04 14:14:10.726 INFO  11092 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (1516e0690c7682e597155d00de467586)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-04 14:14:10.726 INFO  11092 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-04 14:14:10.729 INFO  11092 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-04 14:14:12.261 INFO  11092 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_04_14_13_41_extentReport.html
+2024-07-04 14:15:38.086 INFO  6748 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-04 14:15:38.414 INFO  6748 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-04 14:15:38.482 INFO  6748 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-04 14:15:38.531 INFO  6748 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)
+2024-07-04 14:15:39.810 INFO  6748 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-04 14:15:40.916 INFO  6748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)] -> id: username]
+2024-07-04 14:15:41.133 INFO  6748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)] -> id: password]
+2024-07-04 14:15:57.071 INFO  6748 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-04 14:15:57.197 INFO  6748 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-04 14:15:59.223 INFO  6748 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)] -> xpath: //*[@id="productworks"]]
+2024-07-04 14:15:59.226 INFO  6748 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-04 14:15:59.239 INFO  6748 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-04 14:15:59.243 INFO  6748 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)
+2024-07-04 14:15:59.359 INFO  6748 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-04 14:16:00.022 INFO  6748 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-04 14:16:00.170 INFO  6748 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)] -> xpath: //*[@id="collapseBtn"]]
+2024-07-04 14:16:00.246 INFO  6748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)] -> xpath: //input[@id='username']]
+2024-07-04 14:16:00.503 INFO  6748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)] -> xpath: //input[@id='email']]
+2024-07-04 14:16:00.721 INFO  6748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)] -> xpath: //input[@id='password']]
+2024-07-04 14:16:00.912 INFO  6748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)] -> xpath: //select[@id='tls']]
+2024-07-04 14:16:00.958 ERROR 6748 --- [main] ElementInteractionUtils : Unable to set text in webElement: [[ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)] -> xpath: //select[@id='tls']]
+2024-07-04 14:16:00.990 INFO  6748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)] -> xpath: //select[@id='tls']]
+2024-07-04 14:16:01.142 INFO  6748 --- [main] ElementInteractionUtils : Successfully selected the value 'Yes' from the dropdown list: [[ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)] -> xpath: //select[@id='tls']]
+2024-07-04 14:16:01.185 INFO  6748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)] -> xpath: //input[@id='port']]
+2024-07-04 14:16:01.461 INFO  6748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)] -> xpath: //input[@id='host']]
+2024-07-04 14:16:01.762 INFO  6748 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (c9525e09d3f2a4c073083d584f940c24)] -> xpath: //button[@id='addEmailConfigButton']]
+2024-07-04 14:16:01.763 INFO  6748 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-04 14:16:01.768 INFO  6748 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-04 14:16:03.128 INFO  6748 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_04_14_15_33_extentReport.html
+2024-07-04 14:19:26.177 INFO  11016 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-04 14:19:26.422 INFO  11016 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-04 14:19:26.460 INFO  11016 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-04 14:19:26.489 INFO  11016 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)
+2024-07-04 14:19:27.841 INFO  11016 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-04 14:19:28.970 INFO  11016 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)] -> id: username]
+2024-07-04 14:19:29.156 INFO  11016 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)] -> id: password]
+2024-07-04 14:19:45.061 INFO  11016 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-04 14:19:45.184 INFO  11016 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-04 14:19:47.365 INFO  11016 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)] -> xpath: //*[@id="productworks"]]
+2024-07-04 14:19:47.368 INFO  11016 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-04 14:19:47.380 INFO  11016 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-04 14:19:47.385 INFO  11016 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)
+2024-07-04 14:19:47.520 INFO  11016 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-04 14:19:48.258 INFO  11016 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-04 14:19:48.380 INFO  11016 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)] -> xpath: //*[@id="collapseBtn"]]
+2024-07-04 14:19:48.424 INFO  11016 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)] -> xpath: //input[@id='username']]
+2024-07-04 14:19:48.694 INFO  11016 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)] -> xpath: //input[@id='email']]
+2024-07-04 14:19:48.888 INFO  11016 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)] -> xpath: //input[@id='password']]
+2024-07-04 14:19:49.078 INFO  11016 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)] -> xpath: //select[@id='tls']]
+2024-07-04 14:19:49.110 ERROR 11016 --- [main] ElementInteractionUtils : Unable to set text in webElement: [[ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)] -> xpath: //select[@id='tls']]
+2024-07-04 14:19:49.140 INFO  11016 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)] -> xpath: //select[@id='tls']]
+2024-07-04 14:19:49.289 INFO  11016 --- [main] ElementInteractionUtils : Successfully selected the value 'Yes' from the dropdown list: [[ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)] -> xpath: //select[@id='tls']]
+2024-07-04 14:19:49.341 INFO  11016 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)] -> xpath: //input[@id='port']]
+2024-07-04 14:19:49.505 INFO  11016 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)] -> xpath: //input[@id='host']]
+2024-07-04 14:19:49.795 INFO  11016 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7c85cd1dc24dfb92318b8301140342da)] -> xpath: //button[@id='addEmailConfigButton']]
+2024-07-04 14:19:49.800 WARN  11016 --- [main] AlertUtils : No alert present to get text from.
+2024-07-04 14:19:49.801 INFO  11016 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-04 14:19:49.805 INFO  11016 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-04 14:19:51.045 INFO  11016 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_04_14_19_21_extentReport.html
+2024-07-04 14:25:00.237 INFO  11048 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-04 14:25:00.572 INFO  11048 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-04 14:25:00.622 INFO  11048 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-04 14:25:00.660 INFO  11048 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)
+2024-07-04 14:25:01.769 INFO  11048 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-04 14:25:02.957 INFO  11048 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)] -> id: username]
+2024-07-04 14:25:03.197 INFO  11048 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)] -> id: password]
+2024-07-04 14:25:20.310 INFO  11048 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-04 14:25:20.551 INFO  11048 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-04 14:25:22.868 INFO  11048 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)] -> xpath: //*[@id="productworks"]]
+2024-07-04 14:25:22.872 INFO  11048 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-04 14:25:22.904 INFO  11048 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-04 14:25:22.912 INFO  11048 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)
+2024-07-04 14:25:23.078 INFO  11048 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-04 14:25:24.045 INFO  11048 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-04 14:25:24.389 INFO  11048 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)] -> xpath: //*[@id="collapseBtn"]]
+2024-07-04 14:25:24.464 INFO  11048 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)] -> xpath: //input[@id='username']]
+2024-07-04 14:25:24.882 INFO  11048 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)] -> xpath: //input[@id='email']]
+2024-07-04 14:25:25.341 INFO  11048 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)] -> xpath: //input[@id='password']]
+2024-07-04 14:25:25.737 INFO  11048 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)] -> xpath: //select[@id='tls']]
+2024-07-04 14:25:25.796 ERROR 11048 --- [main] ElementInteractionUtils : Unable to set text in webElement: [[ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)] -> xpath: //select[@id='tls']]
+2024-07-04 14:25:25.866 INFO  11048 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)] -> xpath: //select[@id='tls']]
+2024-07-04 14:25:26.081 INFO  11048 --- [main] ElementInteractionUtils : Successfully selected the value 'Yes' from the dropdown list: [[ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)] -> xpath: //select[@id='tls']]
+2024-07-04 14:25:26.158 INFO  11048 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)] -> xpath: //input[@id='port']]
+2024-07-04 14:25:26.526 INFO  11048 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)] -> xpath: //input[@id='host']]
+2024-07-04 14:25:27.064 INFO  11048 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (87a9727b6a405c834b8b658490c1e422)] -> xpath: //button[@id='addEmailConfigButton']]
+2024-07-04 14:25:27.218 INFO  11048 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-04 14:25:27.223 INFO  11048 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-04 14:25:29.047 INFO  11048 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_04_14_24_55_extentReport.html
+2024-07-04 17:05:43.018 INFO  7916 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-04 17:05:43.464 INFO  7916 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-04 17:05:43.504 INFO  7916 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-04 17:05:43.546 INFO  7916 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)
+2024-07-04 17:05:44.906 INFO  7916 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-04 17:05:46.228 INFO  7916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)] -> id: username]
+2024-07-04 17:05:46.525 INFO  7916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)] -> id: password]
+2024-07-04 17:06:03.056 INFO  7916 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-04 17:06:03.245 INFO  7916 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-04 17:06:05.669 INFO  7916 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)] -> xpath: //*[@id="productworks"]]
+2024-07-04 17:06:05.672 INFO  7916 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-04 17:06:05.688 INFO  7916 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-04 17:06:05.695 INFO  7916 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)
+2024-07-04 17:06:05.984 INFO  7916 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-04 17:06:06.867 INFO  7916 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-04 17:06:07.146 INFO  7916 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)] -> xpath: //*[@id="collapseBtn"]]
+2024-07-04 17:06:07.254 INFO  7916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)] -> xpath: //input[@id='username']]
+2024-07-04 17:06:07.682 INFO  7916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)] -> xpath: //input[@id='email']]
+2024-07-04 17:06:08.105 INFO  7916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)] -> xpath: //input[@id='password']]
+2024-07-04 17:06:08.501 INFO  7916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)] -> xpath: //select[@id='tls']]
+2024-07-04 17:06:08.593 ERROR 7916 --- [main] ElementInteractionUtils : Unable to set text in webElement: [[ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)] -> xpath: //select[@id='tls']]
+2024-07-04 17:06:08.654 INFO  7916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)] -> xpath: //select[@id='tls']]
+2024-07-04 17:06:08.910 INFO  7916 --- [main] ElementInteractionUtils : Successfully selected the value 'Yes' from the dropdown list: [[ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)] -> xpath: //select[@id='tls']]
+2024-07-04 17:06:08.980 INFO  7916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)] -> xpath: //input[@id='port']]
+2024-07-04 17:06:09.337 INFO  7916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)] -> xpath: //input[@id='host']]
+2024-07-04 17:06:09.962 INFO  7916 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (ae43d29d3821cacdb6e084d6f0d40d10)] -> xpath: //button[@id='addEmailConfigButton']]
+2024-07-04 17:06:10.217 INFO  7916 --- [main] AlertUtils : Toaster Text: Email: info@synergyconnect.in already exist..!
+2024-07-04 17:06:20.290 ERROR 7916 --- [main] ElementInteractionUtils : Test Failed: pageRedirection
+2024-07-04 17:06:20.475 INFO  7916 --- [main] ElementInteractionUtils : Screenshot captured for failed test: pageRedirection
+2024-07-04 17:06:20.492 INFO  7916 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-04 17:06:22.700 INFO  7916 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_04_17_05_37_extentReport.html
+2024-07-04 17:19:51.662 INFO  10748 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-04 17:19:51.916 INFO  10748 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-04 17:19:51.955 INFO  10748 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-04 17:19:51.994 INFO  10748 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)
+2024-07-04 17:19:53.289 INFO  10748 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-04 17:19:54.445 INFO  10748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)] -> id: username]
+2024-07-04 17:19:54.712 INFO  10748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)] -> id: password]
+2024-07-04 17:20:11.787 INFO  10748 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-04 17:20:11.961 INFO  10748 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-04 17:20:14.388 INFO  10748 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)] -> xpath: //*[@id="productworks"]]
+2024-07-04 17:20:14.392 INFO  10748 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-04 17:20:14.407 INFO  10748 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-04 17:20:14.419 INFO  10748 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)
+2024-07-04 17:20:14.614 INFO  10748 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-04 17:20:15.479 INFO  10748 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-04 17:20:15.830 INFO  10748 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)] -> xpath: //*[@id="collapseBtn"]]
+2024-07-04 17:20:15.903 INFO  10748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)] -> xpath: //input[@id='username']]
+2024-07-04 17:20:16.245 INFO  10748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)] -> xpath: //input[@id='email']]
+2024-07-04 17:20:16.625 INFO  10748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)] -> xpath: //input[@id='password']]
+2024-07-04 17:20:17.026 INFO  10748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)] -> xpath: //select[@id='tls']]
+2024-07-04 17:20:17.129 ERROR 10748 --- [main] ElementInteractionUtils : Unable to set text in webElement: [[ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)] -> xpath: //select[@id='tls']]
+2024-07-04 17:20:17.196 INFO  10748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)] -> xpath: //select[@id='tls']]
+2024-07-04 17:20:17.524 INFO  10748 --- [main] ElementInteractionUtils : Successfully selected the value 'Yes' from the dropdown list: [[ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)] -> xpath: //select[@id='tls']]
+2024-07-04 17:20:17.586 INFO  10748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)] -> xpath: //input[@id='port']]
+2024-07-04 17:20:17.953 INFO  10748 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)] -> xpath: //input[@id='host']]
+2024-07-04 17:20:18.485 INFO  10748 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (37fb01cac41e2ed927252790ebe0e410)] -> xpath: //button[@id='addEmailConfigButton']]
+2024-07-04 17:20:18.713 INFO  10748 --- [main] AlertUtils : Toaster Text: Email: info@synergyconnect.in already exist..!
+2024-07-04 17:20:23.821 INFO  10748 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-04 17:20:23.826 INFO  10748 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-04 17:20:25.623 INFO  10748 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_04_17_19_46_extentReport.html
+2024-07-04 17:21:45.403 INFO  9224 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-04 17:21:45.853 INFO  9224 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-04 17:21:45.907 INFO  9224 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-04 17:21:45.950 INFO  9224 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (4fde35706f525115dedffea1c0b2e684)
+2024-07-04 17:21:47.394 INFO  9224 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-04 17:21:48.568 INFO  9224 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (4fde35706f525115dedffea1c0b2e684)] -> id: username]
+2024-07-04 17:21:48.901 INFO  9224 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (4fde35706f525115dedffea1c0b2e684)] -> id: password]
+2024-07-04 17:22:05.557 INFO  9224 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-04 17:22:05.752 INFO  9224 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (4fde35706f525115dedffea1c0b2e684)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-04 17:22:08.317 INFO  9224 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (4fde35706f525115dedffea1c0b2e684)] -> xpath: //*[@id="productworks"]]
+2024-07-04 17:22:08.321 INFO  9224 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-04 17:22:08.335 INFO  9224 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-04 17:22:08.343 INFO  9224 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (4fde35706f525115dedffea1c0b2e684)
+2024-07-04 17:22:08.509 INFO  9224 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (4fde35706f525115dedffea1c0b2e684)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-04 17:22:09.504 INFO  9224 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (4fde35706f525115dedffea1c0b2e684)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-04 17:22:14.649 INFO  9224 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-04 17:22:14.658 INFO  9224 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-04 17:22:16.001 INFO  9224 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_04_17_21_40_extentReport.html
+2024-07-04 17:26:31.887 INFO  11212 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-04 17:26:32.162 INFO  11212 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-04 17:26:32.209 INFO  11212 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-04 17:26:32.244 INFO  11212 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (fa48f0b8b396b1dc081542695781af68)
+2024-07-04 17:26:33.350 INFO  11212 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-04 17:26:34.563 INFO  11212 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (fa48f0b8b396b1dc081542695781af68)] -> id: username]
+2024-07-04 17:26:34.816 INFO  11212 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (fa48f0b8b396b1dc081542695781af68)] -> id: password]
+2024-07-04 17:26:52.036 INFO  11212 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-04 17:26:52.283 INFO  11212 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (fa48f0b8b396b1dc081542695781af68)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-04 17:26:55.092 INFO  11212 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (fa48f0b8b396b1dc081542695781af68)] -> xpath: //*[@id="productworks"]]
+2024-07-04 17:26:55.098 INFO  11212 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-04 17:26:55.118 INFO  11212 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-04 17:26:55.129 INFO  11212 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (fa48f0b8b396b1dc081542695781af68)
+2024-07-04 17:26:55.335 INFO  11212 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (fa48f0b8b396b1dc081542695781af68)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-04 17:26:56.201 INFO  11212 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (fa48f0b8b396b1dc081542695781af68)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-04 17:27:01.354 INFO  11212 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-04 17:27:01.357 INFO  11212 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-04 17:27:02.547 INFO  11212 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_04_17_26_26_extentReport.html
+2024-07-04 17:29:24.431 INFO  6828 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-04 17:29:24.690 INFO  6828 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-04 17:29:24.733 INFO  6828 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-04 17:29:24.780 INFO  6828 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (8d18f77b3a8686514055619120c69a0e)
+2024-07-04 17:29:25.785 INFO  6828 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-04 17:29:26.954 INFO  6828 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (8d18f77b3a8686514055619120c69a0e)] -> id: username]
+2024-07-04 17:29:27.259 INFO  6828 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (8d18f77b3a8686514055619120c69a0e)] -> id: password]
+2024-07-04 17:29:45.014 INFO  6828 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-04 17:30:01.022 INFO  6828 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (8d18f77b3a8686514055619120c69a0e)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-04 17:30:03.833 INFO  6828 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (8d18f77b3a8686514055619120c69a0e)] -> xpath: //*[@id="productworks"]]
+2024-07-04 17:30:03.835 INFO  6828 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-04 17:30:03.847 INFO  6828 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-04 17:30:03.853 INFO  6828 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (8d18f77b3a8686514055619120c69a0e)
+2024-07-04 17:30:04.017 INFO  6828 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (8d18f77b3a8686514055619120c69a0e)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-04 17:30:04.981 INFO  6828 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (8d18f77b3a8686514055619120c69a0e)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-04 17:32:46.762 INFO  6828 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-04 17:32:46.765 INFO  6828 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-04 17:32:47.738 INFO  6828 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_04_17_29_19_extentReport.html
+2024-07-04 17:36:59.423 INFO  10456 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-04 17:36:59.737 INFO  10456 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-04 17:36:59.794 INFO  10456 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-04 17:36:59.842 INFO  10456 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (534197fe5174e807933719b2d49cebd3)
+2024-07-04 17:37:00.929 INFO  10456 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-04 17:37:02.112 INFO  10456 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (534197fe5174e807933719b2d49cebd3)] -> id: username]
+2024-07-04 17:37:02.452 INFO  10456 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (534197fe5174e807933719b2d49cebd3)] -> id: password]
+2024-07-04 17:37:19.327 INFO  10456 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-04 17:37:19.542 INFO  10456 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (534197fe5174e807933719b2d49cebd3)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-04 17:37:21.959 INFO  10456 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (534197fe5174e807933719b2d49cebd3)] -> xpath: //*[@id="productworks"]]
+2024-07-04 17:37:21.962 INFO  10456 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-04 17:37:21.973 INFO  10456 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-04 17:37:21.981 INFO  10456 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (534197fe5174e807933719b2d49cebd3)
+2024-07-04 17:37:22.257 INFO  10456 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (534197fe5174e807933719b2d49cebd3)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-04 17:37:23.104 INFO  10456 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (534197fe5174e807933719b2d49cebd3)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-04 17:37:28.227 INFO  10456 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-04 17:37:28.231 INFO  10456 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-04 17:37:29.810 INFO  10456 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_04_17_36_54_extentReport.html
+2024-07-04 17:39:42.458 INFO  1700 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-04 17:39:42.837 INFO  1700 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-04 17:39:42.913 INFO  1700 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-04 17:39:42.953 INFO  1700 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (28b3ff2f9775f19a4c34d40ecb4edcb0)
+2024-07-04 17:39:43.992 INFO  1700 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-04 17:39:45.166 INFO  1700 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (28b3ff2f9775f19a4c34d40ecb4edcb0)] -> id: username]
+2024-07-04 17:39:45.477 INFO  1700 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (28b3ff2f9775f19a4c34d40ecb4edcb0)] -> id: password]
+2024-07-04 17:40:02.316 INFO  1700 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-04 17:40:02.486 INFO  1700 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (28b3ff2f9775f19a4c34d40ecb4edcb0)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-04 17:40:05.056 INFO  1700 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (28b3ff2f9775f19a4c34d40ecb4edcb0)] -> xpath: //*[@id="productworks"]]
+2024-07-04 17:40:05.061 INFO  1700 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-04 17:40:05.075 INFO  1700 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-04 17:40:05.083 INFO  1700 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (28b3ff2f9775f19a4c34d40ecb4edcb0)
+2024-07-04 17:40:05.351 INFO  1700 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (28b3ff2f9775f19a4c34d40ecb4edcb0)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-04 17:40:06.180 INFO  1700 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (28b3ff2f9775f19a4c34d40ecb4edcb0)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-04 17:40:06.313 INFO  1700 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-04 17:40:06.320 INFO  1700 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-04 17:40:08.047 INFO  1700 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_04_17_39_37_extentReport.html
+2024-07-04 17:44:10.453 INFO  9572 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-04 17:44:10.744 INFO  9572 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-04 17:44:10.791 INFO  9572 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-04 17:44:10.823 INFO  9572 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (4db1d5a18a7c96ddf76623cde8aa0b9c)
+2024-07-04 17:44:11.600 INFO  9572 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-04 17:44:12.784 INFO  9572 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (4db1d5a18a7c96ddf76623cde8aa0b9c)] -> id: username]
+2024-07-04 17:44:13.106 INFO  9572 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (4db1d5a18a7c96ddf76623cde8aa0b9c)] -> id: password]
+2024-07-04 17:44:30.737 INFO  9572 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-04 17:44:30.981 INFO  9572 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (4db1d5a18a7c96ddf76623cde8aa0b9c)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-04 17:44:33.484 INFO  9572 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (4db1d5a18a7c96ddf76623cde8aa0b9c)] -> xpath: //*[@id="productworks"]]
+2024-07-04 17:44:33.488 INFO  9572 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-04 17:44:33.500 INFO  9572 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-04 17:44:33.507 INFO  9572 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (4db1d5a18a7c96ddf76623cde8aa0b9c)
+2024-07-04 17:44:33.684 INFO  9572 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (4db1d5a18a7c96ddf76623cde8aa0b9c)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-04 17:44:34.492 INFO  9572 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (4db1d5a18a7c96ddf76623cde8aa0b9c)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-04 17:44:34.627 INFO  9572 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-04 17:44:34.631 INFO  9572 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-04 17:44:36.261 INFO  9572 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_04_17_44_05_extentReport.html
+2024-07-04 17:46:41.620 INFO  5820 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-04 17:46:41.926 INFO  5820 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-04 17:46:41.973 INFO  5820 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-04 17:46:42.020 INFO  5820 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (3125815de22c91a4f9277efe65459887)
+2024-07-04 17:46:43.169 INFO  5820 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-04 17:46:44.392 INFO  5820 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (3125815de22c91a4f9277efe65459887)] -> id: username]
+2024-07-04 17:46:44.691 INFO  5820 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (3125815de22c91a4f9277efe65459887)] -> id: password]
+2024-07-04 17:47:01.446 INFO  5820 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-04 17:47:01.668 INFO  5820 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (3125815de22c91a4f9277efe65459887)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-04 17:47:04.370 INFO  5820 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (3125815de22c91a4f9277efe65459887)] -> xpath: //*[@id="productworks"]]
+2024-07-04 17:47:04.374 INFO  5820 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-04 17:47:04.390 INFO  5820 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-04 17:47:04.400 INFO  5820 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (3125815de22c91a4f9277efe65459887)
+2024-07-04 17:47:04.600 INFO  5820 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (3125815de22c91a4f9277efe65459887)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-04 17:47:05.453 INFO  5820 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (3125815de22c91a4f9277efe65459887)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-04 17:47:05.678 INFO  5820 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-04 17:47:05.689 INFO  5820 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-04 17:47:07.391 INFO  5820 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_04_17_46_36_extentReport.html
+2024-07-04 17:49:41.128 INFO  6552 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-04 17:49:41.443 INFO  6552 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-04 17:49:41.480 INFO  6552 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-04 17:49:41.517 INFO  6552 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (fae4871554b23d72944b9684b1ac80d0)
+2024-07-04 17:49:42.430 INFO  6552 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-04 17:49:43.644 INFO  6552 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (fae4871554b23d72944b9684b1ac80d0)] -> id: username]
+2024-07-04 17:49:44.021 INFO  6552 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (fae4871554b23d72944b9684b1ac80d0)] -> id: password]
+2024-07-04 17:50:00.566 INFO  6552 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-04 17:50:00.744 INFO  6552 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (fae4871554b23d72944b9684b1ac80d0)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-04 17:50:03.246 INFO  6552 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (fae4871554b23d72944b9684b1ac80d0)] -> xpath: //*[@id="productworks"]]
+2024-07-04 17:50:03.251 INFO  6552 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-04 17:50:03.264 INFO  6552 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-04 17:50:03.272 INFO  6552 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (fae4871554b23d72944b9684b1ac80d0)
+2024-07-04 17:50:03.441 INFO  6552 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (fae4871554b23d72944b9684b1ac80d0)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-04 17:50:04.332 INFO  6552 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (fae4871554b23d72944b9684b1ac80d0)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-04 17:50:04.472 INFO  6552 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-04 17:50:04.476 INFO  6552 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-04 17:50:05.958 INFO  6552 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_04_17_49_36_extentReport.html
+2024-07-05 14:27:36.131 INFO  13296 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-05 14:27:36.519 INFO  13296 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-05 14:27:36.559 INFO  13296 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-05 14:27:36.600 INFO  13296 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (cab1848cae90d044e27973bd169f545a)
+2024-07-05 14:27:37.525 INFO  13296 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-05 14:27:38.673 INFO  13296 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (cab1848cae90d044e27973bd169f545a)] -> id: username]
+2024-07-05 14:27:38.860 INFO  13296 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (cab1848cae90d044e27973bd169f545a)] -> id: password]
+2024-07-05 14:27:56.428 INFO  13296 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-05 14:27:56.568 INFO  13296 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (cab1848cae90d044e27973bd169f545a)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-05 14:27:59.336 INFO  13296 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (cab1848cae90d044e27973bd169f545a)] -> xpath: //*[@id="productworks"]]
+2024-07-05 14:27:59.338 INFO  13296 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-05 14:27:59.347 INFO  13296 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-05 14:27:59.386 INFO  13296 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (cab1848cae90d044e27973bd169f545a)
+2024-07-05 14:27:59.558 INFO  13296 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (cab1848cae90d044e27973bd169f545a)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-05 14:28:00.632 INFO  13296 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (cab1848cae90d044e27973bd169f545a)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-05 14:28:00.703 INFO  13296 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-05 14:28:00.705 INFO  13296 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-05 14:28:02.008 INFO  13296 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_05_14_27_30_extentReport.html
+2024-07-05 14:32:32.448 INFO  10188 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-05 14:32:32.776 INFO  10188 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-05 14:32:32.818 INFO  10188 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-05 14:32:32.860 INFO  10188 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (f23ec7e74c9c058f3c05063fbaff4999)
+2024-07-05 14:32:34.020 INFO  10188 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-05 14:32:35.135 INFO  10188 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (f23ec7e74c9c058f3c05063fbaff4999)] -> id: username]
+2024-07-05 14:32:35.331 INFO  10188 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (f23ec7e74c9c058f3c05063fbaff4999)] -> id: password]
+2024-07-05 14:32:52.394 INFO  10188 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-05 14:32:52.560 INFO  10188 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (f23ec7e74c9c058f3c05063fbaff4999)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-05 14:32:55.598 INFO  10188 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (f23ec7e74c9c058f3c05063fbaff4999)] -> xpath: //*[@id="productworks"]]
+2024-07-05 14:32:55.599 INFO  10188 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-05 14:32:55.614 INFO  10188 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-05 14:32:55.617 INFO  10188 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (f23ec7e74c9c058f3c05063fbaff4999)
+2024-07-05 14:32:55.745 INFO  10188 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (f23ec7e74c9c058f3c05063fbaff4999)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-05 14:32:56.438 INFO  10188 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (f23ec7e74c9c058f3c05063fbaff4999)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-05 14:32:56.502 INFO  10188 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-05 14:32:56.509 INFO  10188 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-05 14:32:57.596 INFO  10188 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_05_14_32_28_extentReport.html
+2024-07-05 14:36:36.145 INFO  668 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-05 14:36:36.418 INFO  668 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-05 14:36:36.460 INFO  668 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-05 14:36:36.498 INFO  668 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (5d2c87021720f231c09570dda6b1d195)
+2024-07-05 14:36:37.671 INFO  668 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-05 14:36:38.797 INFO  668 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (5d2c87021720f231c09570dda6b1d195)] -> id: username]
+2024-07-05 14:36:38.998 INFO  668 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (5d2c87021720f231c09570dda6b1d195)] -> id: password]
+2024-07-05 14:36:56.162 INFO  668 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-05 14:36:56.287 INFO  668 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (5d2c87021720f231c09570dda6b1d195)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-05 14:36:59.050 INFO  668 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (5d2c87021720f231c09570dda6b1d195)] -> xpath: //*[@id="productworks"]]
+2024-07-05 14:36:59.052 INFO  668 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-05 14:36:59.063 INFO  668 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-05 14:36:59.067 INFO  668 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (5d2c87021720f231c09570dda6b1d195)
+2024-07-05 14:36:59.189 INFO  668 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (5d2c87021720f231c09570dda6b1d195)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-05 14:36:59.916 INFO  668 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (5d2c87021720f231c09570dda6b1d195)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-05 14:36:59.978 INFO  668 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-05 14:36:59.981 INFO  668 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-05 14:37:01.062 INFO  668 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_05_14_36_31_extentReport.html
+2024-07-05 14:38:13.292 INFO  7456 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-05 14:38:13.541 INFO  7456 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-05 14:38:13.578 INFO  7456 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-05 14:38:13.613 INFO  7456 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (6b9f4a35edcd0196bf4e2b49b158fd25)
+2024-07-05 14:38:14.428 INFO  7456 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-05 14:38:15.566 INFO  7456 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (6b9f4a35edcd0196bf4e2b49b158fd25)] -> id: username]
+2024-07-05 14:38:15.777 INFO  7456 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (6b9f4a35edcd0196bf4e2b49b158fd25)] -> id: password]
+2024-07-05 14:38:32.369 INFO  7456 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-05 14:38:32.495 INFO  7456 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (6b9f4a35edcd0196bf4e2b49b158fd25)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-05 14:38:35.727 INFO  7456 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (6b9f4a35edcd0196bf4e2b49b158fd25)] -> xpath: //*[@id="productworks"]]
+2024-07-05 14:38:35.729 INFO  7456 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-05 14:38:35.739 INFO  7456 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-05 14:38:35.743 INFO  7456 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (6b9f4a35edcd0196bf4e2b49b158fd25)
+2024-07-05 14:38:35.896 INFO  7456 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (6b9f4a35edcd0196bf4e2b49b158fd25)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-05 14:38:36.630 INFO  7456 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (6b9f4a35edcd0196bf4e2b49b158fd25)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-05 14:38:36.689 INFO  7456 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-05 14:38:36.692 INFO  7456 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-05 14:38:37.982 INFO  7456 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_05_14_38_09_extentReport.html
+2024-07-05 14:40:40.575 INFO  8796 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-05 14:40:40.862 INFO  8796 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-05 14:40:40.900 INFO  8796 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-05 14:40:40.945 INFO  8796 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (7ed91b3bbf50e59141c97b0f0466c94d)
+2024-07-05 14:40:42.114 INFO  8796 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-05 14:40:43.217 INFO  8796 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7ed91b3bbf50e59141c97b0f0466c94d)] -> id: username]
+2024-07-05 14:40:43.430 INFO  8796 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7ed91b3bbf50e59141c97b0f0466c94d)] -> id: password]
+2024-07-05 14:41:00.159 INFO  8796 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-05 14:41:00.286 INFO  8796 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7ed91b3bbf50e59141c97b0f0466c94d)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-05 14:41:02.765 INFO  8796 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7ed91b3bbf50e59141c97b0f0466c94d)] -> xpath: //*[@id="productworks"]]
+2024-07-05 14:41:02.768 INFO  8796 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-05 14:41:02.776 INFO  8796 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-05 14:41:02.782 INFO  8796 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (7ed91b3bbf50e59141c97b0f0466c94d)
+2024-07-05 14:41:02.897 INFO  8796 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7ed91b3bbf50e59141c97b0f0466c94d)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-05 14:41:03.536 INFO  8796 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7ed91b3bbf50e59141c97b0f0466c94d)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-05 14:41:18.695 INFO  8796 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-05 14:41:18.698 INFO  8796 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-05 14:41:19.512 INFO  8796 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_05_14_40_36_extentReport.html
+2024-07-05 14:48:18.423 INFO  6432 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-05 14:48:18.694 INFO  6432 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-05 14:48:18.733 INFO  6432 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-05 14:48:18.770 INFO  6432 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (d23883ec398a42a5860ce4a679cf7047)
+2024-07-05 14:48:19.894 INFO  6432 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-05 14:48:21.027 INFO  6432 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (d23883ec398a42a5860ce4a679cf7047)] -> id: username]
+2024-07-05 14:48:21.227 INFO  6432 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (d23883ec398a42a5860ce4a679cf7047)] -> id: password]
+2024-07-05 14:48:38.676 INFO  6432 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-05 14:48:38.815 INFO  6432 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (d23883ec398a42a5860ce4a679cf7047)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-05 14:48:41.615 INFO  6432 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (d23883ec398a42a5860ce4a679cf7047)] -> xpath: //*[@id="productworks"]]
+2024-07-05 14:48:41.617 INFO  6432 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-05 14:48:41.627 INFO  6432 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-05 14:48:41.633 INFO  6432 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (d23883ec398a42a5860ce4a679cf7047)
+2024-07-05 14:48:41.754 INFO  6432 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (d23883ec398a42a5860ce4a679cf7047)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-05 14:48:42.527 INFO  6432 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (d23883ec398a42a5860ce4a679cf7047)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-05 14:48:47.678 INFO  6432 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-05 14:48:47.681 INFO  6432 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-05 14:48:48.609 INFO  6432 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_05_14_48_14_extentReport.html
+2024-07-06 20:42:32.334 INFO  13732 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-06 20:42:32.932 INFO  13732 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-06 20:42:32.973 INFO  13732 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-06 20:42:33.019 INFO  13732 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (2deb559a12078bdfacb550c051264f5e)
+2024-07-06 20:42:39.539 INFO  13732 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-06 20:42:40.698 INFO  13732 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (2deb559a12078bdfacb550c051264f5e)] -> id: username]
+2024-07-06 20:42:40.911 INFO  13732 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (2deb559a12078bdfacb550c051264f5e)] -> id: password]
+2024-07-06 20:43:00.505 INFO  13732 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-06 20:43:00.630 INFO  13732 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (2deb559a12078bdfacb550c051264f5e)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-06 20:43:03.069 INFO  13732 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (2deb559a12078bdfacb550c051264f5e)] -> xpath: //*[@id="productworks"]]
+2024-07-06 20:43:03.072 INFO  13732 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-06 20:43:03.081 INFO  13732 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-06 20:43:03.085 INFO  13732 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (2deb559a12078bdfacb550c051264f5e)
+2024-07-06 20:43:03.210 INFO  13732 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (2deb559a12078bdfacb550c051264f5e)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-06 20:43:03.905 INFO  13732 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (2deb559a12078bdfacb550c051264f5e)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-06 20:43:09.092 INFO  13732 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-06 20:43:09.094 INFO  13732 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-06 20:43:10.772 INFO  13732 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_06_20_42_24_extentReport.html
+2024-07-06 21:21:18.138 INFO  936 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-06 21:21:18.424 INFO  936 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-06 21:21:18.466 INFO  936 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-06 21:21:18.506 INFO  936 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (49332d4bbdb1f37196b4e9b5179b7d26)
+2024-07-06 21:21:22.785 INFO  936 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-06 21:21:23.959 INFO  936 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (49332d4bbdb1f37196b4e9b5179b7d26)] -> id: username]
+2024-07-06 21:21:24.232 INFO  936 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (49332d4bbdb1f37196b4e9b5179b7d26)] -> id: password]
+2024-07-06 21:22:35.528 ERROR 936 --- [main] ElementInteractionUtils : Test Failed: verifyLoginisworking
+2024-07-06 21:22:35.703 INFO  936 --- [main] ElementInteractionUtils : Screenshot captured for failed test: verifyLoginisworking
+2024-07-06 21:22:35.731 INFO  936 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-06 21:22:35.743 INFO  936 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (49332d4bbdb1f37196b4e9b5179b7d26)
+2024-07-06 21:22:36.251 INFO  936 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (49332d4bbdb1f37196b4e9b5179b7d26)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-06 21:22:47.233 INFO  936 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (49332d4bbdb1f37196b4e9b5179b7d26)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-06 21:22:47.342 INFO  936 --- [main] EmailConfigurationPage : current max table entries are =2
+2024-07-06 21:22:48.094 INFO  936 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-06 21:22:48.100 INFO  936 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-06 21:22:49.196 INFO  936 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_06_21_21_13_extentReport.html
+2024-07-06 21:23:25.836 INFO  13604 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-06 21:23:26.110 INFO  13604 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-06 21:23:26.153 INFO  13604 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-06 21:23:26.191 INFO  13604 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (3141495f07945a1be76f9bd91a6d7257)
+2024-07-06 21:23:38.485 INFO  13604 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-06 21:23:39.679 INFO  13604 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (3141495f07945a1be76f9bd91a6d7257)] -> id: username]
+2024-07-06 21:23:39.937 INFO  13604 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (3141495f07945a1be76f9bd91a6d7257)] -> id: password]
+2024-07-06 21:24:26.592 INFO  13604 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-06 21:24:26.876 INFO  13604 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (3141495f07945a1be76f9bd91a6d7257)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-06 21:24:55.856 INFO  13604 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (3141495f07945a1be76f9bd91a6d7257)] -> xpath: //*[@id="productworks"]]
+2024-07-06 21:24:55.860 INFO  13604 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-06 21:24:55.874 INFO  13604 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-06 21:24:55.881 INFO  13604 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (3141495f07945a1be76f9bd91a6d7257)
+2024-07-06 21:24:56.129 INFO  13604 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (3141495f07945a1be76f9bd91a6d7257)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-06 21:24:57.173 INFO  13604 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (3141495f07945a1be76f9bd91a6d7257)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-06 21:24:57.268 INFO  13604 --- [main] EmailConfigurationPage : current max table entries are =2
+2024-07-06 21:24:59.375 INFO  13604 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-06 21:24:59.380 INFO  13604 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-06 21:25:01.084 INFO  13604 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_06_21_23_20_extentReport.html
+2024-07-08 14:58:23.183 INFO  3548 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-08 14:58:23.466 INFO  3548 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-08 14:58:23.514 INFO  3548 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-08 14:58:23.573 INFO  3548 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (1cb6a6ed564274b62bef5e8b2af86a9d)
+2024-07-08 14:59:06.633 INFO  3548 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-08 14:59:07.731 INFO  3548 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (1cb6a6ed564274b62bef5e8b2af86a9d)] -> id: username]
+2024-07-08 14:59:07.967 INFO  3548 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (1cb6a6ed564274b62bef5e8b2af86a9d)] -> id: password]
+2024-07-08 14:59:36.954 INFO  3548 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-08 15:00:07.100 ERROR 3548 --- [main] ElementInteractionUtils : Test Failed: verifyLoginisworking
+2024-07-08 15:00:07.254 INFO  3548 --- [main] ElementInteractionUtils : Screenshot captured for failed test: verifyLoginisworking
+2024-07-08 15:00:07.275 INFO  3548 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-08 15:00:07.284 INFO  3548 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (1cb6a6ed564274b62bef5e8b2af86a9d)
+2024-07-08 15:00:37.407 ERROR 3548 --- [main] ElementInteractionUtils : Test Failed: pageRedirection
+2024-07-08 15:00:37.556 INFO  3548 --- [main] ElementInteractionUtils : Screenshot captured for failed test: pageRedirection
+2024-07-08 15:00:37.559 INFO  3548 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-08 15:00:38.635 INFO  3548 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_08_14_58_16_extentReport.html
+2024-07-08 15:37:23.752 INFO  11096 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-08 15:37:24.110 INFO  11096 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-08 15:37:24.160 INFO  11096 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-08 15:37:24.212 INFO  11096 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (1d27d020a60e6a9ea54fb582abe13dc5)
+2024-07-08 15:38:06.363 INFO  11096 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-08 15:38:07.560 INFO  11096 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (1d27d020a60e6a9ea54fb582abe13dc5)] -> id: username]
+2024-07-08 15:38:07.823 INFO  11096 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (1d27d020a60e6a9ea54fb582abe13dc5)] -> id: password]
+2024-07-08 15:38:16.788 ERROR 11096 --- [main] ElementInteractionUtils : Test Failed: verifyLoginisworking
+2024-07-08 15:38:16.801 ERROR 11096 --- [main] ElementInteractionUtils : Test Failed: verifyLoginisworking
+2024-07-08 15:38:16.818 INFO  11096 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-08 15:38:17.983 INFO  11096 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_08_15_37_19_extentReport.html
+2024-07-08 22:29:53.679 INFO  14252 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-08 22:29:54.082 INFO  14252 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-08 22:29:54.137 INFO  14252 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-08 22:29:54.221 INFO  14252 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (afe7f9b89280a5ecf4c81e0365bc5b73)
+2024-07-08 22:29:55.873 INFO  14252 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-08 22:29:57.116 INFO  14252 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (afe7f9b89280a5ecf4c81e0365bc5b73)] -> id: username]
+2024-07-08 22:29:57.423 INFO  14252 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (afe7f9b89280a5ecf4c81e0365bc5b73)] -> id: password]
+2024-07-08 22:30:15.837 INFO  14252 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-08 22:30:16.077 INFO  14252 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (afe7f9b89280a5ecf4c81e0365bc5b73)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-08 22:30:18.573 INFO  14252 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (afe7f9b89280a5ecf4c81e0365bc5b73)] -> xpath: //*[@id="productworks"]]
+2024-07-08 22:30:18.579 INFO  14252 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-08 22:30:18.595 INFO  14252 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-08 22:30:18.601 INFO  14252 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (afe7f9b89280a5ecf4c81e0365bc5b73)
+2024-07-08 22:30:18.908 INFO  14252 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (afe7f9b89280a5ecf4c81e0365bc5b73)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-08 22:30:19.834 INFO  14252 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (afe7f9b89280a5ecf4c81e0365bc5b73)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-08 22:30:19.835 INFO  14252 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-08 22:30:19.839 INFO  14252 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-08 22:30:22.987 INFO  14252 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_08_22_29_46_extentReport.html
+2024-07-08 22:35:13.944 INFO  12640 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-08 22:35:14.284 INFO  12640 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-08 22:35:14.345 INFO  12640 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-08 22:35:14.396 INFO  12640 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (26e76c84d173567e845e044be7f964f5)
+2024-07-08 22:35:15.557 INFO  12640 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-08 22:35:16.700 INFO  12640 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (26e76c84d173567e845e044be7f964f5)] -> id: username]
+2024-07-08 22:35:16.904 INFO  12640 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (26e76c84d173567e845e044be7f964f5)] -> id: password]
+2024-07-08 22:35:33.531 INFO  12640 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-08 22:35:33.657 INFO  12640 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (26e76c84d173567e845e044be7f964f5)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-08 22:35:36.165 INFO  12640 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (26e76c84d173567e845e044be7f964f5)] -> xpath: //*[@id="productworks"]]
+2024-07-08 22:35:36.167 INFO  12640 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-08 22:35:36.177 INFO  12640 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-08 22:35:36.182 INFO  12640 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (26e76c84d173567e845e044be7f964f5)
+2024-07-08 22:35:36.310 INFO  12640 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (26e76c84d173567e845e044be7f964f5)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-08 22:35:37.215 INFO  12640 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (26e76c84d173567e845e044be7f964f5)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-08 22:35:37.291 INFO  12640 --- [main] EmailConfigurationPage : current max table entries are =2
+2024-07-08 22:35:37.686 INFO  12640 --- [main] EmailConfigurationPage : The cell data at particular row is:info@synergyconnect.in
+2024-07-08 22:35:37.687 INFO  12640 --- [main] EmailConfigurationPage : completed
+2024-07-08 22:35:37.688 INFO  12640 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-08 22:35:37.693 INFO  12640 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-08 22:35:38.875 INFO  12640 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_08_22_35_10_extentReport.html
+2024-07-08 22:39:22.020 INFO  9892 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-08 22:39:22.277 INFO  9892 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-08 22:39:22.321 INFO  9892 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-08 22:39:22.375 INFO  9892 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (9171d0ae9192a691d085e4d78c21a97f)
+2024-07-08 22:39:22.889 ERROR 9892 --- [main] ElementInteractionUtils : Test Failed: verifyLoginisworking
+2024-07-08 22:39:23.025 INFO  9892 --- [main] ElementInteractionUtils : Screenshot captured for failed test: verifyLoginisworking
+2024-07-08 22:39:23.053 INFO  9892 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-08 22:39:23.062 INFO  9892 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (9171d0ae9192a691d085e4d78c21a97f)
+2024-07-08 22:39:52.607 ERROR 9892 --- [main] ElementInteractionUtils : Test Failed: pageRedirection
+2024-07-08 22:39:52.624 ERROR 9892 --- [main] ElementInteractionUtils : Test Failed: pageRedirection
+2024-07-08 22:39:52.632 INFO  9892 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-08 22:39:53.454 INFO  9892 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_08_22_39_18_extentReport.html
+2024-07-08 22:40:08.352 INFO  13480 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-08 22:40:08.654 INFO  13480 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-08 22:40:08.695 INFO  13480 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-08 22:40:08.739 INFO  13480 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (51b2c98af144cdb34d435e3736014101)
+2024-07-08 22:40:09.200 ERROR 13480 --- [main] ElementInteractionUtils : Test Failed: verifyLoginisworking
+2024-07-08 22:40:09.328 INFO  13480 --- [main] ElementInteractionUtils : Screenshot captured for failed test: verifyLoginisworking
+2024-07-08 22:40:09.359 INFO  13480 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-08 22:40:09.373 INFO  13480 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (51b2c98af144cdb34d435e3736014101)
+2024-07-08 22:40:21.493 ERROR 13480 --- [main] ElementInteractionUtils : Test Failed: pageRedirection
+2024-07-08 22:40:21.498 ERROR 13480 --- [main] ElementInteractionUtils : Test Failed: pageRedirection
+2024-07-08 22:40:21.505 INFO  13480 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-08 22:40:22.336 INFO  13480 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_08_22_40_04_extentReport.html
+2024-07-08 22:43:28.592 INFO  8960 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-08 22:43:28.825 INFO  8960 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-08 22:43:28.863 INFO  8960 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-08 22:43:28.909 INFO  8960 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (2db7278d79b0d18061e9a171ae4fdc61)
+2024-07-08 22:43:30.747 INFO  8960 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-08 22:43:31.870 INFO  8960 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (2db7278d79b0d18061e9a171ae4fdc61)] -> id: username]
+2024-07-08 22:43:32.117 INFO  8960 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (2db7278d79b0d18061e9a171ae4fdc61)] -> id: password]
+2024-07-08 22:43:48.888 INFO  8960 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-08 22:43:49.012 INFO  8960 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (2db7278d79b0d18061e9a171ae4fdc61)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-08 22:43:51.428 INFO  8960 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (2db7278d79b0d18061e9a171ae4fdc61)] -> xpath: //*[@id="productworks"]]
+2024-07-08 22:43:51.430 INFO  8960 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-08 22:43:51.439 INFO  8960 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-08 22:43:51.444 INFO  8960 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (2db7278d79b0d18061e9a171ae4fdc61)
+2024-07-08 22:43:51.567 INFO  8960 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (2db7278d79b0d18061e9a171ae4fdc61)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-08 22:43:52.238 INFO  8960 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (2db7278d79b0d18061e9a171ae4fdc61)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-08 22:43:52.274 INFO  8960 --- [main] EmailConfigurationPage : Current table entries count: 2
+2024-07-08 22:43:52.680 INFO  8960 --- [main] EmailConfigurationPage : Matching cell value found: info@synergyconnect.in
+2024-07-08 22:43:52.681 INFO  8960 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-08 22:43:52.685 INFO  8960 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-08 22:43:53.774 INFO  8960 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_08_22_43_25_extentReport.html
+2024-07-08 23:03:07.865 INFO  12504 --- [main] ElementInteractionUtils : Starting Test Suite: Login Tests
+2024-07-08 23:03:08.140 INFO  12504 --- [main] ElementInteractionUtils : ExtentReport initialized with SparkReporter
+2024-07-08 23:03:08.180 INFO  12504 --- [main] ElementInteractionUtils : Starting Test: verifyLoginisworking
+2024-07-08 23:03:08.220 INFO  12504 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (553a3ba1cf071cd2aeab2ac8fc086b26)
+2024-07-08 23:03:09.470 INFO  12504 --- [main] SynergyConnect : URL:https://test30.synergyapps.in
+2024-07-08 23:03:10.593 INFO  12504 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (553a3ba1cf071cd2aeab2ac8fc086b26)] -> id: username]
+2024-07-08 23:03:10.793 INFO  12504 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (553a3ba1cf071cd2aeab2ac8fc086b26)] -> id: password]
+2024-07-08 23:03:29.537 INFO  12504 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-07-08 23:03:29.666 INFO  12504 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (553a3ba1cf071cd2aeab2ac8fc086b26)] -> xpath: //*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em]
+2024-07-08 23:03:32.539 INFO  12504 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (553a3ba1cf071cd2aeab2ac8fc086b26)] -> xpath: //*[@id="productworks"]]
+2024-07-08 23:03:32.540 INFO  12504 --- [main] ElementInteractionUtils : Test Passed: verifyLoginisworking
+2024-07-08 23:03:32.554 INFO  12504 --- [main] ElementInteractionUtils : Starting Test: pageRedirection
+2024-07-08 23:03:32.560 INFO  12504 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (553a3ba1cf071cd2aeab2ac8fc086b26)
+2024-07-08 23:03:32.679 INFO  12504 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (553a3ba1cf071cd2aeab2ac8fc086b26)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-07-08 23:03:33.354 INFO  12504 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (553a3ba1cf071cd2aeab2ac8fc086b26)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-07-08 23:03:33.382 INFO  12504 --- [main] ElementInteractionUtils : Current number of table entries: 2
+2024-07-08 23:03:33.845 INFO  12504 --- [main] ElementInteractionUtils : Text 'info@synergyconnect.in' found in cell value: info@synergyconnect.in
+2024-07-08 23:03:33.845 INFO  12504 --- [main] ElementInteractionUtils : Test Passed: pageRedirection
+2024-07-08 23:03:33.848 INFO  12504 --- [main] ElementInteractionUtils : Finishing Test Suite: Login Tests
+2024-07-08 23:03:34.641 INFO  12504 --- [main] ElementInteractionUtils : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks\extentReports\2024_07_08_23_03_04_extentReport.html
