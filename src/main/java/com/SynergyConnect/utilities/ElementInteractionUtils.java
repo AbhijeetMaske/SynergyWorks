@@ -59,6 +59,7 @@ public class ElementInteractionUtils {
 		boolean status = false;
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(element));
+			highlightElement(element);
 			element.click();
 			logger.info("Clicked on element: " + element);
 			status = true;
@@ -82,6 +83,7 @@ public class ElementInteractionUtils {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		try {
 			waitForElementToBeVisible(webElement);
+			highlightElement(webElement);
 			js.executeScript("arguments[0].click();", webElement);
 			status = true;
 			logger.info("Successfully clicked on the web element using JavaScript: " + webElement.toString());
@@ -104,6 +106,7 @@ public class ElementInteractionUtils {
 		boolean status = false;
 		try {
 			waitForElementToBeVisible(webElement);
+			highlightElement(webElement);
 			webElement.clear();
 			webElement.sendKeys(text);
 			status = true;
@@ -126,6 +129,7 @@ public class ElementInteractionUtils {
 		try {
 			if (driver instanceof JavascriptExecutor) {
 				JavascriptExecutor js = (JavascriptExecutor) driver;
+				highlightElement(webElement);
 				js.executeScript("arguments[0].value='" + value + "';", webElement);
 			} else {
 				throw new IllegalStateException("This driver does not support JavaScript execution");
@@ -148,6 +152,7 @@ public class ElementInteractionUtils {
 		boolean status = false;
 		try {
 			waitForElementToBeVisible(webElement);
+			highlightElement(webElement);
 			webElement.clear();
 			status = true;
 			logger.info("Successfully cleared text in webElement: " + webElement.toString());
@@ -186,6 +191,7 @@ public class ElementInteractionUtils {
 		try {
 			if (driver instanceof JavascriptExecutor) {
 				JavascriptExecutor js = (JavascriptExecutor) driver;
+				highlightElement(webElement);
 				js.executeScript("var el = document.querySelector(\"" + webElement + "\").click();");
 			} else {
 				throw new IllegalStateException("This driver does not support JavaScript execution");
@@ -712,14 +718,20 @@ public class ElementInteractionUtils {
 	 * @version 1.0 June 27,2023
 	 ********************************************************************************************/
 	public static void highlightElement(WebElement element) {
-		for (int i = 0; i < 3; i++) {
-			JavascriptExecutor js;
-			js = (JavascriptExecutor) driver;
-			js.executeScript("arguments[0].setAttribute('style',arguments[1]);", element,
-					"color: Orange; border: 2px solid red;");
-			pause(200);
-			js.executeScript("arguments[0].setAttribute('style',arguments[1]);", element, "");
-		}
+		try {
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            String originalStyle = element.getAttribute("style");
+            js.executeScript("arguments[0].setAttribute('style', arguments[1]);", element, "border: 2px solid red; border-style: dashed;");
+            //logger.info("Element highlighted: {}", element.toString());
+            Thread.sleep(500); // Highlight duration in milliseconds
+            js.executeScript("arguments[0].setAttribute('style', arguments[1]);", element, originalStyle);
+            //logger.info("Element highlight removed: {}", element.toString());
+        } catch (InterruptedException e) {
+            logger.error("Interrupted Exception during element highlighting: ", e);
+            Thread.currentThread().interrupt();
+        } catch (Exception e) {
+            logger.error("Exception occurred while highlighting element: ", e);
+        }
 	}
 
 	/********************************************************************************************
@@ -1360,20 +1372,17 @@ public class ElementInteractionUtils {
 	        try {
 	            WebElement table = driver.findElement(By.id(tableId));
 	            List<WebElement> tableEntries = table.findElements(By.tagName("tr"));
-
 	            String rowXpathPrefix = "//table[@id='" + tableId + "']/tbody/tr[";
 	            String colXpathSuffix = "]/td[" + tableColumnIndex + "]";
-
-	            int rowCount = 0;
-	            boolean isTextFound = false;
-
+	            @SuppressWarnings("unused")
+				int rowCount = 0;
 	            while (true) {
 	                int tableSize = tableEntries.size();
 	                logger.info("Current number of table entries: {}", tableSize);
 
 	                for (int i = 1; i <= tableSize; i++) {
 	                    String cellValue = driver.findElement(By.xpath(rowXpathPrefix + i + colXpathSuffix)).getText();
-	                    if (cellValue.contains(searchText)) {
+	                    if (cellValue.contains(searchText)) {	              
 	                        logger.info("Text '{}' found in cell value: {}", searchText, cellValue);
 	                        return true;
 	                    }
@@ -1390,7 +1399,6 @@ public class ElementInteractionUtils {
 	                    break;
 	                }
 	            }
-
 	            logger.info("Search completed. Text '{}' not found in the table", searchText);
 	            return false;
 	        } catch (Exception e) {
@@ -1398,4 +1406,5 @@ public class ElementInteractionUtils {
 	            return false;
 	        }
 	    }
+	
 }
