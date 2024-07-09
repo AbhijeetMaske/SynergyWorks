@@ -86,9 +86,9 @@ public class EmailConfigurationPage {
 	public void addEmailConfigurtion() {
 		ElementInteractionUtils.click(btnEmailConfigAdd);
 		ElementInteractionUtils.sendKeys(txtPersonName, "Works");
-		ElementInteractionUtils.sendKeys(txtEmail, "info@synergyconnect.in");
-		ElementInteractionUtils.sendKeys(txtPassword, "Leadership@2016");// ddlTls
-		ElementInteractionUtils.sendKeys(ddlTls, "Leadership@2016");
+		ElementInteractionUtils.sendKeys(txtEmail, "");
+		ElementInteractionUtils.sendKeys(txtPassword, "");// ddlTls
+		ElementInteractionUtils.sendKeys(ddlTls, "");
 		ElementInteractionUtils.selectByVisibleText(ddlTls, "Yes");
 		ElementInteractionUtils.sendKeys(txtPort, "587");
 		ElementInteractionUtils.sendKeys(txtHost, "smtp.office365.com");
