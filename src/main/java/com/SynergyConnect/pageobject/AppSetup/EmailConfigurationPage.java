@@ -1,25 +1,27 @@
 package com.SynergyConnect.pageobject.AppSetup;
 
-import java.sql.Array;
-import java.util.List;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.SynergyConnect.utilities.AlertUtils;
 import com.SynergyConnect.utilities.ElementInteractionUtils;
+import com.SynergyConnect.utilities.ExtentReportListener;
+import com.SynergyConnect.utilities.ReadConfig;
+import com.aventstack.extentreports.Status;
 
 public class EmailConfigurationPage {
 	WebDriver driver;
 	ElementInteractionUtils EI;
 	AlertUtils AU;
 	private static final Logger logger = LogManager.getLogger(EmailConfigurationPage.class);
+	ReadConfig config = new ReadConfig();
+
 	public EmailConfigurationPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -65,10 +67,13 @@ public class EmailConfigurationPage {
 
 	@FindBy(id = "emailConfigTable")
 	private WebElement emailConfigurationTable;
-	
-	@FindBy (id ="")
+
+	@FindBy(id = "")
 	private WebElement emailConfigurationTableNext;
 
+	@FindBy(xpath = "//*[@id=\"bEdit\"]/span")
+	private WebElement btnEdit;
+	
 	//
 	@Test
 	public void redirectToEmailConfigAndValidateUrl() throws InterruptedException {
@@ -78,29 +83,66 @@ public class EmailConfigurationPage {
 
 	@Test
 	public void emailConfigurtionFormvalidation() {
-		//ElementInteractionUtils.click(btnEmailConfigAdd);
+		// ElementInteractionUtils.click(btnEmailConfigAdd);
 
 	}
 
 	@Test
 	public void addEmailConfigurtion() {
-		ElementInteractionUtils.click(btnEmailConfigAdd);
-		ElementInteractionUtils.sendKeys(txtPersonName, "Works");
-		ElementInteractionUtils.sendKeys(txtEmail, "info@synergyconnect.in");
-		ElementInteractionUtils.sendKeys(txtPassword, "Leadership@2016");// ddlTls
-		ElementInteractionUtils.sendKeys(ddlTls, "Leadership@2016");
-		ElementInteractionUtils.selectByVisibleText(ddlTls, "Yes");
-		ElementInteractionUtils.sendKeys(txtPort, "587");
-		ElementInteractionUtils.sendKeys(txtHost, "smtp.office365.com");
-		ElementInteractionUtils.click(btnAdd);
-		AU.getToasterText();
-
+		try {
+			ElementInteractionUtils.click(btnEmailConfigAdd);
+			ElementInteractionUtils.sendKeys(txtPersonName, "Work");
+			ElementInteractionUtils.sendKeys(txtEmail, config.getEmailConfiguration_Email());
+			ElementInteractionUtils.sendKeys(txtPassword, config.getEmailConfiguration_Password());
+			ElementInteractionUtils.selectByVisibleText(ddlTls, "Yes");
+			ElementInteractionUtils.sendKeys(txtPort, "587");
+			ElementInteractionUtils.sendKeys(txtHost, "smtp.office365.com");
+			ElementInteractionUtils.click(btnAdd);
+			AU.getToasterText();
+			ExtentReportListener.getExtent().log(Status.PASS, "Email configuration added successfully.");
+		} catch (Exception e) {
+			ExtentReportListener.getExtent().log(Status.FAIL, "Failed to add email configuration: " + e.getMessage());
+		}
 	}
 
 	@Test
 	public void verifyAddedEmailConfigurtion() {
-		ElementInteractionUtils.verifyTextInTable("emailConfigTable", 3, "info@synergyconnect.in", emailConfigurationTableNext);
-	}
-		
+		try {
+			boolean isPersonNamePresent =  ElementInteractionUtils.verifyTextInTable("emailConfigTable", 2,"Work", emailConfigurationTableNext);
+			Assert.assertTrue(isPersonNamePresent, "Added email configuration - Person Name not found in the table.");
+			boolean isEmailPresent = ElementInteractionUtils.verifyTextInTable("emailConfigTable", 3,
+					config.getEmailConfiguration_Email(), emailConfigurationTableNext);
+			Assert.assertTrue(isEmailPresent, "Added email configuration - Email not found in the table.");
+			boolean isHostPresent = ElementInteractionUtils.verifyTextInTable("emailConfigTable", 4,"smtp.office365.com", emailConfigurationTableNext);
+			Assert.assertTrue(isHostPresent, "Added email configuration - Host not found in the table.");
+			boolean isPortPresent = ElementInteractionUtils.verifyTextInTable("emailConfigTable", 5,"587", emailConfigurationTableNext);
+			Assert.assertTrue(isPortPresent, "Added email configuration - Port not found in the table.");
+			boolean isTlsPresent = ElementInteractionUtils.verifyTextInTable("emailConfigTable", 6,"Yes", emailConfigurationTableNext);
+			Assert.assertTrue(isTlsPresent, "Added email configuration - TLS not found in the table.");
+			ExtentReportListener.getExtent().log(Status.PASS, "Added Email configuration found in table");
+		} catch (AssertionError ae) {
+			ExtentReportListener.getExtent().log(Status.FAIL,
+					"Assertion failed while verifying added email configuration: " + ae.getMessage());
+			logger.error("Assertion failed while verifying added email configuration: ", ae);
+			throw ae;
+		} catch (Exception e) {
+			 ExtentReportListener.getExtent().log(Status.FAIL, "Error verifying added email configuration: " + e.getMessage());
+	            logger.error("Error verifying added email configuration: ", e);
+	            Assert.fail("Error verifying added email configuration: " + e.getMessage());
+		}
 
+	}
+	
+	
+	@Test
+	public void updateAddedEmailConfiguration() throws InterruptedException {
+		Thread.sleep(10000);
+		boolean isClickedOnEdit = ElementInteractionUtils.verifyTextInTableAndPerformAction("emailConfigTable", 2,"Work", emailConfigurationTableNext, btnEdit);
+		Assert.assertTrue(isClickedOnEdit, "Unable to click on edit button");
+		ElementInteractionUtils.sendKeys(txtPersonName, "Work");
+		ElementInteractionUtils.click(btnAdd);
+		AU.dismissAlertIfPresent();
+		String updateToaster = AU.getToasterText();
+		Assert.assertEquals(updateToaster, "Email Details updated..!");
+	}
 }
