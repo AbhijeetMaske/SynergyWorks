@@ -9,6 +9,7 @@ import com.SynergyConnect.common.BaseClass;
 import com.SynergyConnect.utilities.ElementInteractionUtils;
 import com.SynergyConnect.utilities.ExtentReportListener;
 import com.SynergyConnect.utilities.ReadConfig;
+import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
 public class LoginPage {
@@ -22,6 +23,9 @@ public class LoginPage {
 	ReadConfig config = new ReadConfig();
 	String UserName = config.getUserId();
 	String UserPassword = config.getPassword();
+	public static ExtentTest test;
+	public static ExtentTest parentTest;
+	public static ExtentTest childTest;
 	
 	//identify WebElements
 	@FindBy(id="username")

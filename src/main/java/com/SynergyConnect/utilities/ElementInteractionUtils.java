@@ -1429,6 +1429,7 @@ public class ElementInteractionUtils {
 			List<WebElement> tableEntries = table.findElements(By.tagName("tr"));
 			String rowXpathPrefix = "//table[@id='" + tableId + "']/tbody/tr[";
 			String colXpathSuffix = "]/td[" + tableColumnIndex + "]";
+			@SuppressWarnings("unused")
 			int rowCount = 0;
 
 			while (true) {
@@ -1468,4 +1469,15 @@ public class ElementInteractionUtils {
 			return false;
 		}
 	}
+	
+	public static String getElementVisibleText(WebElement webElement) {
+		 String text = null;
+	        try {
+	            text = webElement.getText();
+	            logger.info("Successfully retrieved the visible text: '{}'", text);
+	        } catch (Exception e) {
+	            logger.error("Exception occurred while retrieving the visible text from the WebElement: {}", webElement, e);
+	        }
+	        return text;
+	    }
 }

@@ -73,7 +73,25 @@ public class EmailConfigurationPage {
 
 	@FindBy(xpath = "//*[@id=\"bEdit\"]/span")
 	private WebElement btnEdit;
-	
+
+	@FindBy(xpath = "//*[@id=\"username-error\"]")
+	private WebElement PersonNameError;
+
+	@FindBy(xpath = "//*[@id=\"email-error\"]")
+	private WebElement emailError;
+
+	@FindBy(xpath = "//*[@id=\"password-error\"]")
+	private WebElement passwordError;
+
+	@FindBy(xpath = "//*[@id=\"tls-error\"]")
+	private WebElement tlsError;
+
+	@FindBy(xpath = "//*[@id=\"port-error\"]")
+	private WebElement portError;
+
+	@FindBy(xpath = "//*[@id=\"host-error\"]")
+	private WebElement hostError;
+
 	//
 	@Test
 	public void redirectToEmailConfigAndValidateUrl() throws InterruptedException {
@@ -83,8 +101,43 @@ public class EmailConfigurationPage {
 
 	@Test
 	public void emailConfigurtionFormvalidation() {
-		// ElementInteractionUtils.click(btnEmailConfigAdd);
+		try {
+			ElementInteractionUtils.click(btnEmailConfigAdd);
+			ElementInteractionUtils.clear(txtPersonName);
+			ElementInteractionUtils.clear(txtEmail);
+			ElementInteractionUtils.clear(txtPassword);
+			//ElementInteractionUtils.clear(ddlTls);
+			ElementInteractionUtils.clear(txtPort);
+			ElementInteractionUtils.clear(txtHost);
+			ElementInteractionUtils.click(btnAdd);
+			Thread.sleep(3000);
+			
+			String personNameErrorText = ElementInteractionUtils.getElementVisibleText(PersonNameError);
+			Assert.assertEquals(personNameErrorText, "This field is required.");
 
+			String emailErrorText = ElementInteractionUtils.getElementVisibleText(emailError);
+			Assert.assertEquals(emailErrorText, "This field is required.");
+
+			String passwordErrorText = ElementInteractionUtils.getElementVisibleText(passwordError);
+			Assert.assertEquals(passwordErrorText, "This field is required.");
+
+			String tlsErrorText = ElementInteractionUtils.getElementVisibleText(tlsError);
+			Assert.assertEquals(tlsErrorText, "This field is required.");
+
+			String portErrorText = ElementInteractionUtils.getElementVisibleText(portError);
+			Assert.assertEquals(portErrorText, "Port");
+
+			String hostErrorText = ElementInteractionUtils.getElementVisibleText(hostError);
+			Assert.assertEquals(hostErrorText, "This field is required.");
+			
+			ElementInteractionUtils.click(btnCancel);
+			
+			ExtentReportListener.getExtent().log(Status.PASS, "Email configuration form validation successful");
+			
+		} catch (Exception e) {
+			logger.error("Exception occurred during email configuration form validation: ", e);
+	        ExtentReportListener.getExtent().log(Status.FAIL, "Failed to validate email configuration: " + e.getMessage());
+		}
 	}
 
 	@Test
@@ -108,16 +161,20 @@ public class EmailConfigurationPage {
 	@Test
 	public void verifyAddedEmailConfigurtion() {
 		try {
-			boolean isPersonNamePresent =  ElementInteractionUtils.verifyTextInTable("emailConfigTable", 2,"Work", emailConfigurationTableNext);
+			boolean isPersonNamePresent = ElementInteractionUtils.verifyTextInTable("emailConfigTable", 2, "Work",
+					emailConfigurationTableNext);
 			Assert.assertTrue(isPersonNamePresent, "Added email configuration - Person Name not found in the table.");
 			boolean isEmailPresent = ElementInteractionUtils.verifyTextInTable("emailConfigTable", 3,
 					config.getEmailConfiguration_Email(), emailConfigurationTableNext);
 			Assert.assertTrue(isEmailPresent, "Added email configuration - Email not found in the table.");
-			boolean isHostPresent = ElementInteractionUtils.verifyTextInTable("emailConfigTable", 4,"smtp.office365.com", emailConfigurationTableNext);
+			boolean isHostPresent = ElementInteractionUtils.verifyTextInTable("emailConfigTable", 4,
+					"smtp.office365.com", emailConfigurationTableNext);
 			Assert.assertTrue(isHostPresent, "Added email configuration - Host not found in the table.");
-			boolean isPortPresent = ElementInteractionUtils.verifyTextInTable("emailConfigTable", 5,"587", emailConfigurationTableNext);
+			boolean isPortPresent = ElementInteractionUtils.verifyTextInTable("emailConfigTable", 5, "587",
+					emailConfigurationTableNext);
 			Assert.assertTrue(isPortPresent, "Added email configuration - Port not found in the table.");
-			boolean isTlsPresent = ElementInteractionUtils.verifyTextInTable("emailConfigTable", 6,"Yes", emailConfigurationTableNext);
+			boolean isTlsPresent = ElementInteractionUtils.verifyTextInTable("emailConfigTable", 6, "Yes",
+					emailConfigurationTableNext);
 			Assert.assertTrue(isTlsPresent, "Added email configuration - TLS not found in the table.");
 			ExtentReportListener.getExtent().log(Status.PASS, "Added Email configuration found in table");
 		} catch (AssertionError ae) {
@@ -126,18 +183,19 @@ public class EmailConfigurationPage {
 			logger.error("Assertion failed while verifying added email configuration: ", ae);
 			throw ae;
 		} catch (Exception e) {
-			 ExtentReportListener.getExtent().log(Status.FAIL, "Error verifying added email configuration: " + e.getMessage());
-	            logger.error("Error verifying added email configuration: ", e);
-	            Assert.fail("Error verifying added email configuration: " + e.getMessage());
+			ExtentReportListener.getExtent().log(Status.FAIL,
+					"Error verifying added email configuration: " + e.getMessage());
+			logger.error("Error verifying added email configuration: ", e);
+			Assert.fail("Error verifying added email configuration: " + e.getMessage());
 		}
 
 	}
-	
-	
+
 	@Test
 	public void updateAddedEmailConfiguration() throws InterruptedException {
 		Thread.sleep(10000);
-		boolean isClickedOnEdit = ElementInteractionUtils.verifyTextInTableAndPerformAction("emailConfigTable", 2,"Work", emailConfigurationTableNext, btnEdit);
+		boolean isClickedOnEdit = ElementInteractionUtils.verifyTextInTableAndPerformAction("emailConfigTable", 2,
+				"Work", emailConfigurationTableNext, btnEdit);
 		Assert.assertTrue(isClickedOnEdit, "Unable to click on edit button");
 		ElementInteractionUtils.sendKeys(txtPersonName, "Work");
 		ElementInteractionUtils.click(btnAdd);

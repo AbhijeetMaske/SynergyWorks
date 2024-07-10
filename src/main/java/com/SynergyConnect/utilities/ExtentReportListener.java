@@ -14,11 +14,15 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.SynergyConnect.common.BaseClass;
 
 public class ExtentReportListener implements ITestListener {
 
 	public static ExtentReports extentReport;
+	public static ExtentTest test;
+	public static ExtentTest parentTest;
+	public static ExtentTest childTest;
 	private static final Logger logger = LogManager.getLogger(ElementInteractionUtils.class);
 
 	public static File file = new File(
@@ -40,6 +44,7 @@ public class ExtentReportListener implements ITestListener {
         sparkReporter = new ExtentSparkReporter(file);
 
 //		// Configuration to change look and feel of the report
+        sparkReporter.config().setTheme(Theme.STANDARD);
         sparkReporter.config().setDocumentTitle("Automation Test Report");
         sparkReporter.config().setReportName("Test Execution Report");
         extentReport.attachReporter(sparkReporter);
