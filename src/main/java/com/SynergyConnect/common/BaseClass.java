@@ -54,12 +54,11 @@ public class BaseClass {
                 throw new IllegalArgumentException("Unsupported browser: " + browser);
         }
         setup(browser);
-        System.out.println(browser+" version: " + browserVersion);
+        logger.info("Initialized {} with version: {}", browser, browserVersion);
     }
 	
 
     public void setup(String browser) {
-      //  System.out.println("@Before Method: " + method.getName());
         switch (browser.toLowerCase()) {
             case "chrome":
                 WebDriverManager.chromedriver().setup();
@@ -91,17 +90,18 @@ public class BaseClass {
         getDriver().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
 
         // For logging
-        logger = LogManager.getLogger("SynergyConnect");
+        logger = LogManager.getLogger("<=== SynergyWorks ===>");
+        logger.info("WebDriver initialized successfully for {}", browser);
     }
 
     @BeforeMethod
     public void beforeMethod(Method method) {
-    	 System.out.println("@Before Method: " + method.getName());
+    	logger.info("Executing test method: {}", method.getName());
     }
     
-    @BeforeMethod
+    @AfterMethod
     public void afterMethod(Method method) {
-    	 System.out.println("@After Method: " + method.getName());
+    	logger.info("Completed test method: {}", method.getName());
     }
     
     @AfterSuite
@@ -110,6 +110,7 @@ public class BaseClass {
             try {
                 getDriver().close();
                 getDriver().quit();
+                logger.info("WebDriver closed and session ended successfully.");
             } catch (Exception e) {
                 logger.error("Error while closing WebDriver: " + e.getMessage(), e);
             }
