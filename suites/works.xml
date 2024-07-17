@@ -5,8 +5,10 @@
 		<listener class-name="com.SynergyConnect.utilities.ExtentReportListener"></listener>
 	</listeners>
 	<parameter name="baseUrl" value="https://test30.synergyapps.in" />
-	<parameter name="browser" value="chrome" />
+	<parameter name="browser" value="chrome" />	
 	<test name="Login Tests" preserve-order="true">
+		 <parameter name="device" value="windows"/>
+        <parameter name="author" value="Abhijeet"/>
 		<classes>
 			<class name="com.SynergyConnect.testcases.Login" />
 			<class name="com.SynergyConnect.testcases.AppSetup.EmailConfiguration" />

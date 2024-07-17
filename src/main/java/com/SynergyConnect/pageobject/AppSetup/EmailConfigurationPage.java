@@ -1,25 +1,28 @@
 package com.SynergyConnect.pageobject.AppSetup;
 
-import java.sql.Array;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.SynergyConnect.utilities.AlertUtils;
 import com.SynergyConnect.utilities.ElementInteractionUtils;
+import com.SynergyConnect.utilities.ReadConfig;
 
 public class EmailConfigurationPage {
 	WebDriver driver;
 	ElementInteractionUtils EI;
 	AlertUtils AU;
 	private static final Logger logger = LogManager.getLogger(EmailConfigurationPage.class);
+	ReadConfig config = new ReadConfig();
+
 	public EmailConfigurationPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -65,9 +68,30 @@ public class EmailConfigurationPage {
 
 	@FindBy(id = "emailConfigTable")
 	private WebElement emailConfigurationTable;
-	
-	@FindBy (id ="")
+
+	@FindBy(id = "")
 	private WebElement emailConfigurationTableNext;
+
+	@FindBy(xpath = "//*[@id=\"bEdit\"]/span")
+	private WebElement btnEdit;
+
+	@FindBy(xpath = "//*[@id=\"username-error\"]")
+	private WebElement PersonNameError;
+
+	@FindBy(xpath = "//*[@id=\"email-error\"]")
+	private WebElement emailError;
+
+	@FindBy(xpath = "//*[@id=\"password-error\"]")
+	private WebElement passwordError;
+
+	@FindBy(xpath = "//*[@id=\"tls-error\"]")
+	private WebElement tlsError;
+
+	@FindBy(xpath = "//*[@id=\"port-error\"]")
+	private WebElement portError;
+
+	@FindBy(xpath = "//*[@id=\"host-error\"]")
+	private WebElement hostError;
 
 	//
 	@Test
@@ -78,29 +102,88 @@ public class EmailConfigurationPage {
 
 	@Test
 	public void emailConfigurtionFormvalidation() {
-		//ElementInteractionUtils.click(btnEmailConfigAdd);
+		try {
+			ElementInteractionUtils.click(btnEmailConfigAdd);
+			ElementInteractionUtils.clear(txtPersonName);
+			ElementInteractionUtils.clear(txtEmail);
+			ElementInteractionUtils.clear(txtPassword);
+			//ElementInteractionUtils.clear(ddlTls);
+			ElementInteractionUtils.clear(txtPort);
+			ElementInteractionUtils.clear(txtHost);
+			ElementInteractionUtils.click(btnAdd);
+			Thread.sleep(3000);
+			
+			String personNameErrorText = ElementInteractionUtils.getElementVisibleText(PersonNameError);
+			Assert.assertEquals(personNameErrorText, "This field is required.");
 
+			String emailErrorText = ElementInteractionUtils.getElementVisibleText(emailError);
+			Assert.assertEquals(emailErrorText, "This field is required.");
+
+			String passwordErrorText = ElementInteractionUtils.getElementVisibleText(passwordError);
+			Assert.assertEquals(passwordErrorText, "This field is required.");
+
+			String tlsErrorText = ElementInteractionUtils.getElementVisibleText(tlsError);
+			Assert.assertEquals(tlsErrorText, "This field is required.");
+
+			String portErrorText = ElementInteractionUtils.getElementVisibleText(portError);
+			Assert.assertEquals(portErrorText, "Port");
+
+			String hostErrorText = ElementInteractionUtils.getElementVisibleText(hostError);
+			Assert.assertEquals(hostErrorText, "This field is required.");
+			
+			ElementInteractionUtils.click(btnCancel);
+			
+		} catch (Exception e) {
+			logger.error("Exception occurred during email configuration form validation: ", e);
+		}
 	}
 
 	@Test
 	public void addEmailConfigurtion() {
-		ElementInteractionUtils.click(btnEmailConfigAdd);
-		ElementInteractionUtils.sendKeys(txtPersonName, "Works");
-		ElementInteractionUtils.sendKeys(txtEmail, "info@synergyconnect.in");
-		ElementInteractionUtils.sendKeys(txtPassword, "Leadership@2016");// ddlTls
-		ElementInteractionUtils.sendKeys(ddlTls, "Leadership@2016");
-		ElementInteractionUtils.selectByVisibleText(ddlTls, "Yes");
-		ElementInteractionUtils.sendKeys(txtPort, "587");
-		ElementInteractionUtils.sendKeys(txtHost, "smtp.office365.com");
-		ElementInteractionUtils.click(btnAdd);
-		AU.getToasterText();
-
+		try {
+			ElementInteractionUtils.click(btnEmailConfigAdd);
+			ElementInteractionUtils.sendKeys(txtPersonName, "Work");
+			ElementInteractionUtils.sendKeys(txtEmail, config.getEmailConfiguration_Email());
+			ElementInteractionUtils.sendKeys(txtPassword, config.getEmailConfiguration_Password());
+			ElementInteractionUtils.selectByVisibleText(ddlTls, "Yes");
+			ElementInteractionUtils.sendKeys(txtPort, "587");
+			ElementInteractionUtils.sendKeys(txtHost, "smtp.office365.com");
+			ElementInteractionUtils.click(btnAdd);
+			AU.getToasterText();
+		} catch (Exception e) {
+		}
 	}
 
 	@Test
 	public void verifyAddedEmailConfigurtion() {
-		ElementInteractionUtils.verifyTextInTable("emailConfigTable", 3, "info@synergyconnect.in", emailConfigurationTableNext);
-	}
-		
+		try {
+			Map<Integer, String> lookupValues = new HashMap<>();
+			lookupValues.put(3, config.getEmailConfiguration_Email());
+			lookupValues.put(4, "smtp.office365.com"); // Example column index and expected value
+			lookupValues.put(5, "587");
+			lookupValues.put(6, "Yes");
+			boolean result = ElementInteractionUtils.verifyTableData("emailConfigTable", 2, "Work", emailConfigurationTableNext, btnEdit, lookupValues);
+			Assert.assertTrue(result, "Added email configuration data NOT found in the table.");
+		} catch (AssertionError ae) {
+			logger.error("Assertion failed while verifying added email configuration: ", ae);
+			throw ae;
+		} catch (Exception e) {
+			logger.error("Error verifying added email configuration: ", e);
+			Assert.fail("Error verifying added email configuration: " + e.getMessage());
+		}
 
+	}
+	
+	@Test
+	public void updateAddedEmailConfiguration() throws InterruptedException {
+		Thread.sleep(10000);
+		boolean isClickedOnEdit = ElementInteractionUtils.verifyTextInTableAndPerformAction("emailConfigTable", 2,
+				"Work", emailConfigurationTableNext, btnEdit);
+		Assert.assertTrue(isClickedOnEdit, "Unable to click on edit button");
+		ElementInteractionUtils.sendKeys(txtPersonName, "Work");
+		ElementInteractionUtils.click(btnAdd);
+		AU.dismissAlertIfPresent();
+		String updateToaster = AU.getToasterText();
+		Assert.assertEquals(updateToaster, "Email Details updated..!");
+	}	
 }

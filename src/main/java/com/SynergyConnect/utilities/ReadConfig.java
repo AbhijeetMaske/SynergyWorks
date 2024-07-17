@@ -68,4 +68,10 @@ public class ReadConfig {
 	public String getPassword() {
 		return properties.getProperty("Test_password");
 	}
+	public String getEmailConfiguration_Email() {
+		return properties.getProperty("EmailConfiguration_Email");
+	}
+	public String getEmailConfiguration_Password() {
+		return properties.getProperty("EmailConfiguration_Password");
+	}
 }
