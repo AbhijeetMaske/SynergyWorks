@@ -13,7 +13,7 @@ public class Login extends BaseClass {
     @Test(priority = 1, testName = "Login Test", alwaysRun = true)
     public void verifyLoginIsWorking() throws InterruptedException {
         // Create parent test node
-        ExtentTest parentTest = ExtentReportListener.createParentTest("Login Test","Verify that login functionality works");
+        ExtentTest parentTest = ExtentReportListener.createParentTest("Login Test","Verify that login functionality works").assignAuthor("Abhijeet Maske");
 
         // Assign tags
         ExtentReportListener.tags("Regression", "Smoke");
