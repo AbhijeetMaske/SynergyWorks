@@ -108,7 +108,7 @@ public class BaseClass {
         getDriver().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
 
         // For logging
-        logger = LogManager.getLogger("<=== SynergyWorks ===>");
+        logger = LogManager.getLogger("<== SynergyWorks ==>");
         logger.info("WebDriver initialized successfully for {}", browser);
     }
 
