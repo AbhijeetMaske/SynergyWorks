@@ -178,9 +178,9 @@ public class EmailConfigurationPage {
 	public void updateAddedEmailConfiguration() throws InterruptedException {
 		Thread.sleep(10000);
 		boolean isClickedOnEdit = ElementInteractionUtils.verifyTextInTableAndPerformAction("emailConfigTable", 2,
-				"Work", emailConfigurationTableNext, btnEdit);
+				"Purchase email", emailConfigurationTableNext, "//tbody/tr[","]/td[7]/div[1]/button[1]");
 		Assert.assertTrue(isClickedOnEdit, "Unable to click on edit button");
-		ElementInteractionUtils.sendKeys(txtPersonName, "Work");
+		ElementInteractionUtils.sendKeys(txtPersonName, "Purchase email updated");
 		ElementInteractionUtils.click(btnAdd);
 		AU.dismissAlertIfPresent();
 		String updateToaster = AU.getToasterText();

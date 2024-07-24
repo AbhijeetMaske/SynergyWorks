@@ -1423,7 +1423,7 @@ public class ElementInteractionUtils {
 	}
 
 	public static boolean verifyTextInTableAndPerformAction(String tableId, int tableColumnIndex, String searchText,
-			WebElement nextButton, WebElement actionButton) {
+			WebElement nextButton, String actionButtonPrefix, String actionButtonPostfix) {
 		try {
 			WebElement table = driver.findElement(By.id(tableId));
 			List<WebElement> tableEntries = table.findElements(By.tagName("tr"));
@@ -1441,8 +1441,9 @@ public class ElementInteractionUtils {
 					if (cellValue.contains(searchText)) {
 						highlightElement(searchText);
 						logger.info("Text '{}' found in cell value: {}", searchText, cellValue);
-						if (actionButton.isDisplayed()) {
-							actionButton.click();
+						WebElement actionElement = driver.findElement(By.xpath(actionButtonPrefix + i + actionButtonPostfix));
+						if (actionElement.isDisplayed()) {
+							actionElement.click();
 							logger.info("Action performed on text '{}'", searchText);
 							return true;
 						}
