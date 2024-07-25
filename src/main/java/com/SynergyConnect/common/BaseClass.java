@@ -114,7 +114,7 @@ public class BaseClass {
 
     @BeforeMethod
     public void beforeMethod(Method method) {
-    	logger.info("Executing test method: {}", method.getName());
+    	logger.info("🔃 Executing test method: {}", method.getName());
     	if (getDriver() == null) {
 			setupSuite(url, browser);
 		}
@@ -128,7 +128,7 @@ public class BaseClass {
     
     @AfterMethod
     public void afterMethod(Method method) {
-    	logger.info("Completed test method: {}", method.getName());
+    	logger.info("✅ Completed test method: {}", method.getName());
     }
     
     @AfterSuite
@@ -138,7 +138,7 @@ public class BaseClass {
                 getDriver().close();
                 getDriver().quit();
                 driverObject.remove();
-                logger.info("WebDriver closed and session ended successfully.");
+                logger.info("🛑 WebDriver closed and session ended successfully.");
             } catch (Exception e) {
                 logger.error("Error while closing WebDriver: " + e.getMessage(), e);
             }
