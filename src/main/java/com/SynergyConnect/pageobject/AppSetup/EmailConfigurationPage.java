@@ -162,7 +162,7 @@ public class EmailConfigurationPage {
 			lookupValues.put(4, "smtp.office365.com"); // Example column index and expected value
 			lookupValues.put(5, "587");
 			lookupValues.put(6, "Yes");
-			boolean result = ElementInteractionUtils.verifyTableData("emailConfigTable", 2, "Work", emailConfigurationTableNext, btnEdit, lookupValues);
+			boolean result = ElementInteractionUtils.verifyTableData("emailConfigTable", 2, "Work", emailConfigurationTableNext, lookupValues);
 			Assert.assertTrue(result, "Added email configuration data NOT found in the table.");
 		} catch (AssertionError ae) {
 			logger.error("Assertion failed while verifying added email configuration: ", ae);
@@ -180,7 +180,7 @@ public class EmailConfigurationPage {
 		boolean isClickedOnEdit = ElementInteractionUtils.verifyTextInTableAndPerformAction("emailConfigTable", 2,
 				"Purchase email", emailConfigurationTableNext, "//tbody/tr[","]/td[7]/div[1]/button[1]");
 		Assert.assertTrue(isClickedOnEdit, "Unable to click on edit button");
-		ElementInteractionUtils.sendKeys(txtPersonName, "Purchase email updated");
+		ElementInteractionUtils.sendKeys(txtPersonName, "Purchase email");
 		ElementInteractionUtils.click(btnAdd);
 		AU.dismissAlertIfPresent();
 		String updateToaster = AU.getToasterText();

@@ -1422,6 +1422,19 @@ public class ElementInteractionUtils {
 		}
 	}
 
+	/********************************************************************************************
+	 * Verifies if a specified text is present in a table column and performs an action if found.
+	 * 
+	 * @param tableId              The ID of the table.
+	 * @param tableColumnIndex     The column index to search in.
+	 * @param searchText           The text to search for.
+	 * @param nextButton           The WebElement representing the next button.
+	 * @param actionButtonPrefix   The XPath prefix for locating the action button within the same row.
+	 * @param actionButtonPostfix  The XPath postfix for locating the action button within the same row.
+	 * @return True if the text is found and action performed, false otherwise.
+	 * 
+	 * @version 1.0 July 08, 2024
+	 ********************************************************************************************/
 	public static boolean verifyTextInTableAndPerformAction(String tableId, int tableColumnIndex, String searchText,
 			WebElement nextButton, String actionButtonPrefix, String actionButtonPostfix) {
 		try {
@@ -1469,8 +1482,20 @@ public class ElementInteractionUtils {
 		}
 	}
 
+	/********************************************************************************************
+	 * Verifies if a specified text is present in a table column and performs an action if found.
+	 * 
+	 * @param tableId              The ID of the table.
+	 * @param tableColumnIndex     The column index to search in.
+	 * @param searchText           The text to search for.
+	 * @param nextButton           The WebElement representing the next button.
+	 * @param additionalLookupValues A map containing column indexes and expected values for additional verification within the same row.
+	 * @return True if the text is found, false otherwise.
+	 * 
+	 * @version 1.0 July 08, 2024
+	 ********************************************************************************************/
 	public static boolean verifyTableData(String tableId, int tableColumnIndex, String searchText,
-			WebElement nextButton, WebElement actionButton, Map<Integer, String> additionalLookupValues) {
+			WebElement nextButton, Map<Integer, String> additionalLookupValues) {
 		try {
 			WebElement table = driver.findElement(By.id(tableId));
 			List<WebElement> tableEntries = table.findElements(By.tagName("tr"));
@@ -1530,7 +1555,20 @@ public class ElementInteractionUtils {
 			return false;
 		}
 	}
-	
+	/********************************************************************************************
+	 * Verifies if a specified text is present in a table column and performs an action if found.
+	 * 
+	 * @param tableId              The ID of the table.
+	 * @param tableColumnIndex     The column index to search in.
+	 * @param searchText           The text to search for.
+	 * @param nextButton           The WebElement representing the next button.
+	 * @param actionButtonPrefix   The XPath prefix for locating the action button within the same row.
+	 * @param actionButtonPostfix  The XPath postfix for locating the action button within the same row.
+	 * @param additionalLookupValues A map containing column indexes and expected values for additional verification within the same row.
+	 * @return True if the text is found and action performed, false otherwise.
+	 * 
+	 * @version 1.0 July 08, 2024
+	 ********************************************************************************************/
 	public static boolean verifyTableDataAndPerformAction(String tableId, int tableColumnIndex, String searchText,
 			WebElement nextButton, WebElement actionButton, Map<Integer, String> additionalLookupValues) {
 		try {
@@ -1598,6 +1636,7 @@ public class ElementInteractionUtils {
 			return false;
 		}
 	}
+	
 	public static String getElementVisibleText(WebElement webElement) {
 		String text = null;
 		try {
