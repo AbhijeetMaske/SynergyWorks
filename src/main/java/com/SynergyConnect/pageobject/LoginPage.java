@@ -7,10 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.SynergyConnect.common.BaseClass;
 import com.SynergyConnect.utilities.ElementInteractionUtils;
-import com.SynergyConnect.utilities.ExtentReportListener;
 import com.SynergyConnect.utilities.ReadConfig;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
 
 public class LoginPage {
 	ElementInteractionUtils EI;
