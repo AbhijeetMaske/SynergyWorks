@@ -17,8 +17,10 @@ public class DateTimeUtils {
      * @version 1.0 June 27,2023
      ********************************************************************************************/
     public static String getCurrentDate() {
-        LocalDate currentDate = LocalDate.now();
-        return currentDate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+    	LocalDate currentDate = LocalDate.now();
+		String formattedDate = currentDate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+		logger.info("Current date retrieved: {}", formattedDate);
+		return formattedDate;
     }
 
     /********************************************************************************************
@@ -30,8 +32,10 @@ public class DateTimeUtils {
      * @version 1.0 June 27,2023
      ********************************************************************************************/
     public static String getCurrentDateTime() {
-        LocalDateTime currentDateTime = LocalDateTime.now();
-        return currentDateTime.format(DateTimeFormatter.ofPattern("yyyy_MM_dd_HH_mm_ss"));
+    	LocalDateTime currentDateTime = LocalDateTime.now();
+		String formattedDateTime = currentDateTime.format(DateTimeFormatter.ofPattern("yyyy_MM_dd_HH_mm_ss"));
+		logger.info("Current date and time retrieved: {}", formattedDateTime);
+		return formattedDateTime;
     }
 
     /********************************************************************************************
@@ -45,14 +49,15 @@ public class DateTimeUtils {
      * @version 1.0 June 27,2023
      ********************************************************************************************/
     public static String formatDateTime(LocalDateTime dateTime, String pattern) {
-        try {
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern(pattern);
-            return dateTime.format(formatter);
-        } catch (Exception e) {
-        	logger.error("Error occurred while formatting DateTime: " + e.getMessage());
-            e.printStackTrace();
-            return null;
-        }
+    	try {
+			DateTimeFormatter formatter = DateTimeFormatter.ofPattern(pattern);
+			String formattedDateTime = dateTime.format(formatter);
+			logger.info("DateTime formatted successfully: {}", formattedDateTime);
+			return formattedDateTime;
+		} catch (Exception e) {
+			logger.error("Error occurred while formatting DateTime: {}", e.getMessage(), e);
+			return null;
+		}
     }
     
     /********************************************************************************************
@@ -66,14 +71,15 @@ public class DateTimeUtils {
      * @version 1.0 June 27,2023
      ********************************************************************************************/
     public static LocalDateTime parseDateTime(String dateTimeStr, String pattern) {
-        try {
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern(pattern);
-            return LocalDateTime.parse(dateTimeStr, formatter);
-        } catch (Exception e) {
-        	 logger.error("Error occurred while parsing DateTime: " + e.getMessage());
-            e.printStackTrace();
-            return null;
-        }
+    	try {
+			DateTimeFormatter formatter = DateTimeFormatter.ofPattern(pattern);
+			LocalDateTime parsedDateTime = LocalDateTime.parse(dateTimeStr, formatter);
+			logger.info("DateTime parsed successfully: {}", parsedDateTime);
+			return parsedDateTime;
+		} catch (Exception e) {
+			logger.error("Error occurred while parsing DateTime: {}", e.getMessage(), e);
+			return null;
+		}
     }
 
     /********************************************************************************************
@@ -88,12 +94,13 @@ public class DateTimeUtils {
      * @version 1.0 June 27,2023
      ********************************************************************************************/
     public static long calculateDifference(LocalDateTime startDateTime, LocalDateTime endDateTime, ChronoUnit unit) {
-        try {
-            return unit.between(startDateTime, endDateTime);
-        } catch (Exception e) {
-        	logger.error("Error occurred while calculating DateTime difference: " + e.getMessage());
-            e.printStackTrace();
-            return -1;
-        }
-    }
+    	try {
+			long difference = unit.between(startDateTime, endDateTime);
+			logger.info("Difference calculated: {} {}", difference, unit);
+			return difference;
+		} catch (Exception e) {
+			logger.error("Error occurred while calculating DateTime difference: {}", e.getMessage(), e);
+			return -1;
+		}
+	}
 }

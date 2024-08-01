@@ -22,18 +22,18 @@ public class ReadConfig {
      * @version 1.0 June 27,2023
      ********************************************************************************************/
     public ReadConfig() {
-        // Get the current working directory
+    	// Get the current working directory
         String userDir = System.getProperty("user.dir");
         // Construct the path to the config.properties file
-        String path = userDir + "\\Configuration\\application.properties";
-
+        String path = userDir + "\\Configuration\\config.properties";
+        logger.info("Loading configuration from: {}", path);
         try {
             FileInputStream fis = new FileInputStream(path);
             properties = new Properties();
             properties.load(fis);
+            logger.info("Configuration loaded successfully from: {}", path);
         } catch (IOException e) {
-        	logger.error("Error loading config properties: " + e.getMessage());
-            e.printStackTrace();
+        	logger.error("Error loading config properties from {}: {}", path, e.getMessage(), e);
         }
     }
 
@@ -46,7 +46,9 @@ public class ReadConfig {
      * @version 1.0 June 27,2023
      ********************************************************************************************/
     public String getBaseUrl() {
-        return properties.getProperty("baseUrl");
+    	String baseUrl = properties.getProperty("baseUrl");
+        logger.info("Base URL retrieved: {}", baseUrl);
+        return baseUrl;
     }
 
     /********************************************************************************************
@@ -58,20 +60,30 @@ public class ReadConfig {
      * @version 1.0 June 27,2023
      ********************************************************************************************/
     public String getBrowser() {
-        return properties.getProperty("browser");
+    	String browser = properties.getProperty("browser");
+        logger.info("Browser type retrieved: {}", browser);
+        return browser;
     }
     
     public String getUserId() {
-        return properties.getProperty("Test_userid");
+    	String userId = properties.getProperty("Test_userid");
+    	logger.info("User ID retrieved: {}", userId);
+        return userId;
     }
     
 	public String getPassword() {
-		return properties.getProperty("Test_password");
+		String password = properties.getProperty("Test_password");
+		logger.info("password retrieved: {}", password);
+		return password;
 	}
 	public String getEmailConfiguration_Email() {
-		return properties.getProperty("EmailConfiguration_Email");
+		String gmail_Email = properties.getProperty("EmailConfiguration_Email");
+		logger.info("gmail address retrieved: {}", gmail_Email);
+		return gmail_Email;
 	}
 	public String getEmailConfiguration_Password() {
-		return properties.getProperty("EmailConfiguration_Password");
+		String gmail_password = properties.getProperty("EmailConfiguration_Password");
+		logger.info("gmail password retrieved: {}", gmail_password);
+		return gmail_password;
 	}
 }
