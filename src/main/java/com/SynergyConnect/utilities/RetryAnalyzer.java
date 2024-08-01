@@ -22,11 +22,12 @@ public class RetryAnalyzer implements IRetryAnalyzer {
     @Override
     public boolean retry(ITestResult result) {
         if (retryCount < maxRetryCount) {
-            retryCount++;
-            logger.info("Retrying test case: " + result.getMethod().getMethodName() +
-                    ", Retry attempt: " + retryCount);
-            return true;
-        }
-        return false;
-    }
+			retryCount++;
+			logger.info("Retrying test case: {}, Retry attempt: {}", result.getMethod().getMethodName(), retryCount);
+			return true;
+		}
+		logger.warn("Test case: {} exceeded maximum retry attempts of {}", result.getMethod().getMethodName(),
+				maxRetryCount);
+		return false;
+	}
 }
