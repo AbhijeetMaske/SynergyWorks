@@ -36,7 +36,7 @@ public class LoginPage {
 	@FindBy(xpath = "//button[text()='Login']")
 	WebElement Login;
 
-	@FindBy(xpath = "//*[@id=\"app\"]/div/div[1]/nav[1]/div[1]/div[1]/a/em")
+	@FindBy(xpath = "//*[@id=\"socialIntegratedPlatform\"]")
 	WebElement NavBar;
 
 	@FindBy(xpath = "//*[@id=\"productworks\"]")

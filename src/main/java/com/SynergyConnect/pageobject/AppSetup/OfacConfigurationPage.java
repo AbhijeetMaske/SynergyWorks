@@ -28,7 +28,7 @@ public class OfacConfigurationPage {
 		private WebElement ddlAppSetup;
 
 		@FindBy(xpath="//span[contains(text(),'OFAC Configuration')]")
-		private WebElement ddlBankName;
+		private WebElement ddlOfacConfiguration;
 		
 		@FindBy(xpath="//*[@id=\"collapseBtn\"]")
 		private WebElement btnOfacConfigurationAdd;
@@ -44,6 +44,9 @@ public class OfacConfigurationPage {
 		
 		@FindBy (xpath="//*[@id=\"addOFACMasterForm\"]/div/div/div[3]/button[2]")
 		private WebElement btnCancel;
+		
+		@FindBy (xpath="//*[@id=\"activeBtn\"]")
+		private WebElement btnActiveTab;
 		
 		@FindBy (xpath="//*[@id=\"activeOFACMasterData_wrapper\"]")
 		private WebElement tblBankNameActive;
