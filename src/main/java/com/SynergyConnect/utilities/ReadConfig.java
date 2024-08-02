@@ -25,7 +25,7 @@ public class ReadConfig {
     	// Get the current working directory
         String userDir = System.getProperty("user.dir");
         // Construct the path to the config.properties file
-        String path = userDir + "\\Configuration\\config.properties";
+        String path = userDir + "\\Configuration\\application.properties";
         logger.info("Loading configuration from: {}", path);
         try {
             FileInputStream fis = new FileInputStream(path);

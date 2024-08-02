@@ -7023,3 +7023,900 @@ Session ID: 13e0fd7f98a513861743cf22f57f91a0
 2024-07-24 18:26:43.316 INFO  3872 --- [main] ExtentReportListener : Finishing Test Suite: Login Tests
 2024-07-24 18:26:44.812 INFO  3872 --- [main] ExtentReportListener : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks/extentReports/ExtentReport_2024_07_24_18_25_29.html
 2024-07-24 18:26:45.734 INFO  3872 --- [main] <== SynergyWorks ==> : 🛑 WebDriver closed and session ended successfully.
+2024-08-01 15:35:37.997 INFO  8524 --- [main] DateTimeUtils : Current date and time retrieved: 2024_08_01_15_35_37
+2024-08-01 15:35:38.321 INFO  8524 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\config.properties
+2024-08-01 15:35:38.322 ERROR 8524 --- [main] ReadConfig : Error loading config properties from C:\Users\Abhijeet\git\SynergyWorks\Configuration\config.properties: C:\Users\Abhijeet\git\SynergyWorks\Configuration\config.properties (The system cannot find the file specified)
+java.io.FileNotFoundException: C:\Users\Abhijeet\git\SynergyWorks\Configuration\config.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112) ~[?:?]
+	at com.SynergyConnect.utilities.ReadConfig.<init>(ReadConfig.java:31) ~[classes/:?]
+	at com.SynergyConnect.common.BaseClass.<init>(BaseClass.java:23) ~[classes/:?]
+	at com.SynergyConnect.testcases.Login.<init>(Login.java:11) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) [?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) [?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484) [?:?]
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:38) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.ITestObjectFactory.newInstance(ITestObjectFactory.java:18) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.objects.SimpleObjectDispenser.instantiateUsingDefaultConstructor(SimpleObjectDispenser.java:178) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.objects.SimpleObjectDispenser.createInstance(SimpleObjectDispenser.java:87) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:40) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:28) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:106) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:136) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestClass.getInstances(TestClass.java:129) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:109) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestClass.init(TestClass.java:101) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestClass.<init>(TestClass.java:66) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.initMethods(TestRunner.java:483) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.init(TestRunner.java:356) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.init(TestRunner.java:309) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.<init>(TestRunner.java:228) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.remote.support.RemoteTestNG7_8$1.newTestRunner(RemoteTestNG7_8.java:34) [testng-remote.jar:?]
+	at org.testng.remote.support.RemoteTestNG7_8$DelegatingTestRunnerFactory.newTestRunner(RemoteTestNG7_8.java:67) [testng-remote.jar:?]
+	at org.testng.ITestRunnerFactory.newTestRunner(ITestRunnerFactory.java:52) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner$ProxyTestRunnerFactory.newTestRunner(SuiteRunner.java:720) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.init(SuiteRunner.java:224) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:116) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1375) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1349) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1191) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-08-01 15:35:38.462 INFO  8524 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\config.properties
+2024-08-01 15:35:38.463 ERROR 8524 --- [main] ReadConfig : Error loading config properties from C:\Users\Abhijeet\git\SynergyWorks\Configuration\config.properties: C:\Users\Abhijeet\git\SynergyWorks\Configuration\config.properties (The system cannot find the file specified)
+java.io.FileNotFoundException: C:\Users\Abhijeet\git\SynergyWorks\Configuration\config.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112) ~[?:?]
+	at com.SynergyConnect.utilities.ReadConfig.<init>(ReadConfig.java:31) ~[classes/:?]
+	at com.SynergyConnect.common.BaseClass.<init>(BaseClass.java:23) ~[classes/:?]
+	at com.SynergyConnect.testcases.AppSetup.EmailConfiguration.<init>(EmailConfiguration.java:17) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) [?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) [?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484) [?:?]
+	at org.testng.internal.objects.InstanceCreator.newInstance(InstanceCreator.java:38) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.ITestObjectFactory.newInstance(ITestObjectFactory.java:18) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.objects.SimpleObjectDispenser.instantiateUsingDefaultConstructor(SimpleObjectDispenser.java:178) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.objects.SimpleObjectDispenser.createInstance(SimpleObjectDispenser.java:87) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.objects.SimpleObjectDispenser.dispense(SimpleObjectDispenser.java:40) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.objects.GuiceBasedObjectDispenser.dispense(GuiceBasedObjectDispenser.java:28) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:106) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:136) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestClass.getInstances(TestClass.java:129) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:109) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestClass.init(TestClass.java:101) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestClass.<init>(TestClass.java:66) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.initMethods(TestRunner.java:483) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.init(TestRunner.java:356) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.init(TestRunner.java:309) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.<init>(TestRunner.java:228) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.remote.support.RemoteTestNG7_8$1.newTestRunner(RemoteTestNG7_8.java:34) [testng-remote.jar:?]
+	at org.testng.remote.support.RemoteTestNG7_8$DelegatingTestRunnerFactory.newTestRunner(RemoteTestNG7_8.java:67) [testng-remote.jar:?]
+	at org.testng.ITestRunnerFactory.newTestRunner(ITestRunnerFactory.java:52) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner$ProxyTestRunnerFactory.newTestRunner(SuiteRunner.java:720) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.init(SuiteRunner.java:224) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:116) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1375) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1349) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1191) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-08-01 15:35:45.492 INFO  8524 --- [main] <== SynergyWorks ==> : WebDriver initialized successfully for chrome
+2024-08-01 15:35:45.498 INFO  8524 --- [main] <== SynergyWorks ==> : WebDriver initialized before suite with browser: chrome
+2024-08-01 15:35:45.514 INFO  8524 --- [main] ExtentReportListener : Starting Test Suite: Login Tests
+2024-08-01 15:35:46.016 INFO  8524 --- [main] ExtentReportListener : ExtentReport initialized with SparkReporter
+2024-08-01 15:35:46.079 INFO  8524 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: verifyLoginIsWorking
+2024-08-01 15:35:46.083 INFO  8524 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: verifyLoginIsWorking with browser: chrome
+2024-08-01 15:35:46.109 INFO  8524 --- [main] ExtentReportListener : Starting Test: verifyLoginIsWorking
+2024-08-01 15:35:46.148 INFO  8524 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\config.properties
+2024-08-01 15:35:46.150 ERROR 8524 --- [main] ReadConfig : Error loading config properties from C:\Users\Abhijeet\git\SynergyWorks\Configuration\config.properties: C:\Users\Abhijeet\git\SynergyWorks\Configuration\config.properties (The system cannot find the file specified)
+java.io.FileNotFoundException: C:\Users\Abhijeet\git\SynergyWorks\Configuration\config.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112) ~[?:?]
+	at com.SynergyConnect.utilities.ReadConfig.<init>(ReadConfig.java:31) ~[classes/:?]
+	at com.SynergyConnect.pageobject.LoginPage.<init>(LoginPage.java:22) ~[classes/:?]
+	at com.SynergyConnect.testcases.Login.verifyLoginIsWorking(Login.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-08-01 15:35:46.171 ERROR 8524 --- [main] ExtentReportListener : Test Failed: verifyLoginIsWorking
+2024-08-01 15:35:46.294 INFO  8524 --- [main] UtilMethods : Screenshot captured for test: verifyLoginIsWorking at path: C:\Users\Abhijeet\git\SynergyWorks\screenshots\verifyLoginIsWorking.png
+2024-08-01 15:35:46.295 INFO  8524 --- [main] ExtentReportListener : Screenshot captured for failed test: verifyLoginIsWorking
+2024-08-01 15:35:46.319 INFO  8524 --- [main] <== SynergyWorks ==> : ✅ Completed test method: verifyLoginIsWorking
+2024-08-01 15:35:46.328 INFO  8524 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\config.properties
+2024-08-01 15:35:46.328 ERROR 8524 --- [main] ReadConfig : Error loading config properties from C:\Users\Abhijeet\git\SynergyWorks\Configuration\config.properties: C:\Users\Abhijeet\git\SynergyWorks\Configuration\config.properties (The system cannot find the file specified)
+java.io.FileNotFoundException: C:\Users\Abhijeet\git\SynergyWorks\Configuration\config.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158) ~[?:?]
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112) ~[?:?]
+	at com.SynergyConnect.utilities.ReadConfig.<init>(ReadConfig.java:31) ~[classes/:?]
+	at com.SynergyConnect.pageobject.AppSetup.EmailConfigurationPage.<init>(EmailConfigurationPage.java:24) ~[classes/:?]
+	at com.SynergyConnect.testcases.AppSetup.EmailConfiguration.setUp(EmailConfiguration.java:25) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-08-01 15:35:46.401 INFO  8524 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (0490a8781655f07ab53ce93eac11a21b)
+2024-08-01 15:35:46.417 INFO  8524 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: pageRedirection
+2024-08-01 15:35:46.418 INFO  8524 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: pageRedirection with browser: null
+2024-08-01 15:35:46.424 INFO  8524 --- [main] ExtentReportListener : Starting Test: pageRedirection
+2024-08-01 15:36:16.524 INFO  8524 --- [main] ExtentReportListener : Test Passed: pageRedirection
+2024-08-01 15:36:16.581 INFO  8524 --- [main] <== SynergyWorks ==> : ✅ Completed test method: pageRedirection
+2024-08-01 15:36:16.587 INFO  8524 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: validateEmailConfigurationForm
+2024-08-01 15:36:16.588 INFO  8524 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: validateEmailConfigurationForm with browser: null
+2024-08-01 15:36:16.594 INFO  8524 --- [main] ExtentReportListener : Starting Test: validateEmailConfigurationForm
+2024-08-01 15:36:26.661 ERROR 8524 --- [main] EmailConfigurationPage : Exception occurred during email configuration form validation: 
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.182)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0490a8781655f07ab53ce93eac11a21b, findElement {using=xpath, value=//*[@id="collapseBtn"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\Abhijeet\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50571}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50571/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0490a8781655f07ab53ce93eac11a21b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.13.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.13.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy35.toString(Unknown Source) ~[?:?]
+	at java.base/java.lang.String.valueOf(String.java:4230) ~[?:?]
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:173) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:669) ~[selenium-support-4.13.0.jar:?]
+	at java.base/java.lang.String.valueOf(String.java:4230) ~[?:?]
+	at java.base/java.lang.StringBuilder.append(StringBuilder.java:173) ~[?:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:227) ~[selenium-support-4.13.0.jar:?]
+	at com.SynergyConnect.utilities.ElementInteractionUtils.click(ElementInteractionUtils.java:61) ~[classes/:?]
+	at com.SynergyConnect.pageobject.AppSetup.EmailConfigurationPage.emailConfigurtionFormvalidation(EmailConfigurationPage.java:106) ~[classes/:?]
+	at com.SynergyConnect.testcases.AppSetup.EmailConfiguration.validateEmailConfigurationForm(EmailConfiguration.java:45) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-08-01 15:36:26.679 INFO  8524 --- [main] ExtentReportListener : Test Passed: validateEmailConfigurationForm
+2024-08-01 15:36:26.691 INFO  8524 --- [main] <== SynergyWorks ==> : ✅ Completed test method: validateEmailConfigurationForm
+2024-08-01 15:36:26.705 INFO  8524 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: addEmailConfiguration
+2024-08-01 15:36:26.706 INFO  8524 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: addEmailConfiguration with browser: null
+2024-08-01 15:36:26.714 INFO  8524 --- [main] ExtentReportListener : Starting Test: addEmailConfiguration
+2024-08-01 15:36:37.061 INFO  8524 --- [main] ExtentReportListener : Test Passed: addEmailConfiguration
+2024-08-01 15:36:37.066 INFO  8524 --- [main] <== SynergyWorks ==> : ✅ Completed test method: addEmailConfiguration
+2024-08-01 15:36:37.069 INFO  8524 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: verifyEmailConfigurationAdd
+2024-08-01 15:36:37.070 INFO  8524 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: verifyEmailConfigurationAdd with browser: null
+2024-08-01 15:36:37.073 INFO  8524 --- [main] ExtentReportListener : Starting Test: verifyEmailConfigurationAdd
+2024-08-01 15:36:37.075 ERROR 8524 --- [main] EmailConfigurationPage : Error verifying added email configuration: 
+java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.properties" is null
+	at com.SynergyConnect.utilities.ReadConfig.getEmailConfiguration_Email(ReadConfig.java:80) ~[classes/:?]
+	at com.SynergyConnect.pageobject.AppSetup.EmailConfigurationPage.verifyAddedEmailConfigurtion(EmailConfigurationPage.java:161) ~[classes/:?]
+	at com.SynergyConnect.testcases.AppSetup.EmailConfiguration.verifyEmailConfigurationAdd(EmailConfiguration.java:69) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-08-01 15:36:37.089 ERROR 8524 --- [main] ExtentReportListener : Test Failed: verifyEmailConfigurationAdd
+2024-08-01 15:36:37.101 ERROR 8524 --- [main] ExtentReportListener : Test Failed: verifyEmailConfigurationAdd
+2024-08-01 15:36:37.111 INFO  8524 --- [main] ExtentReportListener : Finishing Test Suite: Login Tests
+2024-08-01 15:36:39.034 INFO  8524 --- [main] ExtentReportListener : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks/extentReports/ExtentReport_2024_08_01_15_35_37.html
+2024-08-01 15:37:49.558 INFO  11260 --- [main] DateTimeUtils : Current date and time retrieved: 2024_08_01_15_37_49
+2024-08-01 15:37:49.705 INFO  11260 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:37:49.709 INFO  11260 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:37:49.789 INFO  11260 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:37:49.790 INFO  11260 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:37:53.900 INFO  11260 --- [main] <== SynergyWorks ==> : WebDriver initialized successfully for chrome
+2024-08-01 15:37:53.906 INFO  11260 --- [main] <== SynergyWorks ==> : WebDriver initialized before suite with browser: chrome
+2024-08-01 15:37:53.923 INFO  11260 --- [main] ExtentReportListener : Starting Test Suite: Login Tests
+2024-08-01 15:37:54.566 INFO  11260 --- [main] ExtentReportListener : ExtentReport initialized with SparkReporter
+2024-08-01 15:37:54.620 INFO  11260 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: verifyLoginIsWorking
+2024-08-01 15:37:54.622 INFO  11260 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: verifyLoginIsWorking with browser: chrome
+2024-08-01 15:37:54.650 INFO  11260 --- [main] ExtentReportListener : Starting Test: verifyLoginIsWorking
+2024-08-01 15:37:54.674 INFO  11260 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:37:54.676 INFO  11260 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:37:54.677 INFO  11260 --- [main] ReadConfig : User ID retrieved: jiten@synergyconnect.in
+2024-08-01 15:37:54.679 INFO  11260 --- [main] ReadConfig : password retrieved: 55f7a6d1
+2024-08-01 15:37:54.733 INFO  11260 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (017444c6e59d2dc04e2921616c6a9ac8)
+2024-08-01 15:38:55.020 ERROR 11260 --- [main] <== SynergyWorks ==> : Test case verifyLoginIsWorking failed: timeout: Timed out receiving message from renderer: 60.000
+  (Session info: chrome=126.0.6478.182)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [017444c6e59d2dc04e2921616c6a9ac8, get {url=https://test30.synergyapps.in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\Abhijeet\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55229}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55229/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 017444c6e59d2dc04e2921616c6a9ac8
+2024-08-01 15:38:55.047 INFO  11260 --- [main] ExtentReportListener : Test Passed: verifyLoginIsWorking
+2024-08-01 15:38:55.065 INFO  11260 --- [main] <== SynergyWorks ==> : ✅ Completed test method: verifyLoginIsWorking
+2024-08-01 15:38:55.085 INFO  11260 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:38:55.095 INFO  11260 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:38:55.131 INFO  11260 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (017444c6e59d2dc04e2921616c6a9ac8)
+2024-08-01 15:38:55.136 INFO  11260 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: pageRedirection
+2024-08-01 15:38:55.136 INFO  11260 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: pageRedirection with browser: null
+2024-08-01 15:38:55.138 INFO  11260 --- [main] ExtentReportListener : Starting Test: pageRedirection
+2024-08-01 15:39:25.233 INFO  11260 --- [main] ExtentReportListener : Test Passed: pageRedirection
+2024-08-01 15:39:25.238 INFO  11260 --- [main] <== SynergyWorks ==> : ✅ Completed test method: pageRedirection
+2024-08-01 15:39:25.242 INFO  11260 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: validateEmailConfigurationForm
+2024-08-01 15:39:25.244 INFO  11260 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: validateEmailConfigurationForm with browser: null
+2024-08-01 15:39:25.249 INFO  11260 --- [main] ExtentReportListener : Starting Test: validateEmailConfigurationForm
+2024-08-01 15:39:55.434 ERROR 11260 --- [main] EmailConfigurationPage : Exception occurred during email configuration form validation: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="collapseBtn"]"}
+  (Session info: chrome=126.0.6478.182)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [017444c6e59d2dc04e2921616c6a9ac8, findElement {using=xpath, value=//*[@id="collapseBtn"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\Abhijeet\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55229}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55229/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 017444c6e59d2dc04e2921616c6a9ac8
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.13.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.13.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy35.getTagName(Unknown Source) ~[?:?]
+	at com.SynergyConnect.utilities.ElementInteractionUtils.describeElement(ElementInteractionUtils.java:175) ~[classes/:?]
+	at com.SynergyConnect.utilities.ElementInteractionUtils.click(ElementInteractionUtils.java:67) ~[classes/:?]
+	at com.SynergyConnect.pageobject.AppSetup.EmailConfigurationPage.emailConfigurtionFormvalidation(EmailConfigurationPage.java:106) ~[classes/:?]
+	at com.SynergyConnect.testcases.AppSetup.EmailConfiguration.validateEmailConfigurationForm(EmailConfiguration.java:45) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-08-01 15:39:55.475 INFO  11260 --- [main] ExtentReportListener : Test Passed: validateEmailConfigurationForm
+2024-08-01 15:39:55.484 INFO  11260 --- [main] <== SynergyWorks ==> : ✅ Completed test method: validateEmailConfigurationForm
+2024-08-01 15:39:55.486 INFO  11260 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: addEmailConfiguration
+2024-08-01 15:39:55.487 INFO  11260 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: addEmailConfiguration with browser: null
+2024-08-01 15:39:55.499 INFO  11260 --- [main] ExtentReportListener : Starting Test: addEmailConfiguration
+2024-08-01 15:40:25.665 INFO  11260 --- [main] ExtentReportListener : Test Passed: addEmailConfiguration
+2024-08-01 15:40:25.670 INFO  11260 --- [main] <== SynergyWorks ==> : ✅ Completed test method: addEmailConfiguration
+2024-08-01 15:40:25.673 INFO  11260 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: verifyEmailConfigurationAdd
+2024-08-01 15:40:25.674 INFO  11260 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: verifyEmailConfigurationAdd with browser: null
+2024-08-01 15:40:25.678 INFO  11260 --- [main] ExtentReportListener : Starting Test: verifyEmailConfigurationAdd
+2024-08-01 15:40:25.678 INFO  11260 --- [main] ReadConfig : gmail address retrieved: info@synergyconnect.in
+2024-08-01 15:40:35.749 ERROR 11260 --- [main] ElementInteractionUtils : Exception occurred while verifying text in table and performing action: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#emailConfigTable"}
+  (Session info: chrome=126.0.6478.182)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [017444c6e59d2dc04e2921616c6a9ac8, findElement {using=id, value=emailConfigTable}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\Abhijeet\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55229}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55229/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 017444c6e59d2dc04e2921616c6a9ac8
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353) ~[selenium-remote-driver-4.13.0.jar:?]
+	at com.SynergyConnect.utilities.ElementInteractionUtils.verifyTableData(ElementInteractionUtils.java:1500) ~[classes/:?]
+	at com.SynergyConnect.pageobject.AppSetup.EmailConfigurationPage.verifyAddedEmailConfigurtion(EmailConfigurationPage.java:165) ~[classes/:?]
+	at com.SynergyConnect.testcases.AppSetup.EmailConfiguration.verifyEmailConfigurationAdd(EmailConfiguration.java:69) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-08-01 15:40:35.777 ERROR 11260 --- [main] EmailConfigurationPage : Assertion failed while verifying added email configuration: 
+java.lang.AssertionError: Added email configuration data NOT found in the table. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at com.SynergyConnect.pageobject.AppSetup.EmailConfigurationPage.verifyAddedEmailConfigurtion(EmailConfigurationPage.java:166) ~[classes/:?]
+	at com.SynergyConnect.testcases.AppSetup.EmailConfiguration.verifyEmailConfigurationAdd(EmailConfiguration.java:69) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-08-01 15:40:35.780 ERROR 11260 --- [main] ExtentReportListener : Test Failed: verifyEmailConfigurationAdd
+2024-08-01 15:41:28.918 ERROR 11260 --- [main] ExtentReportListener : Test Failed: verifyEmailConfigurationAdd
+2024-08-01 15:41:28.939 INFO  11260 --- [main] ExtentReportListener : Finishing Test Suite: Login Tests
+2024-08-01 15:41:31.624 INFO  11260 --- [main] ExtentReportListener : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks/extentReports/ExtentReport_2024_08_01_15_37_49.html
+2024-08-01 15:44:12.361 INFO  12312 --- [main] DateTimeUtils : Current date and time retrieved: 2024_08_01_15_44_12
+2024-08-01 15:44:12.584 INFO  12312 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:44:12.586 INFO  12312 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:44:12.666 INFO  12312 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:44:12.667 INFO  12312 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:44:18.420 INFO  12312 --- [main] <== SynergyWorks ==> : WebDriver initialized successfully for chrome
+2024-08-01 15:44:18.430 INFO  12312 --- [main] <== SynergyWorks ==> : WebDriver initialized before suite with browser: chrome
+2024-08-01 15:44:18.451 INFO  12312 --- [main] ExtentReportListener : Starting Test Suite: Login Tests
+2024-08-01 15:44:18.922 INFO  12312 --- [main] ExtentReportListener : ExtentReport initialized with SparkReporter
+2024-08-01 15:44:18.974 INFO  12312 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: verifyLoginIsWorking
+2024-08-01 15:44:18.978 INFO  12312 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: verifyLoginIsWorking with browser: chrome
+2024-08-01 15:44:18.998 INFO  12312 --- [main] ExtentReportListener : Starting Test: verifyLoginIsWorking
+2024-08-01 15:44:19.022 INFO  12312 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:44:19.024 INFO  12312 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:44:19.024 INFO  12312 --- [main] ReadConfig : User ID retrieved: jiten@synergyconnect.in
+2024-08-01 15:44:19.025 INFO  12312 --- [main] ReadConfig : password retrieved: 55f7a6d1
+2024-08-01 15:44:19.127 INFO  12312 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (fd3a7698f1068d4f5828c40f73002d5d)
+2024-08-01 15:44:19.880 INFO  12312 --- [main] <== SynergyWorks ==> : Navigated to URL: https://test30.synergyapps.in
+2024-08-01 15:44:20.485 INFO  12312 --- [main] <== SynergyWorks ==> : Browser window maximized
+2024-08-01 15:44:21.100 INFO  12312 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (fd3a7698f1068d4f5828c40f73002d5d)] -> id: username]
+2024-08-01 15:44:22.130 INFO  12312 --- [main] <== SynergyWorks ==> : Entered User ID
+2024-08-01 15:44:22.202 INFO  12312 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (fd3a7698f1068d4f5828c40f73002d5d)] -> id: password]
+2024-08-01 15:44:23.027 INFO  12312 --- [main] <== SynergyWorks ==> : Entered Password
+2024-08-01 15:44:40.062 INFO  12312 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-08-01 15:44:40.062 INFO  12312 --- [main] <== SynergyWorks ==> : Clicked on Login button
+2024-08-01 15:44:40.073 INFO  12312 --- [main] <== SynergyWorks ==> : Validated homepage URL
+2024-08-01 15:45:10.224 ERROR 12312 --- [main] <== SynergyWorks ==> : Test case verifyLoginIsWorking failed: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em"}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd3a7698f1068d4f5828c40f73002d5d, findElement {using=xpath, value=//*[@id="app"]/div/div[1]/nav[1]/div[1]/div[1]/a/em}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\Abhijeet\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53444}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53444/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd3a7698f1068d4f5828c40f73002d5d
+2024-08-01 15:45:10.231 INFO  12312 --- [main] ExtentReportListener : Test Passed: verifyLoginIsWorking
+2024-08-01 15:45:10.239 INFO  12312 --- [main] <== SynergyWorks ==> : ✅ Completed test method: verifyLoginIsWorking
+2024-08-01 15:45:10.249 INFO  12312 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:45:10.250 INFO  12312 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:45:10.288 INFO  12312 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (fd3a7698f1068d4f5828c40f73002d5d)
+2024-08-01 15:45:10.293 INFO  12312 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: pageRedirection
+2024-08-01 15:45:10.294 INFO  12312 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: pageRedirection with browser: null
+2024-08-01 15:45:10.301 INFO  12312 --- [main] ExtentReportListener : Starting Test: pageRedirection
+2024-08-01 15:45:11.266 INFO  12312 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (fd3a7698f1068d4f5828c40f73002d5d)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-08-01 15:45:13.323 INFO  12312 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (fd3a7698f1068d4f5828c40f73002d5d)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-08-01 15:45:13.325 INFO  12312 --- [main] ExtentReportListener : Test Passed: pageRedirection
+2024-08-01 15:45:13.330 INFO  12312 --- [main] <== SynergyWorks ==> : ✅ Completed test method: pageRedirection
+2024-08-01 15:45:13.333 INFO  12312 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: validateEmailConfigurationForm
+2024-08-01 15:45:13.334 INFO  12312 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: validateEmailConfigurationForm with browser: null
+2024-08-01 15:45:13.338 INFO  12312 --- [main] ExtentReportListener : Starting Test: validateEmailConfigurationForm
+2024-08-01 15:45:36.491 ERROR 12312 --- [main] EmailConfigurationPage : Exception occurred during email configuration form validation: 
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd3a7698f1068d4f5828c40f73002d5d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\Abhijeet\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53444}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53444/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd3a7698f1068d4f5828c40f73002d5d
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:629) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.13.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.13.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy35.getTagName(Unknown Source) ~[?:?]
+	at com.SynergyConnect.utilities.ElementInteractionUtils.describeElement(ElementInteractionUtils.java:175) ~[classes/:?]
+	at com.SynergyConnect.utilities.ElementInteractionUtils.click(ElementInteractionUtils.java:67) ~[classes/:?]
+	at com.SynergyConnect.pageobject.AppSetup.EmailConfigurationPage.emailConfigurtionFormvalidation(EmailConfigurationPage.java:106) ~[classes/:?]
+	at com.SynergyConnect.testcases.AppSetup.EmailConfiguration.validateEmailConfigurationForm(EmailConfiguration.java:45) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.13.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.13.0.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:48) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:96) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602) ~[selenium-remote-driver-4.13.0.jar:?]
+	... 37 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[netty-buffer-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[?:?]
+2024-08-01 15:45:36.520 INFO  12312 --- [main] ExtentReportListener : Test Passed: validateEmailConfigurationForm
+2024-08-01 15:45:36.528 INFO  12312 --- [main] <== SynergyWorks ==> : ✅ Completed test method: validateEmailConfigurationForm
+2024-08-01 15:45:36.537 INFO  12312 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: addEmailConfiguration
+2024-08-01 15:45:36.540 INFO  12312 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: addEmailConfiguration with browser: null
+2024-08-01 15:45:36.549 INFO  12312 --- [main] ExtentReportListener : Starting Test: addEmailConfiguration
+2024-08-01 15:45:36.561 INFO  12312 --- [main] ExtentReportListener : Test Passed: addEmailConfiguration
+2024-08-01 15:45:36.570 INFO  12312 --- [main] <== SynergyWorks ==> : ✅ Completed test method: addEmailConfiguration
+2024-08-01 15:45:36.579 INFO  12312 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: verifyEmailConfigurationAdd
+2024-08-01 15:45:36.580 INFO  12312 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: verifyEmailConfigurationAdd with browser: null
+2024-08-01 15:45:36.585 INFO  12312 --- [main] ExtentReportListener : Starting Test: verifyEmailConfigurationAdd
+2024-08-01 15:45:36.587 INFO  12312 --- [main] ReadConfig : gmail address retrieved: info@synergyconnect.in
+2024-08-01 15:45:36.610 ERROR 12312 --- [main] ElementInteractionUtils : Exception occurred while verifying text in table and performing action: 
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd3a7698f1068d4f5828c40f73002d5d, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\Abhijeet\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53444}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53444/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd3a7698f1068d4f5828c40f73002d5d
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:629) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353) ~[selenium-remote-driver-4.13.0.jar:?]
+	at com.SynergyConnect.utilities.ElementInteractionUtils.verifyTableData(ElementInteractionUtils.java:1500) ~[classes/:?]
+	at com.SynergyConnect.pageobject.AppSetup.EmailConfigurationPage.verifyAddedEmailConfigurtion(EmailConfigurationPage.java:165) ~[classes/:?]
+	at com.SynergyConnect.testcases.AppSetup.EmailConfiguration.verifyEmailConfigurationAdd(EmailConfiguration.java:69) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:21481
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.13.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.13.0.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:48) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:96) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602) ~[selenium-remote-driver-4.13.0.jar:?]
+	... 33 more
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:21481
+	at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:179) ~[async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.netty.channel.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:108) ~[async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28) ~[async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20) ~[async-http-client-2.12.3.jar:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[?:?]
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/[0:0:0:0:0:0:0:1]:21481
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:673) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:973) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.96.Final.jar:4.1.96.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[?:?]
+2024-08-01 15:45:36.648 ERROR 12312 --- [main] EmailConfigurationPage : Assertion failed while verifying added email configuration: 
+java.lang.AssertionError: Added email configuration data NOT found in the table. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1578) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at com.SynergyConnect.pageobject.AppSetup.EmailConfigurationPage.verifyAddedEmailConfigurtion(EmailConfigurationPage.java:166) ~[classes/:?]
+	at com.SynergyConnect.testcases.AppSetup.EmailConfiguration.verifyEmailConfigurationAdd(EmailConfiguration.java:69) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-08-01 15:45:36.654 ERROR 12312 --- [main] ExtentReportListener : Test Failed: verifyEmailConfigurationAdd
+2024-08-01 15:45:36.697 ERROR 12312 --- [main] ExtentReportListener : Test Failed: verifyEmailConfigurationAdd
+2024-08-01 15:45:36.710 INFO  12312 --- [main] ExtentReportListener : Finishing Test Suite: Login Tests
+2024-08-01 15:45:39.422 INFO  12312 --- [main] ExtentReportListener : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks/extentReports/ExtentReport_2024_08_01_15_44_12.html
+2024-08-01 15:49:19.350 INFO  6916 --- [main] DateTimeUtils : Current date and time retrieved: 2024_08_01_15_49_19
+2024-08-01 15:49:19.569 INFO  6916 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:49:19.570 INFO  6916 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:49:19.634 INFO  6916 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:49:19.634 INFO  6916 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:49:23.255 INFO  6916 --- [main] <== SynergyWorks ==> : WebDriver initialized successfully for chrome
+2024-08-01 15:49:23.263 INFO  6916 --- [main] <== SynergyWorks ==> : WebDriver initialized before suite with browser: chrome
+2024-08-01 15:49:23.285 INFO  6916 --- [main] ExtentReportListener : Starting Test Suite: Login Tests
+2024-08-01 15:49:23.695 INFO  6916 --- [main] ExtentReportListener : ExtentReport initialized with SparkReporter
+2024-08-01 15:49:23.740 INFO  6916 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: verifyLoginIsWorking
+2024-08-01 15:49:23.742 INFO  6916 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: verifyLoginIsWorking with browser: chrome
+2024-08-01 15:49:23.762 INFO  6916 --- [main] ExtentReportListener : Starting Test: verifyLoginIsWorking
+2024-08-01 15:49:23.784 INFO  6916 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:49:23.786 INFO  6916 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:49:23.786 INFO  6916 --- [main] ReadConfig : User ID retrieved: jiten@synergyconnect.in
+2024-08-01 15:49:23.787 INFO  6916 --- [main] ReadConfig : password retrieved: 55f7a6d1
+2024-08-01 15:49:23.833 INFO  6916 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)
+2024-08-01 15:49:24.947 INFO  6916 --- [main] <== SynergyWorks ==> : Navigated to URL: https://test30.synergyapps.in
+2024-08-01 15:49:25.559 INFO  6916 --- [main] <== SynergyWorks ==> : Browser window maximized
+2024-08-01 15:49:26.190 INFO  6916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> id: username]
+2024-08-01 15:49:27.146 INFO  6916 --- [main] <== SynergyWorks ==> : Entered User ID
+2024-08-01 15:49:27.223 INFO  6916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> id: password]
+2024-08-01 15:49:28.119 INFO  6916 --- [main] <== SynergyWorks ==> : Entered Password
+2024-08-01 15:49:44.812 INFO  6916 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-08-01 15:49:44.813 INFO  6916 --- [main] <== SynergyWorks ==> : Clicked on Login button
+2024-08-01 15:49:44.830 INFO  6916 --- [main] <== SynergyWorks ==> : Validated homepage URL
+2024-08-01 15:49:45.698 INFO  6916 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //*[@id="socialIntegratedPlatform"]]
+2024-08-01 15:49:49.166 INFO  6916 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //*[@id="productworks"]]
+2024-08-01 15:49:49.167 INFO  6916 --- [main] <== SynergyWorks ==> : Synergy Works validated
+2024-08-01 15:49:49.174 INFO  6916 --- [main] ExtentReportListener : Test Passed: verifyLoginIsWorking
+2024-08-01 15:49:49.188 INFO  6916 --- [main] <== SynergyWorks ==> : ✅ Completed test method: verifyLoginIsWorking
+2024-08-01 15:49:49.201 INFO  6916 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:49:49.203 INFO  6916 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-01 15:49:49.217 INFO  6916 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)
+2024-08-01 15:49:49.230 INFO  6916 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: pageRedirection
+2024-08-01 15:49:49.231 INFO  6916 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: pageRedirection with browser: null
+2024-08-01 15:49:49.236 INFO  6916 --- [main] ExtentReportListener : Starting Test: pageRedirection
+2024-08-01 15:49:50.120 INFO  6916 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-08-01 15:49:52.038 INFO  6916 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-08-01 15:49:52.044 INFO  6916 --- [main] ExtentReportListener : Test Passed: pageRedirection
+2024-08-01 15:49:52.052 INFO  6916 --- [main] <== SynergyWorks ==> : ✅ Completed test method: pageRedirection
+2024-08-01 15:49:52.055 INFO  6916 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: validateEmailConfigurationForm
+2024-08-01 15:49:52.056 INFO  6916 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: validateEmailConfigurationForm with browser: null
+2024-08-01 15:49:52.058 INFO  6916 --- [main] ExtentReportListener : Starting Test: validateEmailConfigurationForm
+2024-08-01 15:49:53.120 INFO  6916 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //*[@id="collapseBtn"]]
+2024-08-01 15:49:53.187 INFO  6916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //input[@id='username']]
+2024-08-01 15:49:53.995 INFO  6916 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //input[@id='username']]
+2024-08-01 15:49:54.050 INFO  6916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //input[@id='email']]
+2024-08-01 15:49:54.734 INFO  6916 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //input[@id='email']]
+2024-08-01 15:49:54.793 INFO  6916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //input[@id='password']]
+2024-08-01 15:49:55.485 INFO  6916 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //input[@id='password']]
+2024-08-01 15:49:55.546 INFO  6916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //input[@id='port']]
+2024-08-01 15:49:56.278 INFO  6916 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //input[@id='port']]
+2024-08-01 15:49:56.349 INFO  6916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //input[@id='host']]
+2024-08-01 15:49:57.054 INFO  6916 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //input[@id='host']]
+2024-08-01 15:49:57.828 INFO  6916 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //button[@id='addEmailConfigButton']]
+2024-08-01 15:50:00.901 INFO  6916 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-01 15:50:00.944 INFO  6916 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-01 15:50:00.981 INFO  6916 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-01 15:50:01.021 INFO  6916 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-01 15:50:01.059 INFO  6916 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'Port'
+2024-08-01 15:50:01.105 INFO  6916 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-01 15:50:01.938 INFO  6916 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //button[contains(text(),'Cancel')]]
+2024-08-01 15:50:01.940 INFO  6916 --- [main] ExtentReportListener : Test Passed: validateEmailConfigurationForm
+2024-08-01 15:50:01.943 INFO  6916 --- [main] <== SynergyWorks ==> : ✅ Completed test method: validateEmailConfigurationForm
+2024-08-01 15:50:01.945 INFO  6916 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: addEmailConfiguration
+2024-08-01 15:50:01.946 INFO  6916 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: addEmailConfiguration with browser: null
+2024-08-01 15:50:01.948 INFO  6916 --- [main] ExtentReportListener : Starting Test: addEmailConfiguration
+2024-08-01 15:50:02.907 INFO  6916 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //*[@id="collapseBtn"]]
+2024-08-01 15:50:02.969 INFO  6916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //input[@id='username']]
+2024-08-01 15:50:04.058 INFO  6916 --- [main] ReadConfig : gmail address retrieved: info@synergyconnect.in
+2024-08-01 15:50:04.153 INFO  6916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //input[@id='email']]
+2024-08-01 15:50:05.056 INFO  6916 --- [main] ReadConfig : gmail password retrieved: Leadership@2016
+2024-08-01 15:50:05.143 INFO  6916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //input[@id='password']]
+2024-08-01 15:50:06.159 INFO  6916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //select[@id='tls']]
+2024-08-01 15:50:06.495 INFO  6916 --- [main] ElementInteractionUtils : Successfully selected the value 'Yes' from the dropdown list: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //select[@id='tls']]
+2024-08-01 15:50:06.562 INFO  6916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //input[@id='port']]
+2024-08-01 15:50:07.541 INFO  6916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //input[@id='host']]
+2024-08-01 15:50:09.335 INFO  6916 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //button[@id='addEmailConfigButton']]
+2024-08-01 15:50:09.495 INFO  6916 --- [main] AlertUtils : Toaster text retrieved: Email: info@synergyconnect.in already exist..!
+2024-08-01 15:50:09.498 INFO  6916 --- [main] ExtentReportListener : Test Passed: addEmailConfiguration
+2024-08-01 15:50:09.506 INFO  6916 --- [main] <== SynergyWorks ==> : ✅ Completed test method: addEmailConfiguration
+2024-08-01 15:50:09.509 INFO  6916 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: verifyEmailConfigurationAdd
+2024-08-01 15:50:09.509 INFO  6916 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: verifyEmailConfigurationAdd with browser: null
+2024-08-01 15:50:09.513 INFO  6916 --- [main] ExtentReportListener : Starting Test: verifyEmailConfigurationAdd
+2024-08-01 15:50:09.514 INFO  6916 --- [main] ReadConfig : gmail address retrieved: info@synergyconnect.in
+2024-08-01 15:50:09.650 INFO  6916 --- [main] ElementInteractionUtils : Current number of table entries: 3
+2024-08-01 15:50:10.312 INFO  6916 --- [main] ElementInteractionUtils : Text 'Work' found in cell value: Works
+2024-08-01 15:50:12.837 INFO  6916 --- [main] ElementInteractionUtils : All lookup values match for text 'Work'
+2024-08-01 15:50:12.838 INFO  6916 --- [main] ExtentReportListener : Test Passed: verifyEmailConfigurationAdd
+2024-08-01 15:50:12.845 INFO  6916 --- [main] <== SynergyWorks ==> : ✅ Completed test method: verifyEmailConfigurationAdd
+2024-08-01 15:50:12.848 INFO  6916 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: updateEmailConfigurationAdd
+2024-08-01 15:50:12.849 INFO  6916 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: updateEmailConfigurationAdd with browser: null
+2024-08-01 15:50:12.852 INFO  6916 --- [main] ExtentReportListener : Starting Test: updateEmailConfigurationAdd
+2024-08-01 15:50:22.901 INFO  6916 --- [main] ElementInteractionUtils : Current number of table entries: 3
+2024-08-01 15:50:23.530 INFO  6916 --- [main] ElementInteractionUtils : Text 'Purchase email' found in cell value: Purchase email
+2024-08-01 15:50:23.722 INFO  6916 --- [main] ElementInteractionUtils : Action performed on text 'Purchase email'
+2024-08-01 15:50:23.784 INFO  6916 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //input[@id='username']]
+2024-08-01 15:50:25.769 INFO  6916 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7676b90083e09b9e11035470e5d6fcd0)] -> xpath: //button[@id='addEmailConfigButton']]
+2024-08-01 15:50:25.779 ERROR 6916 --- [main] AlertUtils : No alert found to dismiss.
+org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7676b90083e09b9e11035470e5d6fcd0, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\Abhijeet\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53837}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53837/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7676b90083e09b9e11035470e5d6fcd0
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1192) ~[selenium-remote-driver-4.13.0.jar:?]
+	at com.SynergyConnect.utilities.AlertUtils.dismissAlert(AlertUtils.java:62) ~[classes/:?]
+	at com.SynergyConnect.utilities.AlertUtils.dismissAlertIfPresent(AlertUtils.java:129) ~[classes/:?]
+	at com.SynergyConnect.pageobject.AppSetup.EmailConfigurationPage.updateAddedEmailConfiguration(EmailConfigurationPage.java:185) ~[classes/:?]
+	at com.SynergyConnect.testcases.AppSetup.EmailConfiguration.updateEmailConfigurationAdd(EmailConfiguration.java:81) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-08-01 15:50:25.970 INFO  6916 --- [main] AlertUtils : Toaster text retrieved: Email Details updated..!
+2024-08-01 15:50:25.972 INFO  6916 --- [main] ExtentReportListener : Test Passed: updateEmailConfigurationAdd
+2024-08-01 15:50:25.980 INFO  6916 --- [main] <== SynergyWorks ==> : ✅ Completed test method: updateEmailConfigurationAdd
+2024-08-01 15:50:25.981 INFO  6916 --- [main] ExtentReportListener : Finishing Test Suite: Login Tests
+2024-08-01 15:50:27.811 INFO  6916 --- [main] ExtentReportListener : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks/extentReports/ExtentReport_2024_08_01_15_49_19.html
+2024-08-01 15:50:28.632 INFO  6916 --- [main] <== SynergyWorks ==> : 🛑 WebDriver closed and session ended successfully.
