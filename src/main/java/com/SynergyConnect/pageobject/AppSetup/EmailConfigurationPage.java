@@ -182,7 +182,7 @@ public class EmailConfigurationPage {
 		Assert.assertTrue(isClickedOnEdit, "Unable to click on edit button");
 		ElementInteractionUtils.sendKeys(txtPersonName, "Purchase email");
 		ElementInteractionUtils.click(btnAdd);
-		AU.dismissAlertIfPresent();
+		//AU.dismissAlertIfPresent();
 		String updateToaster = AU.getToasterText();
 		Assert.assertEquals(updateToaster, "Email Details updated..!");
 	}	

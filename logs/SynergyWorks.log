@@ -7920,3 +7920,422 @@ Session ID: 7676b90083e09b9e11035470e5d6fcd0
 2024-08-01 15:50:25.981 INFO  6916 --- [main] ExtentReportListener : Finishing Test Suite: Login Tests
 2024-08-01 15:50:27.811 INFO  6916 --- [main] ExtentReportListener : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks/extentReports/ExtentReport_2024_08_01_15_49_19.html
 2024-08-01 15:50:28.632 INFO  6916 --- [main] <== SynergyWorks ==> : 🛑 WebDriver closed and session ended successfully.
+2024-08-02 16:45:58.894 INFO  10560 --- [main] DateTimeUtils : Current date and time retrieved: 2024_08_02_16_45_58
+2024-08-02 16:45:59.154 INFO  10560 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:45:59.156 INFO  10560 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:45:59.272 INFO  10560 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:45:59.273 INFO  10560 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:46:05.102 INFO  10560 --- [main] <== SynergyWorks ==> : WebDriver initialized successfully for chrome
+2024-08-02 16:46:05.146 INFO  10560 --- [main] <== SynergyWorks ==> : WebDriver initialized before suite with browser: chrome
+2024-08-02 16:46:05.161 INFO  10560 --- [main] ExtentReportListener : Starting Test Suite: Login Tests
+2024-08-02 16:46:05.705 INFO  10560 --- [main] ExtentReportListener : ExtentReport initialized with SparkReporter
+2024-08-02 16:46:05.765 INFO  10560 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: verifyLoginIsWorking
+2024-08-02 16:46:05.767 INFO  10560 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: verifyLoginIsWorking with browser: chrome
+2024-08-02 16:46:05.791 INFO  10560 --- [main] ExtentReportListener : Starting Test: verifyLoginIsWorking
+2024-08-02 16:46:05.852 INFO  10560 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:46:05.854 INFO  10560 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:46:05.855 INFO  10560 --- [main] ReadConfig : User ID retrieved: jiten@synergyconnect.in
+2024-08-02 16:46:05.856 INFO  10560 --- [main] ReadConfig : password retrieved: 55f7a6d1
+2024-08-02 16:46:05.918 INFO  10560 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)
+2024-08-02 16:46:06.687 INFO  10560 --- [main] <== SynergyWorks ==> : Navigated to URL: https://test30.synergyapps.in
+2024-08-02 16:46:07.348 INFO  10560 --- [main] <== SynergyWorks ==> : Browser window maximized
+2024-08-02 16:46:08.045 INFO  10560 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> id: username]
+2024-08-02 16:46:08.906 INFO  10560 --- [main] <== SynergyWorks ==> : Entered User ID
+2024-08-02 16:46:08.979 INFO  10560 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> id: password]
+2024-08-02 16:46:09.739 INFO  10560 --- [main] <== SynergyWorks ==> : Entered Password
+2024-08-02 16:46:27.396 INFO  10560 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-08-02 16:46:27.397 INFO  10560 --- [main] <== SynergyWorks ==> : Clicked on Login button
+2024-08-02 16:46:27.408 INFO  10560 --- [main] <== SynergyWorks ==> : Validated homepage URL
+2024-08-02 16:46:28.275 INFO  10560 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //*[@id="socialIntegratedPlatform"]]
+2024-08-02 16:46:31.696 INFO  10560 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //*[@id="productworks"]]
+2024-08-02 16:46:31.697 INFO  10560 --- [main] <== SynergyWorks ==> : Synergy Works validated
+2024-08-02 16:46:31.704 INFO  10560 --- [main] ExtentReportListener : Test Passed: verifyLoginIsWorking
+2024-08-02 16:46:31.716 INFO  10560 --- [main] <== SynergyWorks ==> : ✅ Completed test method: verifyLoginIsWorking
+2024-08-02 16:46:31.736 INFO  10560 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:46:31.739 INFO  10560 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:46:31.757 INFO  10560 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)
+2024-08-02 16:46:31.773 INFO  10560 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: pageRedirection
+2024-08-02 16:46:31.773 INFO  10560 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: pageRedirection with browser: null
+2024-08-02 16:46:31.786 INFO  10560 --- [main] ExtentReportListener : Starting Test: pageRedirection
+2024-08-02 16:46:32.671 INFO  10560 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-08-02 16:46:34.554 INFO  10560 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-08-02 16:46:34.555 INFO  10560 --- [main] ExtentReportListener : Test Passed: pageRedirection
+2024-08-02 16:46:34.559 INFO  10560 --- [main] <== SynergyWorks ==> : ✅ Completed test method: pageRedirection
+2024-08-02 16:46:34.562 INFO  10560 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: validateEmailConfigurationForm
+2024-08-02 16:46:34.564 INFO  10560 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: validateEmailConfigurationForm with browser: null
+2024-08-02 16:46:34.567 INFO  10560 --- [main] ExtentReportListener : Starting Test: validateEmailConfigurationForm
+2024-08-02 16:46:35.518 INFO  10560 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //*[@id="collapseBtn"]]
+2024-08-02 16:46:35.583 INFO  10560 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //input[@id='username']]
+2024-08-02 16:46:36.403 INFO  10560 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //input[@id='username']]
+2024-08-02 16:46:36.471 INFO  10560 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //input[@id='email']]
+2024-08-02 16:46:37.230 INFO  10560 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //input[@id='email']]
+2024-08-02 16:46:37.322 INFO  10560 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //input[@id='password']]
+2024-08-02 16:46:37.982 INFO  10560 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //input[@id='password']]
+2024-08-02 16:46:38.032 INFO  10560 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //input[@id='port']]
+2024-08-02 16:46:38.753 INFO  10560 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //input[@id='port']]
+2024-08-02 16:46:38.819 INFO  10560 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //input[@id='host']]
+2024-08-02 16:46:39.509 INFO  10560 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //input[@id='host']]
+2024-08-02 16:46:40.349 INFO  10560 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //button[@id='addEmailConfigButton']]
+2024-08-02 16:46:43.453 INFO  10560 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-02 16:46:43.490 INFO  10560 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-02 16:46:43.528 INFO  10560 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-02 16:46:43.566 INFO  10560 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-02 16:46:43.603 INFO  10560 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'Port'
+2024-08-02 16:46:43.639 INFO  10560 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-02 16:46:44.453 INFO  10560 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //button[contains(text(),'Cancel')]]
+2024-08-02 16:46:44.454 INFO  10560 --- [main] ExtentReportListener : Test Passed: validateEmailConfigurationForm
+2024-08-02 16:46:44.457 INFO  10560 --- [main] <== SynergyWorks ==> : ✅ Completed test method: validateEmailConfigurationForm
+2024-08-02 16:46:44.459 INFO  10560 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: addEmailConfiguration
+2024-08-02 16:46:44.459 INFO  10560 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: addEmailConfiguration with browser: null
+2024-08-02 16:46:44.462 INFO  10560 --- [main] ExtentReportListener : Starting Test: addEmailConfiguration
+2024-08-02 16:46:45.326 INFO  10560 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //*[@id="collapseBtn"]]
+2024-08-02 16:46:45.373 INFO  10560 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //input[@id='username']]
+2024-08-02 16:46:46.172 INFO  10560 --- [main] ReadConfig : gmail address retrieved: info@synergyconnect.in
+2024-08-02 16:46:46.234 INFO  10560 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //input[@id='email']]
+2024-08-02 16:46:47.052 INFO  10560 --- [main] ReadConfig : gmail password retrieved: Leadership@2016
+2024-08-02 16:46:47.093 INFO  10560 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //input[@id='password']]
+2024-08-02 16:46:47.946 INFO  10560 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //select[@id='tls']]
+2024-08-02 16:46:48.239 INFO  10560 --- [main] ElementInteractionUtils : Successfully selected the value 'Yes' from the dropdown list: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //select[@id='tls']]
+2024-08-02 16:46:48.287 INFO  10560 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //input[@id='port']]
+2024-08-02 16:46:49.040 INFO  10560 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //input[@id='host']]
+2024-08-02 16:46:50.609 INFO  10560 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //button[@id='addEmailConfigButton']]
+2024-08-02 16:46:50.813 INFO  10560 --- [main] AlertUtils : Toaster text retrieved: Email: info@synergyconnect.in already exist..!
+2024-08-02 16:46:50.821 INFO  10560 --- [main] ExtentReportListener : Test Passed: addEmailConfiguration
+2024-08-02 16:46:50.829 INFO  10560 --- [main] <== SynergyWorks ==> : ✅ Completed test method: addEmailConfiguration
+2024-08-02 16:46:50.833 INFO  10560 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: verifyEmailConfigurationAdd
+2024-08-02 16:46:50.833 INFO  10560 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: verifyEmailConfigurationAdd with browser: null
+2024-08-02 16:46:50.837 INFO  10560 --- [main] ExtentReportListener : Starting Test: verifyEmailConfigurationAdd
+2024-08-02 16:46:50.841 INFO  10560 --- [main] ReadConfig : gmail address retrieved: info@synergyconnect.in
+2024-08-02 16:46:50.883 INFO  10560 --- [main] ElementInteractionUtils : Current number of table entries: 3
+2024-08-02 16:46:51.470 INFO  10560 --- [main] ElementInteractionUtils : Text 'Work' found in cell value: Works
+2024-08-02 16:46:54.067 INFO  10560 --- [main] ElementInteractionUtils : All lookup values match for text 'Work'
+2024-08-02 16:46:54.068 INFO  10560 --- [main] ExtentReportListener : Test Passed: verifyEmailConfigurationAdd
+2024-08-02 16:46:54.072 INFO  10560 --- [main] <== SynergyWorks ==> : ✅ Completed test method: verifyEmailConfigurationAdd
+2024-08-02 16:46:54.076 INFO  10560 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: updateEmailConfigurationAdd
+2024-08-02 16:46:54.077 INFO  10560 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: updateEmailConfigurationAdd with browser: null
+2024-08-02 16:46:54.080 INFO  10560 --- [main] ExtentReportListener : Starting Test: updateEmailConfigurationAdd
+2024-08-02 16:47:05.477 INFO  10560 --- [main] ElementInteractionUtils : Current number of table entries: 3
+2024-08-02 16:47:06.271 INFO  10560 --- [main] ElementInteractionUtils : Text 'Purchase email' found in cell value: Purchase email
+2024-08-02 16:47:06.429 INFO  10560 --- [main] ElementInteractionUtils : Action performed on text 'Purchase email'
+2024-08-02 16:47:06.490 INFO  10560 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //input[@id='username']]
+2024-08-02 16:47:08.430 INFO  10560 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (b8b0787438a7c7956b522906fa939728)] -> xpath: //button[@id='addEmailConfigButton']]
+2024-08-02 16:47:08.440 ERROR 10560 --- [main] AlertUtils : No alert found to dismiss.
+org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8b0787438a7c7956b522906fa939728, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\Abhijeet\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64085}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64085/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8b0787438a7c7956b522906fa939728
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1192) ~[selenium-remote-driver-4.13.0.jar:?]
+	at com.SynergyConnect.utilities.AlertUtils.dismissAlert(AlertUtils.java:62) ~[classes/:?]
+	at com.SynergyConnect.utilities.AlertUtils.dismissAlertIfPresent(AlertUtils.java:129) ~[classes/:?]
+	at com.SynergyConnect.pageobject.AppSetup.EmailConfigurationPage.updateAddedEmailConfiguration(EmailConfigurationPage.java:185) ~[classes/:?]
+	at com.SynergyConnect.testcases.AppSetup.EmailConfiguration.updateEmailConfigurationAdd(EmailConfiguration.java:81) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-08-02 16:47:08.799 INFO  10560 --- [main] AlertUtils : Toaster text retrieved: Email Details updated..!
+2024-08-02 16:47:08.802 INFO  10560 --- [main] ExtentReportListener : Test Passed: updateEmailConfigurationAdd
+2024-08-02 16:47:08.809 INFO  10560 --- [main] <== SynergyWorks ==> : ✅ Completed test method: updateEmailConfigurationAdd
+2024-08-02 16:47:08.813 INFO  10560 --- [main] ExtentReportListener : Finishing Test Suite: Login Tests
+2024-08-02 16:47:11.317 INFO  10560 --- [main] ExtentReportListener : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks/extentReports/ExtentReport_2024_08_02_16_45_58.html
+2024-08-02 16:47:13.233 INFO  10560 --- [main] <== SynergyWorks ==> : 🛑 WebDriver closed and session ended successfully.
+2024-08-02 16:48:29.263 INFO  10256 --- [main] DateTimeUtils : Current date and time retrieved: 2024_08_02_16_48_29
+2024-08-02 16:48:29.433 INFO  10256 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:48:29.433 INFO  10256 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:48:29.494 INFO  10256 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:48:29.495 INFO  10256 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:48:32.983 INFO  10256 --- [main] <== SynergyWorks ==> : WebDriver initialized successfully for chrome
+2024-08-02 16:48:32.990 INFO  10256 --- [main] <== SynergyWorks ==> : WebDriver initialized before suite with browser: chrome
+2024-08-02 16:48:33.008 INFO  10256 --- [main] ExtentReportListener : Starting Test Suite: Login Tests
+2024-08-02 16:48:33.436 INFO  10256 --- [main] ExtentReportListener : ExtentReport initialized with SparkReporter
+2024-08-02 16:48:33.490 INFO  10256 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: verifyLoginIsWorking
+2024-08-02 16:48:33.492 INFO  10256 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: verifyLoginIsWorking with browser: chrome
+2024-08-02 16:48:33.514 INFO  10256 --- [main] ExtentReportListener : Starting Test: verifyLoginIsWorking
+2024-08-02 16:48:33.545 INFO  10256 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:48:33.546 INFO  10256 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:48:33.547 INFO  10256 --- [main] ReadConfig : User ID retrieved: jiten@synergyconnect.in
+2024-08-02 16:48:33.548 INFO  10256 --- [main] ReadConfig : password retrieved: 55f7a6d1
+2024-08-02 16:48:33.592 INFO  10256 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)
+2024-08-02 16:48:34.777 INFO  10256 --- [main] <== SynergyWorks ==> : Navigated to URL: https://test30.synergyapps.in
+2024-08-02 16:48:35.373 INFO  10256 --- [main] <== SynergyWorks ==> : Browser window maximized
+2024-08-02 16:48:35.995 INFO  10256 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> id: username]
+2024-08-02 16:48:36.965 INFO  10256 --- [main] <== SynergyWorks ==> : Entered User ID
+2024-08-02 16:48:37.035 INFO  10256 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> id: password]
+2024-08-02 16:48:37.836 INFO  10256 --- [main] <== SynergyWorks ==> : Entered Password
+2024-08-02 16:48:54.305 INFO  10256 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-08-02 16:48:54.306 INFO  10256 --- [main] <== SynergyWorks ==> : Clicked on Login button
+2024-08-02 16:48:54.329 INFO  10256 --- [main] <== SynergyWorks ==> : Validated homepage URL
+2024-08-02 16:48:55.215 INFO  10256 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //*[@id="socialIntegratedPlatform"]]
+2024-08-02 16:48:58.783 INFO  10256 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //*[@id="productworks"]]
+2024-08-02 16:48:58.783 INFO  10256 --- [main] <== SynergyWorks ==> : Synergy Works validated
+2024-08-02 16:48:58.791 INFO  10256 --- [main] ExtentReportListener : Test Passed: verifyLoginIsWorking
+2024-08-02 16:48:58.796 INFO  10256 --- [main] <== SynergyWorks ==> : ✅ Completed test method: verifyLoginIsWorking
+2024-08-02 16:48:58.815 INFO  10256 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:48:58.819 INFO  10256 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:48:58.829 INFO  10256 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)
+2024-08-02 16:48:58.839 INFO  10256 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: pageRedirection
+2024-08-02 16:48:58.840 INFO  10256 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: pageRedirection with browser: null
+2024-08-02 16:48:58.845 INFO  10256 --- [main] ExtentReportListener : Starting Test: pageRedirection
+2024-08-02 16:48:59.723 INFO  10256 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-08-02 16:49:01.478 INFO  10256 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-08-02 16:49:01.482 INFO  10256 --- [main] ExtentReportListener : Test Passed: pageRedirection
+2024-08-02 16:49:01.500 INFO  10256 --- [main] <== SynergyWorks ==> : ✅ Completed test method: pageRedirection
+2024-08-02 16:49:01.508 INFO  10256 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: validateEmailConfigurationForm
+2024-08-02 16:49:01.509 INFO  10256 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: validateEmailConfigurationForm with browser: null
+2024-08-02 16:49:01.515 INFO  10256 --- [main] ExtentReportListener : Starting Test: validateEmailConfigurationForm
+2024-08-02 16:49:02.513 INFO  10256 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //*[@id="collapseBtn"]]
+2024-08-02 16:49:02.609 INFO  10256 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //input[@id='username']]
+2024-08-02 16:49:03.375 INFO  10256 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //input[@id='username']]
+2024-08-02 16:49:03.427 INFO  10256 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //input[@id='email']]
+2024-08-02 16:49:04.149 INFO  10256 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //input[@id='email']]
+2024-08-02 16:49:04.230 INFO  10256 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //input[@id='password']]
+2024-08-02 16:49:04.954 INFO  10256 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //input[@id='password']]
+2024-08-02 16:49:05.006 INFO  10256 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //input[@id='port']]
+2024-08-02 16:49:05.734 INFO  10256 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //input[@id='port']]
+2024-08-02 16:49:05.800 INFO  10256 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //input[@id='host']]
+2024-08-02 16:49:06.585 INFO  10256 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //input[@id='host']]
+2024-08-02 16:49:07.444 INFO  10256 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //button[@id='addEmailConfigButton']]
+2024-08-02 16:49:10.507 INFO  10256 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-02 16:49:10.548 INFO  10256 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-02 16:49:10.582 INFO  10256 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-02 16:49:10.624 INFO  10256 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-02 16:49:10.657 INFO  10256 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'Port'
+2024-08-02 16:49:10.692 INFO  10256 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-02 16:49:11.514 INFO  10256 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //button[contains(text(),'Cancel')]]
+2024-08-02 16:49:11.517 INFO  10256 --- [main] ExtentReportListener : Test Passed: validateEmailConfigurationForm
+2024-08-02 16:49:11.521 INFO  10256 --- [main] <== SynergyWorks ==> : ✅ Completed test method: validateEmailConfigurationForm
+2024-08-02 16:49:11.525 INFO  10256 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: addEmailConfiguration
+2024-08-02 16:49:11.526 INFO  10256 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: addEmailConfiguration with browser: null
+2024-08-02 16:49:11.533 INFO  10256 --- [main] ExtentReportListener : Starting Test: addEmailConfiguration
+2024-08-02 16:49:12.547 INFO  10256 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //*[@id="collapseBtn"]]
+2024-08-02 16:49:12.604 INFO  10256 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //input[@id='username']]
+2024-08-02 16:49:13.570 INFO  10256 --- [main] ReadConfig : gmail address retrieved: info@synergyconnect.in
+2024-08-02 16:49:13.651 INFO  10256 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //input[@id='email']]
+2024-08-02 16:49:14.537 INFO  10256 --- [main] ReadConfig : gmail password retrieved: Leadership@2016
+2024-08-02 16:49:14.593 INFO  10256 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //input[@id='password']]
+2024-08-02 16:49:15.560 INFO  10256 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //select[@id='tls']]
+2024-08-02 16:49:15.845 INFO  10256 --- [main] ElementInteractionUtils : Successfully selected the value 'Yes' from the dropdown list: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //select[@id='tls']]
+2024-08-02 16:49:15.923 INFO  10256 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //input[@id='port']]
+2024-08-02 16:49:16.863 INFO  10256 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //input[@id='host']]
+2024-08-02 16:49:18.599 INFO  10256 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //button[@id='addEmailConfigButton']]
+2024-08-02 16:49:18.883 INFO  10256 --- [main] AlertUtils : Toaster text retrieved: Email: info@synergyconnect.in already exist..!
+2024-08-02 16:49:18.884 INFO  10256 --- [main] ExtentReportListener : Test Passed: addEmailConfiguration
+2024-08-02 16:49:18.893 INFO  10256 --- [main] <== SynergyWorks ==> : ✅ Completed test method: addEmailConfiguration
+2024-08-02 16:49:18.895 INFO  10256 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: verifyEmailConfigurationAdd
+2024-08-02 16:49:18.895 INFO  10256 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: verifyEmailConfigurationAdd with browser: null
+2024-08-02 16:49:18.899 INFO  10256 --- [main] ExtentReportListener : Starting Test: verifyEmailConfigurationAdd
+2024-08-02 16:49:18.902 INFO  10256 --- [main] ReadConfig : gmail address retrieved: info@synergyconnect.in
+2024-08-02 16:49:18.954 INFO  10256 --- [main] ElementInteractionUtils : Current number of table entries: 3
+2024-08-02 16:49:19.594 INFO  10256 --- [main] ElementInteractionUtils : Text 'Work' found in cell value: Works
+2024-08-02 16:49:22.124 INFO  10256 --- [main] ElementInteractionUtils : All lookup values match for text 'Work'
+2024-08-02 16:49:22.125 INFO  10256 --- [main] ExtentReportListener : Test Passed: verifyEmailConfigurationAdd
+2024-08-02 16:49:22.129 INFO  10256 --- [main] <== SynergyWorks ==> : ✅ Completed test method: verifyEmailConfigurationAdd
+2024-08-02 16:49:22.133 INFO  10256 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: updateEmailConfigurationAdd
+2024-08-02 16:49:22.134 INFO  10256 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: updateEmailConfigurationAdd with browser: null
+2024-08-02 16:49:22.138 INFO  10256 --- [main] ExtentReportListener : Starting Test: updateEmailConfigurationAdd
+2024-08-02 16:49:32.196 INFO  10256 --- [main] ElementInteractionUtils : Current number of table entries: 3
+2024-08-02 16:49:32.854 INFO  10256 --- [main] ElementInteractionUtils : Text 'Purchase email' found in cell value: Purchase email
+2024-08-02 16:49:33.013 INFO  10256 --- [main] ElementInteractionUtils : Action performed on text 'Purchase email'
+2024-08-02 16:49:33.062 INFO  10256 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //input[@id='username']]
+2024-08-02 16:49:34.875 INFO  10256 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (d6c064dd4aaebad51f01878dfa222abb)] -> xpath: //button[@id='addEmailConfigButton']]
+2024-08-02 16:49:34.882 ERROR 10256 --- [main] AlertUtils : No alert found to dismiss.
+org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d6c064dd4aaebad51f01878dfa222abb, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\Abhijeet\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64316/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6c064dd4aaebad51f01878dfa222abb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:679) ~[selenium-remote-driver-4.13.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1192) ~[selenium-remote-driver-4.13.0.jar:?]
+	at com.SynergyConnect.utilities.AlertUtils.dismissAlert(AlertUtils.java:62) ~[classes/:?]
+	at com.SynergyConnect.utilities.AlertUtils.dismissAlertIfPresent(AlertUtils.java:129) ~[classes/:?]
+	at com.SynergyConnect.pageobject.AppSetup.EmailConfigurationPage.updateAddedEmailConfiguration(EmailConfigurationPage.java:185) ~[classes/:?]
+	at com.SynergyConnect.testcases.AppSetup.EmailConfiguration.updateEmailConfigurationAdd(EmailConfiguration.java:81) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:848) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestRunner.run(TestRunner.java:621) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1114) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.TestNG.run(TestNG.java:1082) [org.testng_7.8.0.r202306071539.jar:7.8.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-08-02 16:49:35.022 INFO  10256 --- [main] AlertUtils : Toaster text retrieved: Email Details updated..!
+2024-08-02 16:49:35.023 INFO  10256 --- [main] ExtentReportListener : Test Passed: updateEmailConfigurationAdd
+2024-08-02 16:49:35.026 INFO  10256 --- [main] <== SynergyWorks ==> : ✅ Completed test method: updateEmailConfigurationAdd
+2024-08-02 16:49:35.027 INFO  10256 --- [main] ExtentReportListener : Finishing Test Suite: Login Tests
+2024-08-02 16:49:36.501 INFO  10256 --- [main] ExtentReportListener : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks/extentReports/ExtentReport_2024_08_02_16_48_29.html
+2024-08-02 16:49:37.243 INFO  10256 --- [main] <== SynergyWorks ==> : 🛑 WebDriver closed and session ended successfully.
+2024-08-02 16:53:23.620 INFO  12964 --- [main] DateTimeUtils : Current date and time retrieved: 2024_08_02_16_53_23
+2024-08-02 16:53:23.866 INFO  12964 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:53:23.867 INFO  12964 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:53:23.938 INFO  12964 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:53:23.939 INFO  12964 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:53:27.258 INFO  12964 --- [main] <== SynergyWorks ==> : WebDriver initialized successfully for chrome
+2024-08-02 16:53:27.275 INFO  12964 --- [main] <== SynergyWorks ==> : WebDriver initialized before suite with browser: chrome
+2024-08-02 16:53:27.317 INFO  12964 --- [main] ExtentReportListener : Starting Test Suite: Login Tests
+2024-08-02 16:53:27.747 INFO  12964 --- [main] ExtentReportListener : ExtentReport initialized with SparkReporter
+2024-08-02 16:53:27.796 INFO  12964 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: verifyLoginIsWorking
+2024-08-02 16:53:27.797 INFO  12964 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: verifyLoginIsWorking with browser: chrome
+2024-08-02 16:53:27.819 INFO  12964 --- [main] ExtentReportListener : Starting Test: verifyLoginIsWorking
+2024-08-02 16:53:27.843 INFO  12964 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:53:27.845 INFO  12964 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:53:27.848 INFO  12964 --- [main] ReadConfig : User ID retrieved: jiten@synergyconnect.in
+2024-08-02 16:53:27.849 INFO  12964 --- [main] ReadConfig : password retrieved: 55f7a6d1
+2024-08-02 16:53:27.901 INFO  12964 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)
+2024-08-02 16:53:29.075 INFO  12964 --- [main] <== SynergyWorks ==> : Navigated to URL: https://test30.synergyapps.in
+2024-08-02 16:53:29.719 INFO  12964 --- [main] <== SynergyWorks ==> : Browser window maximized
+2024-08-02 16:53:30.339 INFO  12964 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> id: username]
+2024-08-02 16:53:31.269 INFO  12964 --- [main] <== SynergyWorks ==> : Entered User ID
+2024-08-02 16:53:31.343 INFO  12964 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> id: password]
+2024-08-02 16:53:32.177 INFO  12964 --- [main] <== SynergyWorks ==> : Entered Password
+2024-08-02 16:53:49.000 INFO  12964 --- [main] ElementInteractionUtils : Clicked on element: Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Login']'
+2024-08-02 16:53:49.001 INFO  12964 --- [main] <== SynergyWorks ==> : Clicked on Login button
+2024-08-02 16:53:49.014 INFO  12964 --- [main] <== SynergyWorks ==> : Validated homepage URL
+2024-08-02 16:53:49.857 INFO  12964 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //*[@id="socialIntegratedPlatform"]]
+2024-08-02 16:53:53.241 INFO  12964 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //*[@id="productworks"]]
+2024-08-02 16:53:53.242 INFO  12964 --- [main] <== SynergyWorks ==> : Synergy Works validated
+2024-08-02 16:53:53.248 INFO  12964 --- [main] ExtentReportListener : Test Passed: verifyLoginIsWorking
+2024-08-02 16:53:53.254 INFO  12964 --- [main] <== SynergyWorks ==> : ✅ Completed test method: verifyLoginIsWorking
+2024-08-02 16:53:53.264 INFO  12964 --- [main] ReadConfig : Loading configuration from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:53:53.273 INFO  12964 --- [main] ReadConfig : Configuration loaded successfully from: C:\Users\Abhijeet\git\SynergyWorks\Configuration\application.properties
+2024-08-02 16:53:53.289 INFO  12964 --- [main] ElementInteractionUtils : WebDriver initialized in ElementInteractionUtils: ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)
+2024-08-02 16:53:53.292 INFO  12964 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: pageRedirection
+2024-08-02 16:53:53.293 INFO  12964 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: pageRedirection with browser: null
+2024-08-02 16:53:53.308 INFO  12964 --- [main] ExtentReportListener : Starting Test: pageRedirection
+2024-08-02 16:53:54.185 INFO  12964 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //span[contains(text(),'App Setup')]]
+2024-08-02 16:53:56.067 INFO  12964 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //span[contains(text(),'Email Configuration')]]
+2024-08-02 16:53:56.069 INFO  12964 --- [main] ExtentReportListener : Test Passed: pageRedirection
+2024-08-02 16:53:56.075 INFO  12964 --- [main] <== SynergyWorks ==> : ✅ Completed test method: pageRedirection
+2024-08-02 16:53:56.079 INFO  12964 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: validateEmailConfigurationForm
+2024-08-02 16:53:56.080 INFO  12964 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: validateEmailConfigurationForm with browser: null
+2024-08-02 16:53:56.084 INFO  12964 --- [main] ExtentReportListener : Starting Test: validateEmailConfigurationForm
+2024-08-02 16:53:57.063 INFO  12964 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //*[@id="collapseBtn"]]
+2024-08-02 16:53:57.171 INFO  12964 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //input[@id='username']]
+2024-08-02 16:53:57.993 INFO  12964 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //input[@id='username']]
+2024-08-02 16:53:58.049 INFO  12964 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //input[@id='email']]
+2024-08-02 16:53:58.736 INFO  12964 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //input[@id='email']]
+2024-08-02 16:53:58.786 INFO  12964 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //input[@id='password']]
+2024-08-02 16:53:59.486 INFO  12964 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //input[@id='password']]
+2024-08-02 16:53:59.539 INFO  12964 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //input[@id='port']]
+2024-08-02 16:54:00.246 INFO  12964 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //input[@id='port']]
+2024-08-02 16:54:00.361 INFO  12964 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //input[@id='host']]
+2024-08-02 16:54:01.133 INFO  12964 --- [main] ElementInteractionUtils : Successfully cleared text in webElement: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //input[@id='host']]
+2024-08-02 16:54:01.925 INFO  12964 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //button[@id='addEmailConfigButton']]
+2024-08-02 16:54:04.996 INFO  12964 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-02 16:54:05.042 INFO  12964 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-02 16:54:05.079 INFO  12964 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-02 16:54:05.123 INFO  12964 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-02 16:54:05.164 INFO  12964 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'Port'
+2024-08-02 16:54:05.208 INFO  12964 --- [main] ElementInteractionUtils : Successfully retrieved the visible text: 'This field is required.'
+2024-08-02 16:54:06.050 INFO  12964 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //button[contains(text(),'Cancel')]]
+2024-08-02 16:54:06.051 INFO  12964 --- [main] ExtentReportListener : Test Passed: validateEmailConfigurationForm
+2024-08-02 16:54:06.055 INFO  12964 --- [main] <== SynergyWorks ==> : ✅ Completed test method: validateEmailConfigurationForm
+2024-08-02 16:54:06.059 INFO  12964 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: addEmailConfiguration
+2024-08-02 16:54:06.060 INFO  12964 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: addEmailConfiguration with browser: null
+2024-08-02 16:54:06.065 INFO  12964 --- [main] ExtentReportListener : Starting Test: addEmailConfiguration
+2024-08-02 16:54:07.127 INFO  12964 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //*[@id="collapseBtn"]]
+2024-08-02 16:54:07.204 INFO  12964 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //input[@id='username']]
+2024-08-02 16:54:08.157 INFO  12964 --- [main] ReadConfig : gmail address retrieved: info@synergyconnect.in
+2024-08-02 16:54:08.225 INFO  12964 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //input[@id='email']]
+2024-08-02 16:54:09.080 INFO  12964 --- [main] ReadConfig : gmail password retrieved: Leadership@2016
+2024-08-02 16:54:09.134 INFO  12964 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //input[@id='password']]
+2024-08-02 16:54:10.196 INFO  12964 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //select[@id='tls']]
+2024-08-02 16:54:10.489 INFO  12964 --- [main] ElementInteractionUtils : Successfully selected the value 'Yes' from the dropdown list: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //select[@id='tls']]
+2024-08-02 16:54:10.546 INFO  12964 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //input[@id='port']]
+2024-08-02 16:54:11.523 INFO  12964 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //input[@id='host']]
+2024-08-02 16:54:13.243 INFO  12964 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //button[@id='addEmailConfigButton']]
+2024-08-02 16:54:13.377 INFO  12964 --- [main] AlertUtils : Toaster text retrieved: Email: info@synergyconnect.in already exist..!
+2024-08-02 16:54:13.379 INFO  12964 --- [main] ExtentReportListener : Test Passed: addEmailConfiguration
+2024-08-02 16:54:13.393 INFO  12964 --- [main] <== SynergyWorks ==> : ✅ Completed test method: addEmailConfiguration
+2024-08-02 16:54:13.395 INFO  12964 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: verifyEmailConfigurationAdd
+2024-08-02 16:54:13.396 INFO  12964 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: verifyEmailConfigurationAdd with browser: null
+2024-08-02 16:54:13.403 INFO  12964 --- [main] ExtentReportListener : Starting Test: verifyEmailConfigurationAdd
+2024-08-02 16:54:13.405 INFO  12964 --- [main] ReadConfig : gmail address retrieved: info@synergyconnect.in
+2024-08-02 16:54:13.541 INFO  12964 --- [main] ElementInteractionUtils : Current number of table entries: 3
+2024-08-02 16:54:14.173 INFO  12964 --- [main] ElementInteractionUtils : Text 'Work' found in cell value: Works
+2024-08-02 16:54:16.800 INFO  12964 --- [main] ElementInteractionUtils : All lookup values match for text 'Work'
+2024-08-02 16:54:16.802 INFO  12964 --- [main] ExtentReportListener : Test Passed: verifyEmailConfigurationAdd
+2024-08-02 16:54:16.805 INFO  12964 --- [main] <== SynergyWorks ==> : ✅ Completed test method: verifyEmailConfigurationAdd
+2024-08-02 16:54:16.809 INFO  12964 --- [main] <== SynergyWorks ==> : 🔃 Executing test method: updateEmailConfigurationAdd
+2024-08-02 16:54:16.810 INFO  12964 --- [main] <== SynergyWorks ==> : WebDriver initialized for method: updateEmailConfigurationAdd with browser: null
+2024-08-02 16:54:16.814 INFO  12964 --- [main] ExtentReportListener : Starting Test: updateEmailConfigurationAdd
+2024-08-02 16:54:26.861 INFO  12964 --- [main] ElementInteractionUtils : Current number of table entries: 3
+2024-08-02 16:54:27.502 INFO  12964 --- [main] ElementInteractionUtils : Text 'Purchase email' found in cell value: Purchase email
+2024-08-02 16:54:27.773 INFO  12964 --- [main] ElementInteractionUtils : Action performed on text 'Purchase email'
+2024-08-02 16:54:27.844 INFO  12964 --- [main] ElementInteractionUtils : Element is visible: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //input[@id='username']]
+2024-08-02 16:54:29.782 INFO  12964 --- [main] ElementInteractionUtils : Clicked on element: [[ChromeDriver: chrome on windows (7a754f949ce37fa2406ab1af9d3ed42a)] -> xpath: //button[@id='addEmailConfigButton']]
+2024-08-02 16:54:29.978 INFO  12964 --- [main] AlertUtils : Toaster text retrieved: Email Details updated..!
+2024-08-02 16:54:29.979 INFO  12964 --- [main] ExtentReportListener : Test Passed: updateEmailConfigurationAdd
+2024-08-02 16:54:29.983 INFO  12964 --- [main] <== SynergyWorks ==> : ✅ Completed test method: updateEmailConfigurationAdd
+2024-08-02 16:54:29.984 INFO  12964 --- [main] ExtentReportListener : Finishing Test Suite: Login Tests
+2024-08-02 16:54:31.598 INFO  12964 --- [main] ExtentReportListener : Test report opened in browser: C:\Users\Abhijeet\git\SynergyWorks/extentReports/ExtentReport_2024_08_02_16_53_23.html
+2024-08-02 16:54:32.384 INFO  12964 --- [main] <== SynergyWorks ==> : 🛑 WebDriver closed and session ended successfully.
