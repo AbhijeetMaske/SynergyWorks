@@ -107,12 +107,12 @@ public class EmailConfigurationPage {
 			ElementInteractionUtils.clear(txtPersonName);
 			ElementInteractionUtils.clear(txtEmail);
 			ElementInteractionUtils.clear(txtPassword);
-			//ElementInteractionUtils.clear(ddlTls);
+			// ElementInteractionUtils.clear(ddlTls);
 			ElementInteractionUtils.clear(txtPort);
 			ElementInteractionUtils.clear(txtHost);
 			ElementInteractionUtils.click(btnAdd);
 			Thread.sleep(3000);
-			
+
 			String personNameErrorText = ElementInteractionUtils.getElementVisibleText(PersonNameError);
 			Assert.assertEquals(personNameErrorText, "This field is required.");
 
@@ -130,9 +130,9 @@ public class EmailConfigurationPage {
 
 			String hostErrorText = ElementInteractionUtils.getElementVisibleText(hostError);
 			Assert.assertEquals(hostErrorText, "This field is required.");
-			
+
 			ElementInteractionUtils.click(btnCancel);
-			
+
 		} catch (Exception e) {
 			logger.error("Exception occurred during email configuration form validation: ", e);
 		}
@@ -162,7 +162,8 @@ public class EmailConfigurationPage {
 			lookupValues.put(4, "smtp.office365.com"); // Example column index and expected value
 			lookupValues.put(5, "587");
 			lookupValues.put(6, "Yes");
-			boolean result = ElementInteractionUtils.verifyTableData("emailConfigTable", 2, "Work", emailConfigurationTableNext, lookupValues);
+			boolean result = ElementInteractionUtils.verifyTableData("emailConfigTable", 2, "Work",
+					emailConfigurationTableNext, lookupValues);
 			Assert.assertTrue(result, "Added email configuration data NOT found in the table.");
 		} catch (AssertionError ae) {
 			logger.error("Assertion failed while verifying added email configuration: ", ae);
@@ -173,17 +174,17 @@ public class EmailConfigurationPage {
 		}
 
 	}
-	
+
 	@Test
 	public void updateAddedEmailConfiguration() throws InterruptedException {
 		Thread.sleep(10000);
 		boolean isClickedOnEdit = ElementInteractionUtils.verifyTextInTableAndPerformAction("emailConfigTable", 2,
-				"Purchase email", emailConfigurationTableNext, "//tbody/tr[","]/td[7]/div[1]/button[1]");
+				"Purchase email", emailConfigurationTableNext, "//tbody/tr[", "]/td[7]/div[1]/button[1]");
 		Assert.assertTrue(isClickedOnEdit, "Unable to click on edit button");
 		ElementInteractionUtils.sendKeys(txtPersonName, "Purchase email");
 		ElementInteractionUtils.click(btnAdd);
-		//AU.dismissAlertIfPresent();
+		// AU.dismissAlertIfPresent();
 		String updateToaster = AU.getToasterText();
 		Assert.assertEquals(updateToaster, "Email Details updated..!");
-	}	
+	}
 }
