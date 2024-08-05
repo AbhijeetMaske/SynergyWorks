@@ -24,69 +24,69 @@ public class ItemCategoryPage {
 		EI = new ElementInteractionUtils(driver);
 		AU = new AlertUtils(driver);
 	}
-	
+
 	// identify WebElements
 
-		@FindBy(xpath = "//span[contains(text(),'App Setup')]")
-		private WebElement ddlAppSetup;
+	@FindBy(xpath = "//span[contains(text(),'App Setup')]")
+	private WebElement ddlAppSetup;
 
-		@FindBy(xpath = "//span[contains(text(),'Item Category')]")
-		private WebElement ddlItemCategory;
-		
-		@FindBy(xpath = "//*[@id=\"collapseBtn\"]")
-		private WebElement btnItemCategoryAdd;
+	@FindBy(xpath = "//span[contains(text(),'Item Category')]")
+	private WebElement ddlItemCategory;
 
-		@FindBy(xpath = "//*[@id=\"itemType\"]")
-		private WebElement ddlItemType;
+	@FindBy(xpath = "//*[@id=\"collapseBtn\"]")
+	private WebElement btnItemCategoryAdd;
 
-		@FindBy(xpath = "//*[@id=\"itemCategory\"]")
-		private WebElement txtItemCategory;
+	@FindBy(xpath = "//*[@id=\"itemType\"]")
+	private WebElement ddlItemType;
 
-		@FindBy(xpath = "//*[@id=\"abbreviation\"]")
-		private WebElement txtAbbreviation;
+	@FindBy(xpath = "//*[@id=\"itemCategory\"]")
+	private WebElement txtItemCategory;
 
-		@FindBy(xpath = "//*[@id=\"software\"]")
-		private WebElement ddlIsThisASoftware;
+	@FindBy(xpath = "//*[@id=\"abbreviation\"]")
+	private WebElement txtAbbreviation;
 
-		@FindBy(xpath = "//*[@id=\"assetMapping\"]")
-		private WebElement ddlAssetMapping;
+	@FindBy(xpath = "//*[@id=\"software\"]")
+	private WebElement ddlIsThisASoftware;
 
-		@FindBy(xpath = "//*[@id=\"farApplicableYes\"]")
-		private WebElement rdoFarAppliableYes;
+	@FindBy(xpath = "//*[@id=\"assetMapping\"]")
+	private WebElement ddlAssetMapping;
 
-		@FindBy(xpath = "//*[@id=\"farApplicableNo\"]")
-		private WebElement rdoFarAppliableNo;
-		
-		@FindBy(xpath = "//*[@id=\"addNewRow03\"]")
-		private WebElement btnAdd;
+	@FindBy(xpath = "//*[@id=\"farApplicableYes\"]")
+	private WebElement rdoFarAppliableYes;
 
-		@FindBy(xpath = "//button[contains(text(),'Cancel')]")
-		private WebElement btnCancel;
-		
-		@FindBy(xpath = "//*[@id=\"activeBtn\"]")
-		private WebElement btnActiveTab;
+	@FindBy(xpath = "//*[@id=\"farApplicableNo\"]")
+	private WebElement rdoFarAppliableNo;
 
-		@FindBy(xpath = "//*[@id=\"DyanmicTable03_wrapper\"]")
-		private WebElement tblItemCategoryActive;
+	@FindBy(xpath = "//*[@id=\"addNewRow03\"]")
+	private WebElement btnAdd;
 
-		@FindBy(xpath = "//*[@id=\"updateItemCategory\"]")
-		private WebElement btnEdit;
-		
-		@FindBy(xpath = "//*[@id=\"deleteItemCategory\"]")
-		private WebElement btnDelete;
-		
-		@FindBy(xpath = "//*[@id=\"DyanmicTable03_next\"]/a")
-		private WebElement btnItemCategoryActiveNext;
+	@FindBy(xpath = "//button[contains(text(),'Cancel')]")
+	private WebElement btnCancel;
 
-		@FindBy(xpath = "//*[@id=\"nonActiveBtn\"]")
-		private WebElement btnInactiveTab;
-		
-		@FindBy(xpath = "//*[@id=\"DyanmicTable03_wrapper\"]")
-		private WebElement tblItemCategoryInactive;
-		
-		@FindBy(xpath = "//*[@id=\"bActive\"]")
-		private WebElement btnActive;
-		
-		@FindBy(xpath = "//*[@id=\"DyanmicTable03_next\"]")
-		private WebElement btnItemCategoryInactiveNext;
+	@FindBy(xpath = "//*[@id=\"activeBtn\"]")
+	private WebElement btnActiveTab;
+
+	@FindBy(xpath = "//*[@id=\"DyanmicTable03_wrapper\"]")
+	private WebElement tblItemCategoryActive;
+
+	@FindBy(xpath = "//*[@id=\"updateItemCategory\"]")
+	private WebElement btnEdit;
+
+	@FindBy(xpath = "//*[@id=\"deleteItemCategory\"]")
+	private WebElement btnDelete;
+
+	@FindBy(xpath = "//*[@id=\"DyanmicTable03_next\"]/a")
+	private WebElement btnItemCategoryActiveNext;
+
+	@FindBy(xpath = "//*[@id=\"nonActiveBtn\"]")
+	private WebElement btnInactiveTab;
+
+	@FindBy(xpath = "//*[@id=\"DyanmicTable03_wrapper\"]")
+	private WebElement tblItemCategoryInactive;
+
+	@FindBy(xpath = "//*[@id=\"bActive\"]")
+	private WebElement btnActive;
+
+	@FindBy(xpath = "//*[@id=\"DyanmicTable03_next\"]")
+	private WebElement btnItemCategoryInactiveNext;
 }
