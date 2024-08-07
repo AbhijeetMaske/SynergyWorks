@@ -15,7 +15,7 @@ public class EmailGroupPage {
 	WebDriver driver;
 	ElementInteractionUtils EI;
 	AlertUtils AU;
-	private static final Logger logger = LogManager.getLogger(EmailConfigurationPage.class);
+	private static final Logger logger = LogManager.getLogger(EmailGroupPage.class);
 	ReadConfig config = new ReadConfig();
 
 	public EmailGroupPage(WebDriver driver) {
@@ -23,56 +23,55 @@ public class EmailGroupPage {
 		PageFactory.initElements(driver, this);
 		EI = new ElementInteractionUtils(driver);
 		AU = new AlertUtils(driver);
-
 	}
 
-	// identify WebElements	
+	// identify WebElements
 	@FindBy(xpath = "//span[contains(text(),'App Setup')]")
 	private WebElement ddlAppSetup;
 
 	@FindBy(xpath = "//span[contains(text(),'Email Group')]")
 	private WebElement ddlEmailGroup;
-	
+
 	@FindBy(xpath = "//a[@id='collapseBtn']")
 	private WebElement btnEmailGroupAdd;
-	
-	@FindBy (xpath = "//*[@id=\"teamName\"]")
+
+	@FindBy(xpath = "//*[@id=\"teamName\"]")
 	private WebElement txtTeam;
-	
-	@FindBy (xpath = "//*[@id=\"multipleEmail\"]")
+
+	@FindBy(xpath = "//*[@id=\"multipleEmail\"]")
 	private WebElement txtEmailId;
-	
+
 	@FindBy(className = "input-group-text btn-cyan text-white no-left-radius")
 	private WebElement btnAddAnotherEmail;
-	
-	@FindBy (xpath = "//*[@id=\"accEmails\"]/div[1]/div/input")
+
+	@FindBy(xpath = "//*[@id=\"accEmails\"]/div[1]/div/input")
 	private WebElement textAnotherEmailId;
-	
-	@FindBy (xpath = "//*[@id=\"submitEmailGroupBtn\"]")
+
+	@FindBy(xpath = "//*[@id=\"submitEmailGroupBtn\"]")
 	private WebElement btnAddEmailGroup;
-	
-	@FindBy (xpath = "//*[@id=\"emailGroupForm\"]/div[3]/div/button[1]")
+
+	@FindBy(xpath = "//*[@id=\"emailGroupForm\"]/div[3]/div/button[1]")
 	private WebElement btnCancelEmailGroup;
-	
-	@FindBy (xpath = "//*[@id=\"activeBtn\"]")
+
+	@FindBy(xpath = "//*[@id=\"activeBtn\"]")
 	private WebElement tabActive;
-	
-	@FindBy (xpath = "//*[@id=\"editBtn\"]")
+
+	@FindBy(xpath = "//*[@id=\"editBtn\"]")
 	private WebElement btnEdit;
-	
-	@FindBy (xpath = "//*[@id=\"deleteBtn\"]")
+
+	@FindBy(xpath = "//*[@id=\"deleteBtn\"]")
 	private WebElement btnDelete;
-	
-	@FindBy (xpath = "//*[@id=\"emailDetailActiveTable\"]")
+
+	@FindBy(xpath = "//*[@id=\"emailDetailActiveTable\"]")
 	private WebElement tblEmailGroupActive;
-	
-	@FindBy (xpath = "//*[@id=\"nonActiveBtn\"]")
+
+	@FindBy(xpath = "//*[@id=\"nonActiveBtn\"]")
 	private WebElement tabInactive;
-	
-	@FindBy (xpath = "//*[@id=\"emailDetailInActiveTable\"]")
+
+	@FindBy(xpath = "//*[@id=\"emailDetailInActiveTable\"]")
 	private WebElement tblEmailGroupInactive;
-	
-	@FindBy (xpath = "//*[@id=\"activeBtn\"]")
+
+	@FindBy(xpath = "//*[@id=\"activeBtn\"]")
 	private WebElement btnActive;
-	
+
 }

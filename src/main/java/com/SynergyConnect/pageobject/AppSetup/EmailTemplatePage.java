@@ -18,7 +18,7 @@ public class EmailTemplatePage {
 	AlertUtils AU;
 	private static final Logger logger = LogManager.getLogger(EmailTemplatePage.class);
 	ReadConfig config = new ReadConfig();
-	
+
 	public EmailTemplatePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -26,53 +26,53 @@ public class EmailTemplatePage {
 		AU = new AlertUtils(driver);
 	}
 
-	// identify WebElements	
-	@FindBy(xpath="//span[contains(text(),'App Setup')]")
+	// identify WebElements
+	@FindBy(xpath = "//span[contains(text(),'App Setup')]")
 	private WebElement ddlAppSetup;
 
-	@FindBy(xpath="//span[contains(text(),'Email Template')]")
+	@FindBy(xpath = "//span[contains(text(),'Email Template')]")
 	private WebElement ddlEmailGroup;
-	
-	@FindBy (xpath="//*[@id=\"collapseBtn\"]")
+
+	@FindBy(xpath = "//*[@id=\"collapseBtn\"]")
 	private WebElement btnEmailTemplateAdd;
-	
-	@FindBy (xpath="//*[@id=\"type\"]")
+
+	@FindBy(xpath = "//*[@id=\"type\"]")
 	private WebElement ddlTemplateType;
-	
-	@FindBy (xpath="//*[@id=\"subject\"]")
+
+	@FindBy(xpath = "//*[@id=\"subject\"]")
 	private WebElement txtSubject;
-	
-	@FindBy (xpath = "//*[@id=\"emailConfig\"]")
+
+	@FindBy(xpath = "//*[@id=\"emailConfig\"]")
 	private WebElement ddlEmailSenderAddress;
-	
-	@FindBy (xpath="//*[@id=\"signature\"]")
+
+	@FindBy(xpath = "//*[@id=\"signature\"]")
 	private WebElement updSignature;
-	
-	@FindBy (xpath="//*[@id=\"multipleCC\"]")
+
+	@FindBy(xpath = "//*[@id=\"multipleCC\"]")
 	private WebElement txtCCEmailRecipient;
-	
-	@FindBy (xpath="//*[@id=\"multipleBCC\"]")
+
+	@FindBy(xpath = "//*[@id=\"multipleBCC\"]")
 	private WebElement txtBCCEmailRecipient;
-	
-	@FindBy (xpath="//*[@id=\"body\"]")
+
+	@FindBy(xpath = "//*[@id=\"body\"]")
 	private WebElement txaEmailHtmlTemplate;
-	
-	@FindBy (xpath="//*[@id=\"addEmailTemplateButton\"]")
+
+	@FindBy(xpath = "//*[@id=\"addEmailTemplateButton\"]")
 	private WebElement btnEmailTemplateFormAdd;
-	
-	@FindBy (xpath="//button[contains(text(),'Cancel')]")
+
+	@FindBy(xpath = "//button[contains(text(),'Cancel')]")
 	private WebElement btnEmailTemplateFormCancel;
-	
-	@FindBy (xpath="//*[@id=\"emailTemplateTable\"]")
+
+	@FindBy(xpath = "//*[@id=\"emailTemplateTable\"]")
 	private WebElement tblEmailTemplate;
-	
-	@FindBy (xpath="//*[@id=\"btnView\"]")
+
+	@FindBy(xpath = "//*[@id=\"btnView\"]")
 	private WebElement btnEmailTemplateView;
-	
-	@FindBy (xpath="//*[@id=\"btnEdit\"]")
+
+	@FindBy(xpath = "//*[@id=\"btnEdit\"]")
 	private WebElement btnEdit;
-	
-	@FindBy (xpath="//*[@id=\"emailTemplateTable_next\"]")
+
+	@FindBy(xpath = "//*[@id=\"emailTemplateTable_next\"]")
 	private WebElement btnEmailTemplateTableNext;
-	
+
 }

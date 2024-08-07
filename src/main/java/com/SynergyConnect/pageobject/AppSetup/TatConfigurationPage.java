@@ -15,7 +15,7 @@ public class TatConfigurationPage {
 	WebDriver driver;
 	ElementInteractionUtils EI;
 	AlertUtils AU;
-	private static final Logger logger = LogManager.getLogger(CompanyTypePage.class);
+	private static final Logger logger = LogManager.getLogger(TatConfigurationPage.class);
 	ReadConfig config = new ReadConfig();
 
 	public TatConfigurationPage(WebDriver driver) {
@@ -66,11 +66,11 @@ public class TatConfigurationPage {
 	private WebElement btnInactiveTab;
 
 	@FindBy(xpath = "//*[@id=\"inActiveTableTATMaster_wrapper\"]")
-	private WebElement tblCompanyTypeInactive;
+	private WebElement tblTatConfigurationInactive;
 
 	@FindBy(xpath = "//*[@id=\"bActive\"]")
 	private WebElement btnActive;
 
 	@FindBy(xpath = "//*[@id=\"inActiveTableTATMaster_next\"]")
-	private WebElement btnCompanyTypeInactiveNext;
+	private WebElement btnTatConfigurationInactiveNext;
 }

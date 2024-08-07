@@ -15,7 +15,7 @@ public class ItemPage {
 	WebDriver driver;
 	ElementInteractionUtils EI;
 	AlertUtils AU;
-	private static final Logger logger = LogManager.getLogger(ItemCategoryPage.class);
+	private static final Logger logger = LogManager.getLogger(ItemPage.class);
 	ReadConfig config = new ReadConfig();
 
 	public ItemPage(WebDriver driver) {
@@ -35,28 +35,28 @@ public class ItemPage {
 
 	@FindBy(xpath = "//*[@id=\"collapseBtn\"]")
 	private WebElement btnItemAdd;
-	
+
 	@FindBy(xpath = "//*[@id=\"item\"]")
 	private WebElement ddlItemType;
 
 	@FindBy(xpath = "//*[@id=\"item\"]")
 	private WebElement ddlItemCategory;
-	
+
 	@FindBy(xpath = "//*[@id=\"itemName\"]")
 	private WebElement txtItem;
-	
+
 	@FindBy(xpath = "//*[@id=\"itemabbreviation\"]")
 	private WebElement txtItemAbbreviation;
-	
+
 	@FindBy(xpath = "//*[@id=\"itemshelfLife\"]")
 	private WebElement txtAssetLife;
-	
+
 	@FindBy(xpath = "//*[@id=\"itempurchaseLimitMin\"]")
 	private WebElement txtPurchaseAmountLimit_Min;
-	
+
 	@FindBy(xpath = "//*[@id=\"itempurchaseLimitMax\"]")
 	private WebElement txtPurchaseAmountLimit_Max;
-	
+
 	@FindBy(xpath = "//*[@id=\"addNewRow031\"]")
 	private WebElement btnAdd;
 
@@ -77,7 +77,7 @@ public class ItemPage {
 
 	@FindBy(xpath = "//*[@id=\"DyanmicTable04_next\"]/a")
 	private WebElement btnItemActiveNext;
-	
+
 	@FindBy(xpath = "//*[@id=\"nonActiveBtn\"]")
 	private WebElement btnInactiveTab;
 
