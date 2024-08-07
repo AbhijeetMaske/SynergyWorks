@@ -66,11 +66,11 @@ public class TatConfigurationPage {
 	private WebElement btnInactiveTab;
 
 	@FindBy(xpath = "//*[@id=\"inActiveTableTATMaster_wrapper\"]")
-	private WebElement tblCompanyTypeInactive;
+	private WebElement tblTatConfigurationInactive;
 
 	@FindBy(xpath = "//*[@id=\"bActive\"]")
 	private WebElement btnActive;
 
 	@FindBy(xpath = "//*[@id=\"inActiveTableTATMaster_next\"]")
-	private WebElement btnCompanyTypeInactiveNext;
+	private WebElement btnTatConfigurationInactiveNext;
 }
