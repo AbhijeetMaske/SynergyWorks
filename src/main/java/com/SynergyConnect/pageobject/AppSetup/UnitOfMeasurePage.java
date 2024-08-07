@@ -24,49 +24,49 @@ public class UnitOfMeasurePage {
 	}
 
 	// identify WebElements
-	@FindBy(xpath="//span[contains(text(),'App Setup')]")
+	@FindBy(xpath = "//span[contains(text(),'App Setup')]")
 	private WebElement ddlAppSetup;
 
-	@FindBy(xpath="//span[contains(text(),'Unit of Measure'')]")
+	@FindBy(xpath = "//span[contains(text(),'Unit of Measure'')]")
 	private WebElement ddlUnitOfMeasure;
 
-	@FindBy(xpath="//*[@id=\"collapseBtn\"]")
+	@FindBy(xpath = "//*[@id=\"collapseBtn\"]")
 	private WebElement btnUnitOfMeasureAdd;
-	
-	@FindBy (xpath="//*[@id=\"unitMeasure\"]")
+
+	@FindBy(xpath = "//*[@id=\"unitMeasure\"]")
 	private WebElement txtUnit;
-	
-	@FindBy (xpath="//*[@id=\"addNewRow02\"]")
+
+	@FindBy(xpath = "//*[@id=\"addNewRow02\"]")
 	private WebElement btnAddUnitOfMeasure;
-	
-	@FindBy (xpath="//*[@id=\"addUnitForm\"]/div/div[2]/button[2]")
+
+	@FindBy(xpath = "//*[@id=\"addUnitForm\"]/div/div[2]/button[2]")
 	private WebElement btnCancel;
-	
-	@FindBy (xpath="//*[@id=\"unitActiveTab\"]")
+
+	@FindBy(xpath = "//*[@id=\"unitActiveTab\"]")
 	private WebElement btnActiveTab;
-	
-	@FindBy (xpath="//*[@id=\"DyanmicTable03\"]")
+
+	@FindBy(xpath = "//*[@id=\"DyanmicTable03\"]")
 	private WebElement tblUnitActive;
-	
-	@FindBy (xpath="//*[@id=\"bEdit\"]")
+
+	@FindBy(xpath = "//*[@id=\"bEdit\"]")
 	private WebElement btnEdit;
-	
-	@FindBy (xpath="//*[@id=\"bElim\"]")
+
+	@FindBy(xpath = "//*[@id=\"bElim\"]")
 	private WebElement btnDelete;
-	
-	@FindBy (xpath="//*[@id=\"DyanmicTable03_next\"]")
+
+	@FindBy(xpath = "//*[@id=\"DyanmicTable03_next\"]")
 	private WebElement btnUnitActiveNext;
-	
-	@FindBy (xpath="//*[@id=\"unitDeactiveTab\"]")
+
+	@FindBy(xpath = "//*[@id=\"unitDeactiveTab\"]")
 	private WebElement btnInactiveTab;
-	
-	@FindBy (xpath="//*[@id=\"unitMeasurementTableDeactive\"]")
+
+	@FindBy(xpath = "//*[@id=\"unitMeasurementTableDeactive\"]")
 	private WebElement tblUnitInactive;
-	
-	@FindBy (xpath="//*[@id=\"bView\"]")
+
+	@FindBy(xpath = "//*[@id=\"bView\"]")
 	private WebElement btnActive;
-	
-	@FindBy (xpath="//*[@id=\"unitMeasurementTableDeactive_next\"]")
+
+	@FindBy(xpath = "//*[@id=\"unitMeasurementTableDeactive_next\"]")
 	private WebElement btnUnitInactiveNext;
-		
+
 }
