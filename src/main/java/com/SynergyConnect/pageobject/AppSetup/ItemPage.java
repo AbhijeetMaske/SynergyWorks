@@ -39,7 +39,7 @@ public class ItemPage {
 	@FindBy(xpath = "//*[@id=\"item\"]")
 	private WebElement ddlItemType;
 
-	@FindBy(xpath = "//*[@id=\"item\"]")
+	@FindBy(xpath = "//*[@id=\"itemTypeCategory\"]")
 	private WebElement ddlItemCategory;
 
 	@FindBy(xpath = "//*[@id=\"itemName\"]")
